@@ -13,13 +13,13 @@ import shutil
 
 def print_usage():
   print("Correct usage:")
-  print("  python test_terrainLOS.py path_to_contiki")
+  print("  python test_terrainLOS.py path_to_contiki starting_directory")
   exit()
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 3:
   print_usage()
 
-starting_directory = os.getcwd()
+starting_directory = sys.argv[2]
 if starting_directory[-1] != "/":
   starting_directory += "/"
 

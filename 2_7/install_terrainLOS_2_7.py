@@ -23,19 +23,19 @@ import subprocess
 
 def print_usage():
   print("Correct usage:")
-  print("  python install_terrainLOS_2_7.py path_to_contiki")
+  print("  python install_terrainLOS_2_7.py path_to_contiki starting_directory")
   exit()
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 3:
   print_usage()
-
-starting_directory = os.getcwd()
-if starting_directory[-1] != "/":
-  starting_directory += "/" 
 
 contiki_path = sys.argv[1]
 if contiki_path[-1] != "/":
   contiki_path += "/" 
+
+starting_directory = sys.argv[2] 
+if starting_directory[-1] != "/":
+  starting_directory += "/" 
 
 print("Copying TerrainLOSMedium to radiomediums folder")
 radiomedium_path = contiki_path + "tools/cooja/java/se/sics/cooja/radiomediums/TerrainLOSMedium.java"
@@ -117,9 +117,9 @@ output = subprocess.check_output(["ant", "clean"])
 #print(output)
 
 # Test if successful
-os.chdir(starting_directory + "../TerrainLOS_Tests/")
 print("Running tests")
-output = subprocess.check_output(["python", "test_terrainLOS.py", contiki_path])
+os.chdir(starting_directory + "../TerrainLOS_Tests")
+output = subprocess.check_output(["python", "test_terrainLOS.py", contiki_path, starting_directory + "../TerrainLOS_Tests/"])
 m = re.search("PASSED", output)
 if m:
   print("Installation SUCCESS")

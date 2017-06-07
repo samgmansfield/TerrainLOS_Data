@@ -28,22 +28,24 @@ desired_acv = float(sys.argv[1])
 acv_dict = {}
 for line in log:
   m = re.search("(^.*hgt), ew: (\d+), sw: (\d+), \((\d+), (\d+)\), (.+)%", line)
-  hgt = m.group(1)
-  ew = int(m.group(2))
-  sw = int(m.group(3))
-  eo = int(m.group(4))
-  so = int(m.group(5))
-  acv = float(m.group(6))
-  
-  value = (hgt, ew, sw, eo, so)
-  if acv not in acv_dict:
-    acv_dict[acv] = []
-  
-  acv_dict[acv].append(value)
+  if m:
+    hgt = m.group(1)
+    ew = int(m.group(2))
+    sw = int(m.group(3))
+    eo = int(m.group(4))
+    so = int(m.group(5))
+    acv = float(m.group(6))
+    
+    value = (hgt, ew, sw, eo, so)
+    if acv not in acv_dict:
+      acv_dict[acv] = []
+    
+    acv_dict[acv].append(value)
 
 log.close()
 
+error = 1
 for acv in acv_dict:
-  if (acv > desired_acv - 1) and (acv < desired_acv + 1):
+  if (acv > desired_acv - error) and (acv < desired_acv + error):
     for a in acv_dict[acv]:
       print(str(a) + ", " + str(acv) + "%") 

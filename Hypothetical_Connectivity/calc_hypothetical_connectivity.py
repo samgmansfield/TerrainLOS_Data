@@ -52,7 +52,7 @@ else:
 
 # Iterate through "loop" number of random scenarios and check for connectedness
 i = 0
-loops = 10000
+loops = 25
 if test:
   loops = 1
 

@@ -17,7 +17,7 @@ def print_usage():
   print("  python calculate_tile.py hgt_file ew sw log_file")
   exit()
 
-if len(sys.argv) != 5):
+if len(sys.argv) != 5:
   print_usage()
 
 HGT_WIDTH = 3600
