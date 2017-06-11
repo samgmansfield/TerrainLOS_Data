@@ -17,17 +17,21 @@ import subprocess
 import sys
 import re
 
-args = len(sys.argv)
-filenames = []
-for i in range(1, args - 3):
-  filenames.append(sys.argv[i])
+def print_usage():
+  print("Correct usage:")
+  print("  python calculate_multiple_tiles.py ew sw log_filename hgt_path1 hgt_path2 ...")
+  exit()
 
-i += 1
-ew = sys.argv[i]
-i += 1
-sw = sys.argv[i]
-i += 1
-log_filename = sys.argv[i]
+if len(sys.argv) < 5:
+  print_usage()
+
+ew = sys.argv[1]
+sw = sys.argv[2]
+log_filename = sys.argv[3]
+
+filenames = []
+for i in range(4, len(sys.argv)):
+  filenames.append(sys.argv[i])
 
 log = open(log_filename, "r")
 
