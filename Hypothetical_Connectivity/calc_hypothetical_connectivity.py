@@ -17,10 +17,11 @@ import networkx as nx
 import sys
 import time
 import random
+import numpy as np
 
 def print_usage():
   print("Correct usage:")
-  print("  python calc_hypothetical_connectivity.py nodes degree acv")
+  print("  python calc_hypothetical_connectivity.py nodes density acv")
   exit()
 
 if len(sys.argv) != 4:
@@ -31,10 +32,10 @@ if len(sys.argv) != 4:
 n = int(sys.argv[1])
 
 # Density of the network, must be less than the number of nodes
-#degree = 10
-degree = int(sys.argv[2])
-if degree > n - 1:
-  degree = n - 1
+#density = 10
+density = int(sys.argv[2])
+if density > n - 1:
+  density = n - 1
 
 # Number of total possible links
 #links = (n - 1)*(1 + (n - 1))/2
@@ -52,7 +53,7 @@ else:
 
 # Iterate through "loop" number of random scenarios and check for connectedness
 i = 0
-loops = 25
+loops = 10000
 if test:
   loops = 1
 
@@ -63,6 +64,7 @@ if progress == 0:
 
 t = time.time()
 connected = 0
+avg_degree = []
 while i < loops:
   #if (i%progress == 0) and i != 0:
   #  print("Estimated time to completion: " + str(((loops - i)/progress)*(time.time() - t)))
@@ -72,9 +74,9 @@ while i < loops:
   g.add_nodes_from(range(0, n))
   # Generate random a random graph based on the probability of forming a link 
 
-  # Set to n, so that the next run decreases degree
+  # Set to n, so that the next run decreases density
   next_connect_node = n
-  d = degree
+  d = density
   for j in range(0, n):
     for k in range(0, d):
       if next_connect_node >= n:
@@ -88,14 +90,17 @@ while i < loops:
   
   if nx.is_connected(g):
     connected += 1
+    # G.degree() returns a dictionary where the key is the node and the value
+    # is that ndoes degree
+    avg_degree.append(np.mean(g.degree().values()))
 
   i += 1
 
 if test:
-  actual_degree = nx.degree_histogram(g)[degree]
+  actual_degree = nx.degree_histogram(g)[density]
   if actual_degree == n:
     print("PASSED")
   else:
-    print("FAILED, " + str(actual_degree) + " != " + str(degree))
+    print("FAILED, " + str(actual_degree) + " != " + str(density))
 else:
-  print("Connected " + str(float(connected)*100/loops) + "%, nodes: " + str(n) + ", degree: " + str(degree) + ", acv: " + str(acv))
+  print("Connected " + str(float(connected)*100/loops) + "%, nodes: " + str(n) + ", density: " + str(density) + ", acv: " + str(acv) + ", degree: " + str(np.mean(avg_degree)))

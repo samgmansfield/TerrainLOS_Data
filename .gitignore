@@ -2,3 +2,5 @@
 *.swp
 *.class
 *.hgt
+python.e*
+python.o*

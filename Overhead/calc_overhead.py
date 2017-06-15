@@ -12,13 +12,18 @@ import shutil
 
 def print_usage():
   print("Correct usage:")
-  print("  python calc_overhead.py contiki_path starting_directory")
+  print("  python calc_overhead.py contiki_path log_path sim_path1 sim_path2 ...")
   exit()
 
 def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, output_dag, radiomedium):
   f = open(sim_path, "r")
   new_file = []
+  nodes = 0
   for line in f:
+    # Count number of nodes
+    if re.search("<id>(\d+)</id>", line):
+      nodes += 1
+
     if re.search("terrain_filepath", line):
       if re.search("<terrain_filepath />", line):
         line = re.sub("path \/\>", "path>" + str(hgt) + "</terrain_filepath>", line)
@@ -50,8 +55,8 @@ def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, outp
       line = re.sub("\>.+\<", ">" + str(output_dag) + "<", line)
     
     elif re.search("radiomediums", line):
-      line = re.sub("radiomediums\..+$", ">" + str(output_dag) + "<", line)
-
+      line = re.sub("radiomediums\..+$", "radiomediums." + str(radiomedium), line)
+    
     else:
       line = line
 
@@ -64,24 +69,31 @@ def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, outp
     f.write(line)
   f.close()
 
-if len(sys.argv) != 3:
+  return nodes
+
+if len(sys.argv) < 4:
   print_usage()
 
 #transmission_range = np.sqrt((degree*3300.0*3300.0)/(100.0*np.pi))
 #interference_range = transmission_range
 
-contiki_path = sys.argv[3]
-if contiki_path[-1] != "/":
-  contiki_path += "/"
-
 # Assuming we are in the directory this script is in
-starting_directory = sys.argv[4]
+starting_directory = os.getcwd()
 if starting_directory[-1] != "/":
   starting_directory += "/"
 
-terrain_directory = starting_directory + "../ACV/SRTM_Terrain/"
 
-simulation_paths = [starting_directory + "one_node.csc", starting_directory + "ten_nodes.csc", starting_directory + "twenty_nodes.csc", starting_directory + "fifty_nodes.csc", starting_directory + "one_hundred_nodes.csc"]
+contiki_path = sys.argv[1]
+if contiki_path[-1] != "/":
+  contiki_path += "/"
+
+log_path = sys.argv[2]
+
+simulation_paths = []
+for i in range(3, len(sys.argv)):
+  simulation_paths.append(starting_directory + sys.argv[i])
+
+terrain_directory = starting_directory + "../ACV/SRTM_Terrain/"
 
 # TODO: Switch loop order, find_acv only need to be called once per ACV
 find_acv_path = starting_directory + "../ACV/find_acv.py"
@@ -91,7 +103,7 @@ acv_log_path = starting_directory + "../ACV/log_acv.txt"
 output = subprocess.check_output(["python", find_acv_path, "10", acv_log_path])
 output_lines = output.split("\n")
 
-m = re.search("\(\'(.+)\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", output_lines[0])
+m = re.search("\(\'(.+).hgt\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", output_lines[0])
 if m:
   hgt_10 = m.group(1)
   ew_10 = m.group(2)
@@ -99,12 +111,16 @@ if m:
   eo_10 = m.group(4)
   so_10 = m.group(5)
   acv_10 = m.group(6)
+  hgt_10_params = (hgt_10, ew_10, sw_10, eo_10, so_10, acv_10)
+else:
+  print("No ACV of 10 found")
+  exit()
      
 # Use one ACV that is 90
 output = subprocess.check_output(["python", find_acv_path, "90", acv_log_path])
 output_lines = output.split("\n")
 
-m = re.search("\(\'(.+)\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", output_lines[0])
+m = re.search("\(\'(.+).hgt\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", output_lines[0])
 if m:
   hgt_90 = m.group(1)
   ew_90 = m.group(2)
@@ -112,38 +128,51 @@ if m:
   eo_90 = m.group(4)
   so_90 = m.group(5)
   acv_90 = m.group(6)
+  hgt_90_params = (hgt_90, ew_90, sw_90, eo_90, so_90, acv_90)
+else:
+  print("No ACV of 90 found")
+  exit()
 
+# Download hgt files, download will only happen if terrain files are not in directory already
+print("Downloading hgt files")
+download_script = starting_directory + "../ACV/download_hgt_files.py" 
+output = subprocess.check_output(["python", download_script, terrain_directory, hgt_10, hgt_90])
+print(output)
 
+runs = 5
+os.chdir(contiki_path + "tools/cooja")
+for trans in [1, 10000]:
+  for hgt_params in [hgt_10_params, hgt_90_params]:
+    for simulation_path in simulation_paths:
+      for radiomedium in ["TerrainLOSMedium", "UDGM"]:
+        nodes = set_simulation_file(simulation_path, terrain_directory + hgt_params[0], trans, trans, hgt_params[1], hgt_params[2], hgt_params[3], hgt_params[4], "true", radiomedium)
+        for i in range(0, runs):
+          #print("Running simulation on " + simulation_path + " ACV " + str(i + 1))
+          output = subprocess.check_output(["/usr/bin/time", "ant", "run_nogui", "-Dargs=" + simulation_path], stderr = subprocess.STDOUT)
+          
+          u_time = 0
+          s_time = 0
+          test_script_finished = False
+          for line in output.split("\n"):
+            m = re.search("(\d+\.\d+)user (\d+\.\d+)system.+", line)
+            if m:
+              u_time = float(m.group(1))
+              s_time = float(m.group(2))
+            elif re.search("Test script finished", line):
+              test_script_finished = True 
+          
+          total_time = u_time + s_time
+          if total_time == 0:
+            print(output)
+            print("Time command is not functioning properly.")
+            exit()
 
-set_simulation_file(simulation_path, terrain_directory + hgt, transmission_range, interference_range, ew, sw, eo, so, "true")
-
-for simulation_path in simulation_paths:
-    
-        os.chdir(contiki_path + "tools/cooja")
-        if os.path.exists("build/dag.xml"):
-          os.remove("build/dag.xml")
-
-        #print("Running simulation on " + simulation_path + " ACV " + str(i + 1))
-        output = subprocess.check_output(["ant", "run_nogui", "-Dargs=" + simulation_path])
-
-        shutil.copyfile("build/dag.xml", starting_directory + "dag.xml")
-        os.chdir(starting_directory)
-
-        g = nx.Graph()
-        g.add_nodes_from(range(1, 101))
-        dom_tree = xdm.parse("dag.xml")
-        collection = dom_tree.documentElement
-
-        edges = collection.getElementsByTagName("edge")
-
-        for edge in edges:
-          src = edge.getElementsByTagName("source")[0].firstChild
-          dest_radio = edge.getElementsByTagName("dest")[0]
-          dest = dest_radio.getElementsByTagName("radio")[0].firstChild
-          g.add_edge(int(src.data), int(dest.data))
-    
-        if nx.is_connected(g):
-          connected += 1
-
-total_runs = float(len(simulation_paths)*num_acvs)
-print("Connected " + str(float(connected)*100.0/total_runs) + "%, nodes: " + str(100) + ", degree: " + str(degree) + ", acv: " + str(acv)) 
+          if not test_script_finished:
+            print(output)
+            print("Simulation FAILED. Simulation did not end properly, output above")
+            exit()
+          
+          print("Writing to log")
+          f = open(starting_directory + log_path, "a")
+          f.write("Time " + str(total_time) + "s, nodes: " + str(nodes) + ", transmission: " + str(trans) + ", radiomedium: " + radiomedium + ", acv: " + str(hgt_params[5]) + "%\n")
+          f.close()

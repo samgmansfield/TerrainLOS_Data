@@ -1,0 +1,2 @@
+Connected 60.0%, nodes: 100, degree: 50, acv: 20.0
+Connected 60.0%, nodes: 100, degree: 50, acv: 20.0

@@ -25,7 +25,7 @@ import xml.dom.minidom as xdm
 
 def print_usage():
   print("Correct usage:")
-  print("  python calc_experimental_connectivity.py degree acv contiki_path starting_directory")
+  print("  python calc_experimental_connectivity.py density acv contiki_path starting_directory dag_num")
   exit()
 
 def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, output_dag):
@@ -74,16 +74,17 @@ def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, outp
     f.write(line)
   f.close()
 
-if len(sys.argv) != 5:
+if len(sys.argv) != 6:
   print_usage()
 
 # Density of the network, must be less than the number of nodes, which is always 100
-#degree = 10
-degree = int(sys.argv[1])
-if degree > 99:
-  degree = 99
+#density = 10
+density = int(sys.argv[1])
+if density > 99:
+  density = 99
 
-transmission_range = np.sqrt((degree*3300.0*3300.0)/(100.0*np.pi))
+transmission_range = np.sqrt((density*3300.0*3300.0)/(100.0*np.pi))
+print("Transmission range: " + str(transmission_range))
 interference_range = transmission_range
 
 # Percentage a link is established
@@ -101,10 +102,14 @@ starting_directory = sys.argv[4]
 if starting_directory[-1] != "/":
   starting_directory += "/"
 
+dag_num = sys.argv[5]
+dag_name = "dag" + dag_num + ".xml"
+
 terrain_directory = starting_directory + "../ACV/SRTM_Terrain/"
 
 simulation_paths = [starting_directory + "experimental_connectivity_layout_1.csc", starting_directory + "experimental_connectivity_layout_2.csc", starting_directory + "experimental_connectivity_layout_3.csc", starting_directory + "experimental_connectivity_layout_4.csc", starting_directory + "experimental_connectivity_layout_5.csc"]
 connected = 0
+avg_degree = []
 num_acvs = 5
 for simulation_path in simulation_paths:
   # TODO: Switch loop order, find_acv only need to be called once per ACV
@@ -125,9 +130,13 @@ for simulation_path in simulation_paths:
         eo = m.group(4)
         so = m.group(5)
         #acv = m.group(6)
-           
+
+        download_script = starting_directory + "../ACV/download_hgt_files.py" 
+        output = subprocess.check_output(["python", download_script, terrain_directory, hgt])
+        print(output)
+
         set_simulation_file(simulation_path, terrain_directory + hgt, transmission_range, interference_range, ew, sw, eo, so, "true")
-    
+        
         os.chdir(contiki_path + "tools/cooja")
         if os.path.exists("build/dag.xml"):
           os.remove("build/dag.xml")
@@ -135,12 +144,24 @@ for simulation_path in simulation_paths:
         #print("Running simulation on " + simulation_path + " ACV " + str(i + 1))
         output = subprocess.check_output(["ant", "run_nogui", "-Dargs=" + simulation_path])
 
-        shutil.copyfile("build/dag.xml", starting_directory + "dag.xml")
+        test_script_finished  = False
+        for line in output.split("\n"):
+          m = re.search("Test script finished", line)
+          if m:
+            test_script_finished = True 
+        
+        if not test_script_finished:
+          print("Output:")
+          print(output)
+          print("FALIED. Simulation did not end properly. Output above.")
+          exit()
+
+        shutil.copyfile("build/dag.xml", starting_directory + dag_name)
         os.chdir(starting_directory)
 
         g = nx.Graph()
         g.add_nodes_from(range(1, 101))
-        dom_tree = xdm.parse("dag.xml")
+        dom_tree = xdm.parse(dag_name)
         collection = dom_tree.documentElement
 
         edges = collection.getElementsByTagName("edge")
@@ -153,6 +174,7 @@ for simulation_path in simulation_paths:
     
         if nx.is_connected(g):
           connected += 1
+          avg_degree.append(np.mean(g.degree().values()))
 
 total_runs = float(len(simulation_paths)*num_acvs)
-print("Connected " + str(float(connected)*100.0/total_runs) + "%, nodes: " + str(100) + ", degree: " + str(degree) + ", acv: " + str(acv)) 
+print("Connected " + str(float(connected)*100.0/total_runs) + "%, nodes: " + str(100) + ", density: " + str(density) + ", acv: " + str(acv/100.0) + ", degree: " + str(np.mean(avg_degree))) 

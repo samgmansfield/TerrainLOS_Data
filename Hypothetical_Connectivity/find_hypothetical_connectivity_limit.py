@@ -42,7 +42,7 @@ connectivity_dict = {}
 num_of_lines = 0
 for line in f:
   num_of_lines += 1
-  m = re.search("Connected (\d*\.\d*)%, nodes: 100, degree: (\d*), acv: (\d*\.\d*)", line)
+  m = re.search("Connected (\d*\.\d*)%, nodes: 100, density: (\d*), acv: (\d*\.\d*)", line)
   if m:
     connectivity = float(m.group(1))
     degree = int(m.group(2))
@@ -66,14 +66,14 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
   search = True
 
   while search == True:
-    print("Searchg... acv: " + str(acv) + " degree: " + str(degree) + " [" + str(lower_degree_limit) + ", " + str(upper_degree_limit) + "]")
+    print("Searching... acv: " + str(acv) + " degree: " + str(degree) + " [" + str(lower_degree_limit) + ", " + str(upper_degree_limit) + "]")
     tup = (degree, str(acv))
     if tup in connectivity_dict:
       connectivity = connectivity_dict[tup]
     else:
       print("Tup: " + str(tup) + " not in log, adding it now")
       output = subprocess.check_output(["python", "calc_hypothetical_connectivity.py", "100", str(degree), str(acv)])
-      m = re.search("Connected (\d*\.\d*)%, nodes: 100, degree: (\d*), acv: (\d*\.\d*)", output)
+      m = re.search("Connected (\d*\.\d*)%, nodes: 100, density: (\d*), acv: (\d*\.\d*)", output)
       if m:
         f.write(output)
         connectivity = float(m.group(1))
@@ -83,7 +83,9 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
         print(output)
 
     if connectivity == 100.0:
-      if degree == 3:
+      if degree == 2:
+        degree = 1
+      elif degree == 3:
         degree = 2
       else:
         upper_degree_limit = degree
@@ -103,7 +105,7 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
         else:
           print("Tup: " + str(tup_right) + " not in log, adding it now")
           output = subprocess.check_output(["python", "calc_hypothetical_connectivity.py", "100", str(degree + 1), str(acv)])
-          m = re.search("Connected (\d*\.\d*)%, nodes: 100, degree: (\d*), acv: (\d*\.\d*)", output)
+          m = re.search("Connected (\d*\.\d*)%, nodes: 100, density: (\d*), acv: (\d*\.\d*)", output)
           if m:
             f.write(output)
             connectivity_right = float(m.group(1))

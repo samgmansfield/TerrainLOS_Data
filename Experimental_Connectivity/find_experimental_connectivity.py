@@ -16,10 +16,10 @@ import numpy as np
 
 def print_usage():
   print("Correct usage:")
-  print("  python find_experimental_connectivity.py acv_start acv_stop acv_step acv_log contiki_path starting_directory")
+  print("  python find_experimental_connectivity.py acv_start acv_stop acv_step acv_log contiki_path starting_directory dag_num")
   exit()
 
-if len(sys.argv) != 7:
+if len(sys.argv) != 8:
   print_usage()
 
 acv_start = float(sys.argv[1])
@@ -42,6 +42,8 @@ contiki_path = sys.argv[5]
 starting_directory = sys.argv[6]
 if starting_directory[-1] != "/":
   starting_directory += "/"
+
+dag_num = sys.argv[7]
 
 connectivity_dict = {}
 
@@ -78,7 +80,7 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
       connectivity = connectivity_dict[tup]
     else:
       print("Tup: " + str(tup) + " not in log, adding it now")
-      output = subprocess.check_output(["python", "calc_experimental_connectivity.py", str(degree), str(acv), contiki_path, starting_directory])
+      output = subprocess.check_output(["python", "calc_experimental_connectivity.py", str(degree), str(acv), contiki_path, starting_directory, dag_num])
       m = re.search("Connected (\d*\.\d*)%, nodes: 100, degree: (\d*), acv: (\d*\.\d*)", output)
       if m:
         f.write(output)
@@ -89,7 +91,9 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
         print(output)
 
     if connectivity == 100.0:
-      if degree == 3:
+      if degree == 2:
+        degree = 1
+      elif degree == 3:
         degree = 2
       else:
         upper_degree_limit = degree
@@ -108,7 +112,7 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
           connectivity_right = connectivity_dict[tup_right]
         else:
           print("Tup: " + str(tup_right) + " not in log, adding it now")
-          output = subprocess.check_output(["python", "calc_experimental_connectivity.py", "100", str(degree + 1), str(acv), starting_directory])
+          output = subprocess.check_output(["python", "calc_experimental_connectivity.py", str(degree + 1), str(acv), contiki_path, starting_directory, dag_num])
           m = re.search("Connected (\d*\.\d*)%, nodes: 100, degree: (\d+), acv: (\d+\.\d+)", output)
           if m:
             f.write(output)

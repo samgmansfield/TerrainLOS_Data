@@ -11,16 +11,16 @@
     <randomseed>123456</randomseed>
     <motedelay_us>1000000</motedelay_us>
     <radiomedium>
-      se.sics.cooja.radiomediums.TerrainLOSMedium
-      <transmitting_range>588.76095833</transmitting_range>
-      <interference_range>588.76095833</interference_range>
+      se.sics.cooja.radiomediums.UDGM
+      <transmitting_range>10000.0</transmitting_range>
+      <interference_range>10000.0</interference_range>
       <success_ratio_tx>1.0</success_ratio_tx>
       <success_ratio_rx>1.0</success_ratio_rx>
-      <terrain_filepath>/home/user/TerrainLOS/Experimental_Connectivity/../ACV/SRTM_Terrain/N37W119.hgt</terrain_filepath>
+      <terrain_filepath>/campusdata/smansfie/TerrainLOS/Overhead/../ACV/SRTM_Terrain/N36W117</terrain_filepath>
       <east_width>100</east_width>
       <south_width>100</south_width>
-      <east_offset>700</east_offset>
-      <south_offset>1500</south_offset>
+      <east_offset>500</east_offset>
+      <south_offset>3300</south_offset>
       <output_dag>true</output_dag>
     </radiomedium>
     <events>
@@ -31,7 +31,7 @@
       <identifier>sky1</identifier>
       <description>Sky Mote Type #sky1</description>
       <source EXPORT="discard">[CONFIG_DIR]/../orpl/examples-full/app-collect-only.c</source>
-      <commands EXPORT="discard">make app-collect-only.sky TARGET=sky</commands>
+      <commands EXPORT="discard">echo No compile</commands>
       <firmware EXPORT="copy">[CONFIG_DIR]/../orpl/examples-full/app-collect-only.sky</firmware>
       <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
@@ -54,7 +54,7 @@
       <identifier>sky2</identifier>
       <description>collect_only_mote</description>
       <source EXPORT="discard">[CONFIG_DIR]/../orpl/examples-full/app-collect-only.c</source>
-      <commands EXPORT="discard">make app-collect-only.sky TARGET=sky</commands>
+      <commands EXPORT="discard">echo No compile</commands>
       <firmware EXPORT="copy">[CONFIG_DIR]/../orpl/examples-full/app-collect-only.sky</firmware>
       <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>

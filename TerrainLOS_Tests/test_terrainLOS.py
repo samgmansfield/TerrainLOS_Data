@@ -10,6 +10,7 @@ import sys
 import os
 import subprocess
 import shutil
+import re
 
 def print_usage():
   print("Correct usage:")
@@ -32,8 +33,19 @@ if os.path.exists("build/dag.xml"):
   os.remove("build/dag.xml")
 
 print("Running Simple Well Test")
-output = subprocess.check_output(["ant", "run_nogui", "-Dargs=" + starting_directory + "terrainLOS_simple_well_test_2_7.csc"])
-##print(output)
+output = subprocess.check_output(["ant", "run_nogui", "-Dargs=" + starting_directory + "no_compile_terrainLOS_simple_well_test_2_7.csc"])
+
+test_script_finished = False
+for line in output.split("\n"):
+  m = re.search("Test script finished", line)
+  if m:
+    test_script_finished = True 
+
+if not test_script_finished:
+  print("Output:")
+  print(output)
+  print("FAILED. Simulation did not end properly. Output above.")
+  exit()
 
 shutil.copyfile("build/dag.xml", starting_directory + "dag.xml")
 os.chdir(starting_directory)
