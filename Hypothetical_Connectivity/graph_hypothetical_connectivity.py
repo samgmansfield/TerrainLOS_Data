@@ -39,4 +39,7 @@ for line in output.split("\n"):
     degree_list.append(degree)
 
 plt.plot(acv_list, degree_list)
+plt.xlabel("ACV")
+plt.ylabel("Degree")
+plt.title("Hypothetical Connectivity Minimum Degree vs. ACV")
 plt.show()

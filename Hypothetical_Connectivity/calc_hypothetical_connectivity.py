@@ -83,7 +83,7 @@ while i < loops:
         next_connect_node = j + 1
         # This should only affect the next iteration
         d = d - 1
-      if random.random() <= acv:
+      if random.random() <= acv and next_connect_node < n:
         g.add_edge(j, next_connect_node)
         #print(str(j) + "->" + str(next_connect_node))
       next_connect_node += 1
@@ -101,6 +101,6 @@ if test:
   if actual_degree == n:
     print("PASSED")
   else:
-    print("FAILED, " + str(actual_degree) + " != " + str(density))
+    print("FAILED, " + str(actual_degree) + " != " + str(n))
 else:
   print("Connected " + str(float(connected)*100/loops) + "%, nodes: " + str(n) + ", density: " + str(density) + ", acv: " + str(acv) + ", degree: " + str(np.mean(avg_degree)))
