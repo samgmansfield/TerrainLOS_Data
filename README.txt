@@ -98,7 +98,40 @@ Directories:
     
     test_calc_hypothetical_connectivity:
       A test script for calc_hypothetical_connectivity.py.
-  
+
+  Experimental_Connectivity:
+    calc_experimental_connectivity:
+      Takes as arguments the degree, ACV, and Contiki path. 
+      Based on these inputs runs COOJA simulations
+      and examines if the network is connected using the networkx python
+      library. 
+      
+      Note: if "test" is passed via the command line instead of an ACV the script is in 
+      test mode and examines whether with an ACV of 100% is the degree equal the desired 
+      degree. The script test_calc_hypothetical_connectivity.py uses this feature to
+      test this script.
+
+    find_experimental_connectivity: 
+      Takes in as arguments the starting acv, when to stop incrementing acv, the step size, and
+      the log file to write data. This script is depenent on calc_hypothetical_connectivity.py.
+      
+      This script calculates the lowest degree that is 100% connected based on 
+      calc_hypothetical_connectivity.py. This is found based on a binary search and each data point
+      that is not stored in the provided log is written to it.
+
+    log_experimental_connectivity:
+      Contains the data when calculating experimental connectivity.
+  orpl:
+    A git sumbodule taken from github.com/simonduq/orpl
+
+  Overhead:
+    calc_overhead:
+      Calculated the time it takes to run TerrainLOS and UDGM. Takes as arguments the path
+      to Contiki, the path to the log file, and however many simulatons files to time.
+      
+    log_overhead: 
+      The log that stores the timing information.
+
   TerrainLOS_Test:
     terrainLOS_simple_well_test.csc: 
       Simulation file to test TerrainLOS
