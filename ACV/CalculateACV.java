@@ -16,6 +16,7 @@ Author: Sam Mansfield
 */
 
 import java.io.*;
+import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 
 public class CalculateACV {
   
@@ -26,13 +27,15 @@ public class CalculateACV {
     int eo = Integer.parseInt(args[3]);
     int so = Integer.parseInt(args[4]);
     double visibility = 0.0;
-    double perfectVisibility = ew*sw*(ew*sw - 1.0);
+    double perfectVisibility = ew*sw - 1;
+    DescriptiveStatistics stats = new DescriptiveStatistics(); 
 
     Terrain terrain = new Terrain(filename, ew, sw, eo, so);
 
     for(int i = 0; i < ew; i++) {
       for(int j = 0; j < sw; j++) {
         terrain.calculateLOS(i, j);
+        visibility = 0.0;
         for(int k = 0; k < ew; k++) {
           for(int l = 0; l < sw; l++) {
             if(k != i || l != j) {
@@ -42,11 +45,14 @@ public class CalculateACV {
             }
           }
         }
+        stats.addValue(visibility*100/perfectVisibility);
       }
     }
     
+    //System.out.println(filename + ", ew: " + ew + ", sw: " + sw + ", (" + eo + ", " + so + "), " 
+    //  + new Double(visibility*100.0/perfectVisibility) + "%"); 
     System.out.println(filename + ", ew: " + ew + ", sw: " + sw + ", (" + eo + ", " + so + "), " 
-      + new Double(visibility*100.0/perfectVisibility) + "%"); 
+      + stats.getMean() + "%, " + stats.getStandardDeviation()); 
   }
 
 
@@ -124,7 +130,7 @@ public class CalculateACV {
       h = new double[EAST_WIDTH][SOUTH_WIDTH];
       los = new double[EAST_WIDTH][SOUTH_WIDTH];
       
-      byte buffer;
+      //byte buffer;
       /* Set these as the lowest respective possible values. Each height is a signed
        * two byte value, so the possbile range is -32767 to 32767. TerrainLOS currently
        * only supports positive heights so the range is 0 to 32767. */
@@ -285,8 +291,11 @@ public class CalculateACV {
       double visible = 0;
       double actual = 0;
       
-      for(int x = x0 - 1; (x >=0) && (x < EAST_WIDTH) && x <= x0 + 1; x++) {
-        for(int y = y0 - 1; (y >= 0) && (y < SOUTH_WIDTH) && y <= y0 + 1; y++) {
+      for(int x = x0 - 1; x <= x0 + 1; x++) {
+        for(int y = y0 - 1; y <= y0 + 1; y++) {
+          if(x < 0 || x >= EAST_WIDTH || y < 0 || y >= SOUTH_WIDTH) {
+            continue;
+          }
           los[x][y] = h[x][y];
         }
       }

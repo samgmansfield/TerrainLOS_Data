@@ -792,8 +792,11 @@ public class TerrainLOSMedium extends AbstractRadioMedium {
       double visible = 0;
       double actual = 0;
       
-      for(int x = x0 - 1; (x >=0) && (x < EAST_WIDTH) && x <= x0 + 1; x++) {
-        for(int y = y0 - 1; (y >= 0) && (y < SOUTH_WIDTH) && y <= y0 + 1; y++) {
+      for(int x = x0 - 1; x <= x0 + 1; x++) {
+        for(int y = y0 - 1; y <= y0 + 1; y++) {
+          if(x < 0 || x >= EAST_WIDTH || y < 0 || y >= SOUTH_WIDTH) {
+            continue;
+          }
           los[x][y] = h[x][y];
         }
       }

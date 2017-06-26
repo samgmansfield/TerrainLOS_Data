@@ -139,5 +139,3 @@ Directories:
       Tests TerrainLOS by running a series of tests. Takes as an argument the path
       to Contiki and returns PASSED if successful and FAILED with reason on failure.
       Dependent on the file terrainLOS_simple_well_test.csc
-
-    

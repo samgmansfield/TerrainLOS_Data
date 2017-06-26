@@ -92,7 +92,8 @@ while i < loops:
     connected += 1
     # G.degree() returns a dictionary where the key is the node and the value
     # is that ndoes degree
-    avg_degree.append(np.mean(g.degree().values()))
+  
+  avg_degree.append(np.mean(g.degree().values()))
 
   i += 1
 

@@ -12,15 +12,15 @@
     <motedelay_us>1000000</motedelay_us>
     <radiomedium>
       se.sics.cooja.radiomediums.TerrainLOSMedium
-      <transmitting_range>1852.49310766</transmitting_range>
-      <interference_range>1852.49310766</interference_range>
+      <transmitting_range>1726.58605579</transmitting_range>
+      <interference_range>1726.58605579</interference_range>
       <success_ratio_tx>1.0</success_ratio_tx>
       <success_ratio_rx>1.0</success_ratio_rx>
-      <terrain_filepath>/afs/cats.ucsc.edu/users/a/smansfie/TerrainLOS/Experimental_Connectivity/../ACV/SRTM_Terrain/N36W117.hgt</terrain_filepath>
+      <terrain_filepath>/campusdata/smansfie/TerrainLOS/Experimental_Connectivity/../ACV/SRTM_Terrain/N37W123.hgt</terrain_filepath>
       <east_width>100</east_width>
       <south_width>100</south_width>
-      <east_offset>800</east_offset>
-      <south_offset>3100</south_offset>
+      <east_offset>0</east_offset>
+      <south_offset>100</south_offset>
       <output_dag>true</output_dag>
     </radiomedium>
     <events>
@@ -1644,7 +1644,7 @@
  *  Mote mote, int id, String msg&#xD;
  */&#xD;
 &#xD;
-TIMEOUT(10000, log.log("last message: " + msg + "\n"));&#xD;
+TIMEOUT(15000, log.log("last message: " + msg + "\n"));&#xD;
 &#xD;
 WAIT_UNTIL(msg.search("App: sending") &gt;= 0);&#xD;
 log.testOK();</script>

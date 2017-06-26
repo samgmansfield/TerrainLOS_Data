@@ -1,0 +1,1527 @@
+Transmission range: 1316.50952532
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/brhpzroeevfzgjogdciubizisdvissdy.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/suwcbxbnbjlerewdpfdkiedxjpvxymdm.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pcmwwlikcdgbcympfirhjqgzmjhlvkyk.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vpwmjcvaqfdyjivmqiiskyjxkjzcqnzo.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/giidudiniyqxfkdykhgaiqmrptjuhskq.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vkstiphlkcxjkrfvpjevvajmnhudqtib.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/frrsvgrthuuevgjgiuuugjlaiplqnfsi.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zlhxigkkksxkgqwiulevyiyduvucwbhy.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/hvirvycfpbcusdcpomvgqhlmunnogjdh.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xuptpxgylmksqupzgwyderrmecuufyjy.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xqadvsmzfsmwxxnrpusdegmtapvzhwrc.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/mrvtbpqqdqscurcnwyfighxahmarfvnj.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/humwfweevaakbkhskqeofexxyrfzbcya.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xhyankcmhofwkkcoasxzhisrawlnxjqx.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/aahcavviloislwyzaabqeotzxxazfvbg.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fxuzybaxlplwpvaknojqzrdbevguwdty.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/whohfxvsfjatmvnyyzfknloibsuhfkhk.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dbogjkdjenmvaiqzcrpmcessjxujltun.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/hdxytvkehqfelwbfwxdgptgjtaewaquu.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/omjbowqkheyzlufjwcjwicbszosuabpd.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/aehgtdvqvrkhjioryusegopjtsbfmfox.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/nlxivspdfwzqetfbftywsypvzdtucaez.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/mxunejcdizueonrohlkgxvkyshagwdas.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ptxqqfpooqkjfpynmmrwahfidzmllmsp.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jnilevpreodmhpnmmxtyuvcthyfrjxcf.csc
+Simulation finished
+Connected 28.0%, nodes: 100, density: 50, acv: 90.0%, degree: 32.6464480258
+Transmission range: 1329.60944524
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/psjiudabmiweyravuwqwbhcyfgrqlgxe.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/emokpnebsidltcxxefcaytypbmmjreiq.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pumrzilkbwuyoqwytnshcxxfklzmonhn.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/qxirunmkzlktdarzwpztswpzxhspzdvl.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/piajyjelyjocwvuwogerloluwocgdrwg.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/rkoqosrtvlmwovmlgrtcetmjtddpcaav.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/mhmypwtxjwrwljcrxzpoupqrufederyd.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/elcrdldykteilhtikobfxdnsaowrutvz.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wtiwcqjwumedaoajkeufglwrslccnjsw.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/twpfrplpkowqosifbikkovecrijaphqa.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vxdhixtwfbbufbjiavqmptbneozjufrf.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cviqpdynbqmayorxfvgrisublrornvgj.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kbleidgzzmfhezpjxltuifmngpgtwwxb.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/khykpvabwentbgxmgftevhikimynhdev.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ypjuxookthjxddhgcobttphqdemhugsb.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ttddareliqbezbirbbdtjdwkacxqvnxk.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/etxgxaruvkgvnzpxylbbglrhiqjltfbr.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/htwvvhoyiugiaolgsgftubacizgkkhnb.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ygyhbosdzkjdwywvicnpqnhhxkymlhec.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fiorlvlmnmidffvjlbxxmuqdwbovixfr.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/tvtdnpmlfwzagmrictfvigaexofmxksu.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jpjytsbccnowtbwycaszehzbzpwjuhrw.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bjgvwntcgtznvrtubssstmhmtndwmwqn.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/aiahembjsykptunboiaavcidmvoaznzy.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/nzunmfcchdtoctjereslvbnrbbqhkqdt.csc
+Simulation finished
+Connected 28.0%, nodes: 100, density: 51, acv: 90.0%, degree: 33.1449644078
+Transmission range: 1601.60296229
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fziweotnlxhzhvsilbqodnticiqxvfqm.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ddknxtndtmtzlbirjswiwkyibzwaqgve.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zlxviplaneologdcbxpzmhqmxydxrshe.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zqhuccafxodqnmfdaflvigdrhmdpjghi.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dbzyloausyluobtqqujlkicvyzhsibud.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/itockcggjwqbawxigycpezkivfpvmjrn.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cynjyyxmjseijwhqyhlfkpdzjlshtaet.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/oeaxkxkqwagzmqwauwexnbhypufcpazb.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/urcgotthlnaltdskaahsrrxcagvejzmr.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/drjnkknbvjqsdzmywbdatoiarbjpycum.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xchgskmmemfozauzeyzhjlxjbdivvdgy.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dxvyeyddvudrewomoasusmmcvjfopzev.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fphvsgreuozcnijgzjlsjllzswxzkyuq.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/geelrvhncocmholeokwhgumpuadjshgu.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ckwkeusyuyixvynnvwwerkhpdyjbdeto.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zdpktrrfxfmmhznhdrletcenwnwahclt.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/acwocrubmbawffpruwnnylwklxqkkgml.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/hwpkeewalcqwhycdndpbhgwzvtphuzjs.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/glnhjohfmahfxseoeprhnxddlwtgsqox.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dfefnwjilklndmalpvrhnyermfzhkopn.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/caciexjnbvmcblhehyzxwqghimwwahbp.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/eajmyfrviwvqhjbzoylnzrdxmwsmwtbx.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/glbhshmbrchmswsdkiypamawlxdvrpie.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vcskzobnnqcfxdczzkqgjtgybsjvbwjw.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cykfvtiedrfxsjntvsfihkrbkizfhjcc.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 74, acv: 90.0%, degree: 43.7377544959
+Transmission range: 1612.38828928
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/afbixjpodrrlxmvbntnuypvczbkdjgsx.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lqppxhergpebqbtczxsznnwqirypjgcx.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/judjmyegpsmmofobvlifxtnrhfrmiima.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/trgbgrqjhemxcmjqkxdyjqpsfjddfhqy.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lfzgzfrvwcqbmirdowikmytdqijughhw.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/aucdpohywvovlzfxgdrwahumbuoktxhi.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bhkbnnmoikwqnaucylquetjogucamiop.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ynmabbksmpvusrqeawkodppqqsuxfknc.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/rvvvouzrofbwehegtgceuypqgptcjihg.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/mvbcxajzpnxxaiookvttaqanvhioduzj.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fhyowfvjkjifqgmoipukatfwuypukugg.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/yulslgpbfsknyoofcktykoxnuvbsxtqz.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jwtddcsvsclbaqzqtmwhetqjiezuuciz.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/darugihvjxhlvqubfrgbwpawkkjewypt.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lxzvhibafvmuxuiwwriagpfalujzkhwy.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/epatlsvfpcgqpbkqbbugxdjqxvnedwcu.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/rtvaaojectpjetnsjkocooorstovouir.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/voqmxmsvllnuutyafszvjvyrceqmyxtw.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vbdpiycgjyjzyzfxjmqgpcwqzipacdgv.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ijvypwpsslvdqelompviazvyimryhwzb.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/eatooclywjlfxhifofierrhyclpydigy.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vmydcevyrrqyfwvxnuyiaogfdxbylwgn.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dqrhiftwwrcjcjielvmmhxyrqfonflpx.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/aqjdjwugnkxdjzitqcffbmkmxfoqxtvl.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dsogjhpwzsmfhkajzpiqakrjrzrcsdec.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 75, acv: 90.0%, degree: 44.2452692547
+Transmission range: 1726.58605579
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zbgsowijmahvjbddiggaixmnbxuxiwap.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ocxixrcbjqktfkpqqwjkkrgwxpnruixm.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zusleogbdjongkqvzluwqxtngaeeqpxy.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/caigjavpzdmlixlkdqdgiqwfmeockqfj.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/oqcwfurvvuaiidropnnayjrlbhinlbse.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/peovpsvonkyajaqffxeequjfqgovepur.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/etwvtnpnxtdyvlisphbeakernxnnxuwc.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/udrztmjazfmqxaewzrctugsoxanxqlyp.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zsikziokncwryctsgjgoscnsjvdywxhf.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ntjytlzmsugwxyjptlvzrntehxawmcvr.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/tdkxzflsndzqzmskbkfflabzqlypkupt.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/nqmzgaecijbkdgaflyncihcpxrzzajrr.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/delhqpapjxygjblgccwakondxrbfnphq.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lbnidelvpxuvhhrdyessqszmjwrgzljb.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/erynxboekjvqjetxrqofpyemfldfbzfy.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/crflolckxawngyohrtjjkdfmwczhwseb.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zgywkggnksfaocgbhevwfjgmzhvagisl.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/npgwpsytusqqfojsopmacvuwcfgclfxa.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dopindcaopnjwrjmrrbqjputxlexuvxc.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ydfptcgtntjwtzawlicafvnrawtydxuh.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dgjpvmaewpkvdympklljubdydmpusozm.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/oevxgkbwmheuijxhawcrfaaxuvknzjyt.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/smsejgmgxharmahklxaufgamxqcprfkm.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wtfcxnmaevrfytdzbpbwvtcoogckqnpe.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/epjyrkttiwstkmegdieicgpxnhguxgsl.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 86, acv: 90.0%, degree: 48.524650052
+Transmission range: 1736.59533417
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/eoblnpvamuqxggnrdwnkpznoxrxtsyks.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/orrzhpuajezzjnguwsrevmfujasrvcrq.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kgpbxmdwlfyzgeropbbswwcidinllowx.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zaprweoufmozjeltmtrogvobtcmgmnxq.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xzfpdbghprtumrkpnbtmnfcbzipkjjjs.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/nrxpedebkofcxmdgtaxrppiltoxgfpql.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gkkyiahydpzrezyenklorjefcnaofsxl.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vibbixomfnjqsshmyddisriurklujsis.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/rcqmttnudheqsrlkqvxzvhbngvsgrfmg.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/hwbihkgkjfaymojpcbklejvifrbcmvub.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/qwmkkbvkfsqwlyfvppcbbyriutglsmmv.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kbtcscirvtkslcqnnxygwdxtplgqwkrs.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/oljazaklhuiqlvttzoikoglcenfcjzhi.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/edzjjhhidoofxvmmnhoshszmktefxnhg.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pqhjwzpcjcqxrrmbmobdhrnbtnpascni.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gqnojahvvezwucyoycaytwqqcvdonvsg.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fqvmtaurzbobfvxmccgimnobvellpozf.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ssweudvjgwrlscebrnbxzpitjcfiaxzb.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fnfyoghgdxfjdqtsbzzjiyeznmsklnmk.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/glrzbyzfusfnslbralfgjlizavnjxroa.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dfaibqtkmwankfgphajtpaxuaobpnhrx.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zqhzgibimrcfemleahpnkruwhwefvmix.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/smrycxdqqkxuqhcawdxipelyoyiciwkb.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pzeezqmcvjcmbezfxcrqanzyxsubuuas.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/psumudtefpqsittgeiywngkyyjavorpt.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 87, acv: 90.0%, degree: 48.8901421197
+Transmission range: 1785.80040534
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/qujfehmlefpousowxxcsurjympiwocva.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/qcjbidkdupbdflsvrjpqtvyrmykdimid.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ivwizrduqhunzwzfvuyunqtzgpvqeoyc.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lpsucdlyuyfhibjwzoapehypsjwsfskv.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fjhphqpcjtpjrgwqfoglpbokmndrjhhp.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wmrmnvnvefdocorrjwhrzmfgbgzjfdgy.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ahodgeubrvqjgysrsoubwsgfkqkdocjb.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/guwkshykpsouizuivthcryfusxhlsueu.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/rtheiqxccqgsvpthcqglzwwpuwuohfvk.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xdswhdnubylxnlowsxqqfgrhhrolxtno.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gubouqyctrkbtuszlouounroeksmjemq.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/acjkjwscuzmoibdxxudtgrhhjnficdcd.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/usbwsxqbyutcerouhulheqjtqxnnsjar.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/njgawzcpwljwgfcttmpvfccxfrrwvdkj.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bnqvbsrwzahiuiasmrlhdgolbbiagnmb.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/tsgqiiqfswkehvbdprdfktihzvebtyle.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ejkqvkbeulkedarsdkpxchjybqqmbcul.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vnjgsveiqdosifhdskwqitiojapplvlf.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bcfpbpflifgdinfsbthcbpnxxlrmwmld.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ixalmzjidekzpgnlqbuxbgkgkxtfuexn.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/sljgjqrwtlgwbwxizhutbgqkuffgwolo.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/iromujonuemmcizwvtyafblhrmthdsmv.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gazkqrgxkccteqplebuqsdfffsvkkmgl.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/hndlvchnrcckiyzipjqjeeeaysodccmc.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/uyrzqhobcmfdfufyuqzqqhzjeveviwhn.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 92, acv: 90.0%, degree: 50.9553811101
+Transmission range: 1795.47961122
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lebovpjhjbpkavpshyefcdxlewcthbgz.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kkzkhzeacmhfqlrokqwovrlspvzxrfvf.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kbzmehjtdovlbzfoewggftazaegdgevq.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/nrasnqfbqdfmaomlyusloerlwfzhltfh.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zonphxmgmikzxjppfdlwgusutsvgupjf.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/sdfwjcvyzdstxvvylhroupigulwliibq.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ehosyidclxdpxkuctgmqllgivhkalmtr.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pcmgwwqnevgxigdqfyemirdgcpopqzwi.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/elkqvtooghusgavzzyaqufrqvmkdnxws.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jzubectxybyxpacxybefrxrnmfprnzje.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pdaofliywnoqkvhcwhbdkgmsnqfjxobb.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ftsxesqknciaufuwmwrqmjkupajeaosi.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bvqzqsgurpzqmdputhsvbrieeibceitz.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/omvufpqmtquclgmplizncxltdghpkjgb.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cbihogaeqscahjevmcuasdrnmvdedqsr.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pfglhfllriqselzueaqthtktwrifkqyn.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pddfbaiowvtngekbtzcmatnmtphyvrbv.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dpniwfsjccsvdjcmtxknbiyqgetsfpcj.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/uahqvlltrobixklhcjkcsiawxhxvbyme.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dbbnlivxutjzykawroefgcauwrogtznh.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pixmjfrqfvjxovebcfgsgeqqtgcapzsc.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/sgybmjlkjwpnldcgkgzepaqttwidwxzd.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/koeemjezoryrgswzgmvezqnhfpclzadt.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zeegumpaxrtnhcpynhtcjvoqinxbouey.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gtgfudfyfjbrlklbvkycskibjhqqosma.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 93, acv: 90.0%, degree: 51.3749877364
+Transmission range: 1814.68314797
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/atrphevnytthdsleqtxfhpccdpubekqe.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fbaxewntubkxwhwixwmnzahxmrrrzszi.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/yifceqrvgakjkmndshmbgdlqxbdhblxb.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/iujmrobxpbyrggjiowqdxkcoasamaeww.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/glsbuubrfpovxpoimprpqjbtkvxpynqw.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/qketnraczheunbfzewxkutwdhwapzbmk.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xqibsrcmviaabywakcbgyhmorougxbet.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ylgfgpbuwbaqprrmyjvbcrlzzqqgxbgd.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ndjmkhfgjvvddcentncrpaqizzobzgjo.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jhoqfmsnqsvggeezhdedppqqmvvayhta.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bffhayxejssjrisjacchlafibbxjjpdr.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ahylfelxwmqbxwjwswiclcsjlqelmysl.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/sbwxgwbuzjfjyibllsyyozgwfotcwizf.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dwvcoahgbrxeipgpvytiopswlsiyijcd.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ljivibcdioxcofidvizcygiisoixmunl.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xtkpsoduloucfclverxjqxwcpdukuxhv.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xnirefycvcpyhyzmznxczqlruafdqkkg.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wfrzjnoidpnejxbzbsnlhnchjomgtkkz.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/khidaqgxpqowutaeyajetvrrtrunghgn.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/nujhpckygkdnatoljnyvcxzcvtnepsra.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cssekqwsifvbtzfapiyxkryqbstnqgsl.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gcqglckjkzxbwrksxgrlsmntsbjsjgwh.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gqwayuxhtnokcxobevlsggxiwogancau.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gxshdbnuzdtkmtcvdhswiebthbkocxxl.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xoyllwzdhokxysmyxrnluwdcswevcdgl.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 95, acv: 90.0%, degree: 52.0441944545
+Transmission range: 1824.20910921
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pjcnypubgnlgbhbgzsimiuqgyimhzhdx.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wmlzihgnwbcicmyukbfdupbllbjoofci.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zyklqmoyxnlfbnluxglewvvczwyowpkp.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ajucrceopuznfzhqvakhejgdlzhbwpuu.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/alrqpwxjaguhkbxbiiigyvuzrpadugtg.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jwxejxzvgraxbfrrisrhvwoxeoelvlar.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wywujocwpycwdzvodxxyocjefcgftecg.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pkgjzlfymthmypfyefwqlhwrkhhrvvmi.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/tenovdonjvmxjuqeizkdcheowpblqizd.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jwsgherojtyqpzkrfjmxknjrednzoaxm.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/oernupdkqirujwvttttcagzevabteywg.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kafjtxainybkmctrvowgqkisrrdtsefh.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bwoevkqnzubxwnqkubkckklkfafklwfs.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/owpdqhmddmlqkedmsfvccdqkexqnuuom.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lewlnytdpubyozlbnblssfzrnmtoiscl.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xpsxdndxaecwbepxcobsblfqrcgnxozo.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xmhrlvtffzqtlhmjwkrqgdjokibaakoj.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dmaxqghwketplmuulvwbckvwtwhnqnzy.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/fdpfgfdvfvoorrpcoctdtrklvwgbubck.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zekfruwopxwlaalcmgpaolvcchhlrseh.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cutjwyzdokpdvhhbzvzcoxqfpetlfzzo.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cdzgseqfncgxewegtkmcvxjnnognlmhb.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/yilkaxmekionsozubnektejbrlztaqjk.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vikpfwalukdfytvkjahdbgqzedjrzxrq.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/thajmawolhlehlpwctifcvzrrkztvgbd.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 96, acv: 90.0%, degree: 52.4121506536
+Transmission range: 1833.68558393
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/slggwmpkyoljiqnzchhxilthcnpcsrxx.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ppenkkwarmhopzcvhejljxfsvtgypchc.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kvynuljqtvlppjozamkvezoytqipphto.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ocetiuweggxykbyjzcyqkhhoxnzrczah.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vdihcpwtutbidhzuuupkmdlpfttrbtjj.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/llemoustallsprisloqgmofbhoxndisi.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ruzczfwpillaflxqebtkzzajcllinhpv.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jkiwllqtiupsatwajmusggtdhowbvizr.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/htpahtffqaobnjmqtmfvjhwfgkqfsalk.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/efagxsapepoditkruwgblybsebkztvod.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/isbvqjudhwtzfbqadjoedypztysgegcb.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/rhqznypncjahbyrznqetpsswekakoqrq.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/mhxiizqoyteqafqtfylfxeymhbifmjjd.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bbpjwsuaewkgdeouvjbpolgmlafldbyt.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/lwfikngwgwnxuijdsluieezwvmwqogxy.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bhfxlkejrlhmpawhvrjdiowwoupgzvno.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/qdxowhmahmlrobdgoztmemzhsxitmizl.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/mesqkdxebfyxuglbyzdnjbvyvewupyqk.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/sckyyygnxtpvxrgfzvafwzymoposzttt.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kbtypbhnkdgfjibjxavizwmmasizpsog.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wzgxdbmfqurrstqdgxyojgjalkthgiqh.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ygyzgcuabavwyscvrugindkuypjarkjk.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bdubevyzosjfjyqgtsvydvptwkqfbsgg.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/buwnniwsytwfbivsnhdpmsovuevdalnf.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ayovakldogsfwgcclkhrxmgcducenjhs.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 97, acv: 90.0%, degree: 52.8063516886
+Transmission range: 1843.11333545
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kbrwomtedajggdtnwpwbmgljdxjjtgrk.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dcgrjssdkvbrtxaofvvpsuujwdrwchfp.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/vfjddiuxsopzhtnrvuwfhmgeotcanlzq.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/hkskhqablzydstwqdzoqlkqhzwzyfrec.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/oxcltgynvzfwwogqvyofotjsclxkobkw.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ngtztfjjrqvyrsxnchuyilcreaqcgtuk.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/atrofeyywniaxqmgvjavjwxgdldtxerq.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pfeedtyvebezkayiaiasqvqnqivtiqvx.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/xiwchndurbgqakuftecpazqtpjofjyix.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/eydfgtakpymldwlfcuotwajiaubfbtfr.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/tfnpcyffljobwznrgibaobkyckcvwkid.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pagwiloysfbassliihymcpwoagpkerjo.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/hyximzyvjotokljsbzcdqqugivsieuxx.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gzzqrryclabanmtzeqyvwttswflczgin.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/rqyqktxqgmtobqomrjdylwjgmyvytzxd.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/aewluuwomexbnuzblqkpvbsjcofjtoyt.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jisavmjsnmcgngqquuvhkpmpvcbkxcha.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/aoyorixaectevausehkkzfpetqdnmctl.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/erlhisyvxqzyywveambkwujmvipdrtil.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/kvahbnkqshdhyusmzwieorxxqovvbgju.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wdoowplvdndupcshmimjxcunfrjhtkte.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/qkkyewtgptcdsqfunqikfzstxvxhaonf.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/iqcdbrizvwonknhwbfpdfklqnemqciks.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pyuakelnqrgujknpspgqizjukyyijxij.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cxuuexfjckxompeiiyrsjyvuajijkwdm.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 98, acv: 90.0%, degree: 53.1168733223
+Transmission range: 1852.49310766
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jqxribmwuchkhymxoyqawlwypoupajpm.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/gqmmahdeszgoynnpxhiejrueyunoxngf.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/wwsjglcpwovgdrfmwzjiqgojydhfxswh.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cwemdtbvvoeubvmnyarwagbuatzzktbk.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_1.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ggypmwhckzzhipjruuirdgxjiyaclucn.csc
+Simulation finished
+Number of nodes in dag: 97
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bdnpzgegrapxomycidwscatosxepzzbh.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/uuanknizyygstdoewytwcnmuoyefyeil.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/jetjgsmncohdcqvgluhnufysefwrtkix.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/bmwzgztbfifwxbthmobfyaklnhedtkaf.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_2.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pfohgbvxntmiwesxeycqknrtbnehnjoo.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dxhmzcdsejdzrmioxdaxjtqsqykvxeji.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/itbrcbhdwvleiavwxmbcxrmhzmvcgeko.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/krbudfkfcsckscjakxbeavhcuhdrxukk.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/zxdsdrnrpnxszdyvfhetotxpavxdtvzm.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_3.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cfehimttxtrlcdbsocfqezffgqxctzpw.csc
+Simulation finished
+Number of nodes in dag: 98
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/cdkuvijwzdubfpphqcqreqqzuiiwpkui.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/nmqdocuifpcmxrnxqhphxujstxqejdji.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pujzukodqugcaqlcrwmpxqgjetcqcawf.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/moifpmoqlfttrsuvqcrgoxkgmxvpmypv.csc
+Simulation finished
+Number of nodes in dag: 99
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_4.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/mjjbpccxaycbtzrchadgdktjmblvvkvv.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W117.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/pxdmyfddbklmuonluxzxklqrbfndgihr.csc
+Simulation finished
+Downloading: N36W115.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ffssaaivmuenemgldovtnjnuwgbulwym.csc
+Simulation finished
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/tmvppcvlwyyyazakndoxxonvthomnosd.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W113.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/ihdtqwiyeppoiywczziaddkidpdvjgls.csc
+Simulation finished
+Number of nodes in dag: 100
+Downloading: N36W114.hgt
+Running simulation on /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/experimental_connectivity_layout_5.csc ACV: 90.0
+temp simulation path is: /campusdata/smansfie/TerrainLOS/Experimental_Connectivity/dqthghjupgscpzoyewjaykxegumhoorh.csc
+Simulation finished
+Connected 40.0%, nodes: 100, density: 99, acv: 90.0%, degree: 53.530326001
