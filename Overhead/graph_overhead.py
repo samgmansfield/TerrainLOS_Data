@@ -21,41 +21,42 @@ log_overhead = sys.argv[1]
 
 log_overhead_file = open(log_overhead, "r")
 
-overhead_udgm_dict = {}
-overhead_terrainLOS_dict = {}
+overhead_dict = {}
 for line in log_overhead_file:
-  m = re.search("Time (\d+\.\d+)s, nodes: (\d+), transmission: (\d+), radiomedium: (\w+), acv: (\d+\.\d+)%", line)
+  m = re.search("Time (\d+\.\d+)s, nodes: (\d+), transmission: (\d+), radiomedium: (\w+), acv: (\d+\.\d+)%, output_dag: (.+)", line)
   if m:
     time = float(m.group(1))
     nodes = int(m.group(2))
     trans = int(m.group(3))
     medium = m.group(4)
     acv = float(m.group(5))
-    if medium == "UDGM":
-      if nodes in overhead_udgm_dict:
-        overhead_udgm_dict[nodes].append(time)
-      else:
-        overhead_udgm_dict[nodes] = [time]
-    elif medium == "TerrainLOSMedium":
-      if nodes in overhead_terrainLOS_dict:
-        overhead_terrainLOS_dict[nodes].append(time)
-      else:
-        overhead_terrainLOS_dict[nodes] = [time]
+    output_dag = m.group(6)
+
+    tup = (nodes, trans, medium, output_dag)
+    if tup in overhead_dict:
+      overhead_dict[tup].append(time)
+    else:
+      overhead_dict[tup] = [time]
+
 log_overhead_file.close()
 
 nodes_list = []
 overhead_list = []
-for key in sorted(overhead_udgm_dict.keys()):
-  udgm_mean = np.mean(overhead_udgm_dict[key])
-  terrainLOS_mean = np.mean(overhead_terrainLOS_dict[key])
-  print("UDGM, key: " + str(udgm_mean) + " std: " + str(np.std(overhead_udgm_dict[key])))
-  print("TerrainLOS, key: " + str(terrainLOS_mean) + " std: " + str(np.std(overhead_terrainLOS_dict[key])))
-  print("Difference: " + str(terrainLOS_mean - udgm_mean))
-  nodes_list.append(key)
-  overhead_list.append(terrainLOS_mean - udgm_mean)
+for tup in sorted(overhead_dict):
+  mean = np.mean(overhead_dict[tup]) 
+  std = np.std(overhead_dict[tup])
+  print(str(tup) + ": mean: " + str(mean) + ", std: " + str(std))
+  
+  #udgm_mean = np.mean(overhead_udgm_dict[nodes])
+  #terrainLOS_mean = np.mean(overhead_terrainLOS_dict[nodes])
+  #print("UDGM, avg: " + str(udgm_mean) + " std: " + str(np.std(overhead_udgm_dict[nodes])))
+  #print("TerrainLOS, avg: " + str(terrainLOS_mean) + " std: " + str(np.std(overhead_terrainLOS_dict[nodes])))
+  #print("Difference: " + str(terrainLOS_mean - udgm_mean))
+  #nodes_list.append(nodes)
+  #overhead_list.append(terrainLOS_mean - udgm_mean)
 
-plt.plot(nodes_list, overhead_list)
-plt.xlabel("Nodes")
-plt.ylabel("Overhead (s)")
-plt.title("Overhead Vs. Number Of Nodes")
-plt.show()
+#plt.plot(nodes_list, overhead_list)
+#plt.xlabel("Nodes")
+#plt.ylabel("Overhead (s)")
+#plt.title("Overhead Vs. Number Of Nodes")
+#plt.show()

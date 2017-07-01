@@ -8,14 +8,15 @@ import os
 import re
 import subprocess
 import shutil
-
+import random
+import string
 
 def print_usage():
   print("Correct usage:")
   print("  python calc_overhead.py contiki_path log_path sim_path1 sim_path2 ...")
   exit()
 
-def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, output_dag, radiomedium):
+def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, output_dag, radiomedium, out_sim_path):
   f = open(sim_path, "r")
   new_file = []
   nodes = 0
@@ -63,8 +64,7 @@ def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, outp
     new_file.append(line)
   f.close()
 
-  os.remove(sim_path)
-  f = open(sim_path, "w")
+  f = open(out_sim_path, "w")
   for line in new_file:
     f.write(line)
   f.close()
@@ -95,15 +95,15 @@ for i in range(3, len(sys.argv)):
 
 terrain_directory = starting_directory + "../ACV/SRTM_Terrain/"
 
-# TODO: Switch loop order, find_acv only need to be called once per ACV
+# Find relevant ACV paths
 find_acv_path = starting_directory + "../ACV/find_acv.py"
-acv_log_path = starting_directory + "../ACV/log_acv.txt"
+acv_log_path = starting_directory + "../ACV/acv_std_log.txt"
 
 # Use one ACV that is 10
 output = subprocess.check_output(["python", find_acv_path, "10", acv_log_path])
 output_lines = output.split("\n")
 
-m = re.search("\(\'(.+).hgt\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", output_lines[0])
+m = re.search("\(\'(.+).hgt\', (\d+), (\d+), (\d+), (\d+).*\), (\d+\.\d+)%", output_lines[0])
 if m:
   hgt_10 = m.group(1)
   ew_10 = m.group(2)
@@ -117,62 +117,103 @@ else:
   exit()
      
 # Use one ACV that is 90
-output = subprocess.check_output(["python", find_acv_path, "90", acv_log_path])
+output = subprocess.check_output(["python", find_acv_path, "100", acv_log_path])
 output_lines = output.split("\n")
 
-m = re.search("\(\'(.+).hgt\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", output_lines[0])
+m = re.search("\(\'(.+).hgt\', (\d+), (\d+), (\d+), (\d+).*\), (\d+\.\d+)%", output_lines[0])
 if m:
-  hgt_90 = m.group(1)
-  ew_90 = m.group(2)
-  sw_90 = m.group(3)
-  eo_90 = m.group(4)
-  so_90 = m.group(5)
-  acv_90 = m.group(6)
-  hgt_90_params = (hgt_90, ew_90, sw_90, eo_90, so_90, acv_90)
+  hgt_100 = m.group(1)
+  ew_100 = m.group(2)
+  sw_100 = m.group(3)
+  eo_100 = m.group(4)
+  so_100 = m.group(5)
+  acv_100 = m.group(6)
+  hgt_100_params = (hgt_100, ew_100, sw_100, eo_100, so_100, acv_100)
 else:
-  print("No ACV of 90 found")
+  print("No ACV of 100 found")
   exit()
 
 # Download hgt files, download will only happen if terrain files are not in directory already
 print("Downloading hgt files")
 download_script = starting_directory + "../ACV/download_hgt_files.py" 
-output = subprocess.check_output(["python", download_script, terrain_directory, hgt_10, hgt_90])
+output = subprocess.check_output(["python", download_script, terrain_directory, hgt_10, hgt_100])
 print(output)
 
-runs = 5
+runs = 10
+progress = 0
 os.chdir(contiki_path + "tools/cooja")
-for trans in [1, 10000]:
-  for hgt_params in [hgt_10_params, hgt_90_params]:
-    for simulation_path in simulation_paths:
-      for radiomedium in ["TerrainLOSMedium", "UDGM"]:
-        nodes = set_simulation_file(simulation_path, terrain_directory + hgt_params[0], trans, trans, hgt_params[1], hgt_params[2], hgt_params[3], hgt_params[4], "true", radiomedium)
-        for i in range(0, runs):
-          #print("Running simulation on " + simulation_path + " ACV " + str(i + 1))
-          output = subprocess.check_output(["/usr/bin/time", "ant", "run_nogui", "-Dargs=" + simulation_path], stderr = subprocess.STDOUT)
+trans_ranges = [0, 10000]
+hgt_params = [hgt_100_params]
+radiomediums = ["TerrainLOSMedium", "UDGM"]
+output_dags = ["true", "false"]
+for simulation_path in simulation_paths:
+  for trans_range in trans_ranges:
+    for hgt_param in hgt_params: 
+      for radiomedium in radiomediums:
+        for output_dag in output_dags:
+          # Create a temporary simulation path with a randomly generated name. This avoids multiple
+          # processes trying to read and write the same simulation file
+          # This is not needed when only one proess is running this script, but it doesn't hurt
+          temp_sim_path = starting_directory
+          for i in range(0, 32):
+            temp_sim_path += random.choice(string.lowercase)
+          temp_sim_path += ".csc"
           
-          u_time = 0
-          s_time = 0
-          test_script_finished = False
-          for line in output.split("\n"):
-            m = re.search("(\d+\.\d+)user (\d+\.\d+)system.+", line)
-            if m:
-              u_time = float(m.group(1))
-              s_time = float(m.group(2))
-            elif re.search("Test script finished", line):
-              test_script_finished = True 
+          nodes = set_simulation_file(simulation_path, terrain_directory + hgt_param[0], trans_range, trans_range, hgt_param[1], hgt_param[2], hgt_param[3], hgt_param[4], output_dag, radiomedium, temp_sim_path)
           
-          total_time = u_time + s_time
-          if total_time == 0:
-            print(output)
-            print("Time command is not functioning properly.")
-            exit()
+          for i in range(0, runs):
+            # Delete the dag if it exists, we will check if it was created later
+            if os.path.exists("build/dag.xml"):
+              os.remove("build/dag.xml")
 
-          if not test_script_finished:
-            print(output)
-            print("Simulation FAILED. Simulation did not end properly, output above")
-            exit()
-          
-          print("Writing to log")
-          f = open(starting_directory + log_path, "a")
-          f.write("Time " + str(total_time) + "s, nodes: " + str(nodes) + ", transmission: " + str(trans) + ", radiomedium: " + radiomedium + ", acv: " + str(hgt_params[5]) + "%\n")
-          f.close()
+            output = subprocess.check_output(["/usr/bin/time", "ant", "run_nogui", "-Dargs=" + temp_sim_path], stderr = subprocess.STDOUT)
+           
+            # Check if using TerrainLOS if the dag was created. This signals that the
+            # viewshed algorihtm was run, but this can only be checked when the
+            # radiomedium is TerrainLOS and 
+            # output_dag is true 
+            algorithm_run = False
+            if radiomedium == "TerrainLOSMedium" and os.path.exists("build/dag.xml"):
+              algorithm_run = True
+            elif radiomedium == "UDGM":
+              algorithm_run = True
+            elif output_dag == "false":
+              algorithm_run = True
+
+            if algorithm_run == False:
+              print("Viewshed algorithm was not run, this is not a valid simulation")
+              exit()
+
+            u_time = 0
+            s_time = 0
+            test_script_finished = False
+            for line in output.split("\n"):
+              m = re.search("(\d+\.\d+)user (\d+\.\d+)system.+", line)
+              if m:
+                progress += 1
+                print("Completed " + str(progress) + "/" + str(len(trans_ranges)*len(hgt_params)*len(simulation_paths)*len(radiomediums)*len(output_dags)*runs))
+                u_time = float(m.group(1))
+                s_time = float(m.group(2))
+              elif re.search("Test script finished", line):
+                test_script_finished = True 
+            
+            total_time = u_time + s_time
+            if total_time == 0:
+              print(output)
+              print("Time command is not functioning properly.")
+              exit()
+
+            if not test_script_finished:
+              print(output)
+              print("Simulation FAILED. Simulation did not end properly, output above")
+              exit()
+            
+            print("Writing to log")
+            f = open(starting_directory + log_path, "a")
+            sim_info = "Time " + str(total_time) + "s, nodes: " + str(nodes) + ", transmission: " + str(trans_range) + ", radiomedium: " + radiomedium + ", acv: " + str(hgt_param[5]) + "%, output_dag: " + output_dag + "\n"
+            print(sim_info)
+            f.write(sim_info)
+            f.close()
+
+          os.remove(temp_sim_path)
+

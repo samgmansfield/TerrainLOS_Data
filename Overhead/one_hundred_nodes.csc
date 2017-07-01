@@ -16,7 +16,7 @@
       <interference_range>10000.0</interference_range>
       <success_ratio_tx>1.0</success_ratio_tx>
       <success_ratio_rx>1.0</success_ratio_rx>
-      <terrain_filepath>/campusdata/smansfie/TerrainLOS/Overhead/../ACV/SRTM_Terrain/N36W117</terrain_filepath>
+      <terrain_filepath>/home/user/TerrainLOS/Overhead/../ACV/SRTM_Terrain/N36W117</terrain_filepath>
       <east_width>100</east_width>
       <south_width>100</south_width>
       <east_offset>500</east_offset>
@@ -1646,7 +1646,10 @@
 &#xD;
 TIMEOUT(10000, log.log("last message: " + msg + "\n"));&#xD;
 &#xD;
-WAIT_UNTIL(msg.search("App: sending") &gt;= 0);&#xD;
+while(true){&#xD;
+  YIELD();    &#xD;
+}&#xD;
+&#xD;
 log.testOK();</script>
       <active>true</active>
     </plugin_config>

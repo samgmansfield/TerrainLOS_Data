@@ -130,7 +130,8 @@ else:
 # The script assumes these locations
 download_script = starting_directory + "../ACV/download_hgt_files.py" 
 find_acv_path = starting_directory + "../ACV/find_acv.py"
-acv_log_path = starting_directory + "../ACV/acv_log.txt"
+#acv_log_path = starting_directory + "../ACV/acv_log.txt"
+acv_log_path = starting_directory + "../ACV/acv_std_log.txt"
 output = subprocess.check_output(["python", find_acv_path, str(acv), acv_log_path], stderr=subprocess.STDOUT)
 acvs_to_use = output.split("\n")
 # Last entry in output_lines will be "", so this line checks for 5 lines
@@ -141,7 +142,8 @@ if len(acvs_to_use) < (num_acvs + 1):
 
 for simulation_path in simulation_paths:
   for i in range(0, num_acvs):
-    m = re.search("\(\'(.+)\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", acvs_to_use[i])
+    #m = re.search("\(\'(.+)\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", acvs_to_use[i])
+    m = re.search("\(\'(.+)\', (\d+), (\d+), (\d+), (\d+).*\), (\d+\.\d+)%", acvs_to_use[i])
     if m:
       hgt = m.group(1)
       ew = m.group(2)
@@ -219,13 +221,13 @@ for simulation_path in simulation_paths:
         connected += 1
       else:
         print("Number of nodes in dag: " + str(nx.number_of_nodes(g)))
-        #stranded_nodes = []
-        #nodes_in_dag = g.nodes()
-        #for n in range(1, 101):
-        #  if n not in nodes_in_dag:
-        #    stranded_nodes.append(n)
-        #print("stranded_nodes: " + str(stranded_nodes))
-        #exit()
+        stranded_nodes = []
+        nodes_in_dag = g.nodes()
+        for n in range(1, 101):
+          if n not in nodes_in_dag:
+            stranded_nodes.append(n)
+        print("stranded_nodes: " + str(stranded_nodes))
+        exit()
 
       avg_degree.append(np.mean(g.degree().values()))
       

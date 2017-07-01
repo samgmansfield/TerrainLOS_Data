@@ -8,6 +8,7 @@
   <project EXPORT="discard">[APPS_DIR]/powertracker</project>
   <simulation>
     <title>My simulation</title>
+    <speedlimit>0.1</speedlimit>
     <randomseed>123456</randomseed>
     <motedelay_us>1000000</motedelay_us>
     <radiomedium>
@@ -16,12 +17,12 @@
       <interference_range>10000.0</interference_range>
       <success_ratio_tx>1.0</success_ratio_tx>
       <success_ratio_rx>1.0</success_ratio_rx>
-      <terrain_filepath>/campusdata/smansfie/TerrainLOS/Overhead/../ACV/SRTM_Terrain/N36W117</terrain_filepath>
+      <terrain_filepath>/home/user/TerrainLOS/Overhead/../ACV/SRTM_Terrain/N36W113</terrain_filepath>
       <east_width>100</east_width>
       <south_width>100</south_width>
-      <east_offset>500</east_offset>
-      <south_offset>3300</south_offset>
-      <output_dag>true</output_dag>
+      <east_offset>2000</east_offset>
+      <south_offset>2200</south_offset>
+      <output_dag>false</output_dag>
     </radiomedium>
     <events>
       <logoutput>40000</logoutput>
@@ -86,11 +87,25 @@
       </interface_config>
       <motetype_identifier>sky2</motetype_identifier>
     </mote>
+    <mote>
+      <breakpoints />
+      <interface_config>
+        se.sics.cooja.interfaces.Position
+        <x>702.8593638199453</x>
+        <y>722.6244802224237</y>
+        <z>0.0</z>
+      </interface_config>
+      <interface_config>
+        se.sics.cooja.mspmote.interfaces.MspMoteID
+        <id>2</id>
+      </interface_config>
+      <motetype_identifier>sky2</motetype_identifier>
+    </mote>
   </simulation>
   <plugin>
     se.sics.cooja.plugins.SimControl
     <width>280</width>
-    <z>1</z>
+    <z>2</z>
     <height>160</height>
     <location_x>400</location_x>
     <location_y>0</location_y>
@@ -101,10 +116,12 @@
       <moterelations>true</moterelations>
       <skin>se.sics.cooja.plugins.skins.IDVisualizerSkin</skin>
       <skin>se.sics.cooja.plugins.skins.TerrainLOSVisualizerSkin</skin>
-      <viewport>0.9090909090909091 0.0 0.0 0.9090909090909091 -1381.9428029949097 6.1042024415485745</viewport>
+      <skin>se.sics.cooja.plugins.skins.MoteTypeVisualizerSkin</skin>
+      <skin>se.sics.cooja.plugins.skins.AttributeVisualizerSkin</skin>
+      <viewport>0.3422284833198189 0.0 0.0 0.3422284833198189 -222.90213043086908 17.93458744286952</viewport>
     </plugin_config>
     <width>400</width>
-    <z>3</z>
+    <z>1</z>
     <height>400</height>
     <location_x>1</location_x>
     <location_y>1</location_y>
@@ -117,7 +134,7 @@
       <coloring />
     </plugin_config>
     <width>1544</width>
-    <z>2</z>
+    <z>3</z>
     <height>240</height>
     <location_x>400</location_x>
     <location_y>160</location_y>
@@ -126,6 +143,7 @@
     se.sics.cooja.plugins.TimeLine
     <plugin_config>
       <mote>0</mote>
+      <mote>1</mote>
       <showRadioRXTX />
       <showRadioHW />
       <showLEDs />
@@ -161,15 +179,18 @@
 &#xD;
 TIMEOUT(10000, log.log("last message: " + msg + "\n"));&#xD;
 &#xD;
-WAIT_UNTIL(msg.search("App: sending") &gt;= 0);&#xD;
+while(true){&#xD;
+  YIELD();    &#xD;
+}&#xD;
+&#xD;
 log.testOK();</script>
       <active>true</active>
     </plugin_config>
     <width>600</width>
     <z>0</z>
     <height>700</height>
-    <location_x>563</location_x>
-    <location_y>128</location_y>
+    <location_x>436</location_x>
+    <location_y>64</location_y>
   </plugin>
 </simconf>
 
