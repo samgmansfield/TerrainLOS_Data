@@ -34,9 +34,8 @@ for i in range(7, 10):
       density = int(m.group(2))
       acv = float(m.group(3))
       degree = float(m.group(4))
-      print("Result:")
-      print(line)
-      #print("  nodes: " + str(nodes) + " density: " + str(density) + " acv: " + str(acv) + " degree: " + str(degree))
+      #print("Result:")
+      #print(line)
       if nodes != 10 or density != i or acv != 100.0:
         print(output)
         print("FAILED:")

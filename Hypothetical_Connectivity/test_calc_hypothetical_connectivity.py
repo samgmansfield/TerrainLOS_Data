@@ -11,7 +11,7 @@ import subprocess
 nodes = 100
 passed = 0
 
-print("Starting tests on check_connectivity.py")
+print("Starting tests on calc_hypothetical_connectivity.py")
 print "Progress:",
 
 passed = 0

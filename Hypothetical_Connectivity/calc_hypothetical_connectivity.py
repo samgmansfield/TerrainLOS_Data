@@ -40,16 +40,13 @@ if density > n - 1:
 # Number of total possible links
 #links = (n - 1)*(1 + (n - 1))/2
 
-# Percentage a link is established
-#acv = 0.5
+# Percentage a link is established from 0-100
 test = 0
 if sys.argv[3] == "test":
   test = 1
-  acv = 1
+  acv = 100
 else:
   acv = float(sys.argv[3])
-  if acv > 1:
-    acv = acv/100
 
 # Iterate through "loop" number of random scenarios and check for connectedness
 i = 0
@@ -83,7 +80,7 @@ while i < loops:
         next_connect_node = j + 1
         # This should only affect the next iteration
         d = d - 1
-      if random.random() <= acv and next_connect_node < n:
+      if random.random()*100 <= acv and next_connect_node < n:
         g.add_edge(j, next_connect_node)
         #print(str(j) + "->" + str(next_connect_node))
       next_connect_node += 1

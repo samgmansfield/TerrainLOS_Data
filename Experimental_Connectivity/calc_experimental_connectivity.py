@@ -24,10 +24,9 @@ import xml.dom.minidom as xdm
 import random
 import string
 
-
 def print_usage():
   print("Correct usage:")
-  print("  python calc_experimental_connectivity.py density acv contiki_path dag_num")
+  print("  python calc_experimental_connectivity.py density acv contiki_path population")
   exit()
 
 def set_simulation_file(sim_path, hgt, tx_range, int_range, ew, sw, eo, so, output_dag, out_sim_path):
@@ -95,30 +94,67 @@ contiki_path = sys.argv[3]
 if contiki_path[-1] != "/":
   contiki_path += "/"
 
+test = False
+population = sys.argv[4]
+if population == "test":
+  test = True
+else:
+  population = int(population)
+
 # Assuming we are in the directory this script is in
 starting_directory = os.getcwd()
 if starting_directory[-1] != "/":
   starting_directory += "/"
 
-test = False
-dag_num = sys.argv[4]
-if dag_num == "test":
-  test = True
-dag_name = "dag" + dag_num + ".xml"
-
-if test:
-  transmission_range = np.sqrt((density*3300.0*3300.0)/(10.0*np.pi))
-else:
-  transmission_range = np.sqrt((density*3300.0*3300.0)/(100.0*np.pi))
-print("Transmission range: " + str(transmission_range))
-interference_range = transmission_range
+dag_name = "dag"
+for i in range(0, 8):
+  dag_name += random.choice(string.lowercase)
+dag_name += ".xml"
 
 terrain_directory = starting_directory + "../ACV/SRTM_Terrain/"
 
 if test:
+  transmission_range = np.sqrt((density*3300.0*3300.0)/(10.0*np.pi))
   simulation_paths = [starting_directory + "test_experimental_connectivity_layout.csc"]
+  acv_log_path = "../ACV/acv_100_log.txt"
 else:
-  simulation_paths = [starting_directory + "experimental_connectivity_layout_1.csc", starting_directory + "experimental_connectivity_layout_2.csc", starting_directory + "experimental_connectivity_layout_3.csc", starting_directory + "experimental_connectivity_layout_4.csc", starting_directory + "experimental_connectivity_layout_5.csc"]
+  if population == 1:
+    # 100 nodes, 3300m x 3300m
+    transmission_range = np.sqrt((density*3300.0*3300.0)/(100.0*np.pi))
+    simulation_paths = [starting_directory + "ec_1_layout1.csc", starting_directory + "ec_1_layout2.csc", starting_directory + "ec_1_layout3.csc", starting_directory + "ec_1_layout4.csc", starting_directory + "ec_1_layout5.csc"]
+    acv_log_path = "../ACV/acv_100_log.txt"
+  elif population == 10:
+    # 90 nodes, 990m x 990m
+    transmission_range = np.sqrt((density*990.0*990.0)/(90.0*np.pi))
+    simulation_paths = [starting_directory + "ec_10_layout1.csc", starting_directory + "ec_10_layout2.csc", starting_directory + "ec_10_layout3.csc", starting_directory + "ec_10_layout4.csc", starting_directory + "ec_10_layout5.csc"]
+    acv_log_path = "../ACV/acv_30_log.txt"
+  elif population == 20:
+    # 100 nodes, 726m x 726m
+    transmission_range = np.sqrt((density*726.0*726.0)/(100.0*np.pi))
+    simulation_paths = [starting_directory + "ec_20_layout1.csc", starting_directory + "ec_20_layout2.csc", starting_directory + "ec_20_layout3.csc", starting_directory + "ec_20_layout4.csc", starting_directory + "ec_20_layout5.csc"]
+    acv_log_path = "../ACV/acv_22_log.txt"
+  elif population == 30:
+    # 100 nodes, 594m x 594m
+    transmission_range = np.sqrt((density*594.0*594.0)/(100.0*np.pi))
+    simulation_paths = [starting_directory + "ec_30_layout1.csc", starting_directory + "ec_30_layout2.csc", starting_directory + "ec_30_layout3.csc", starting_directory + "ec_30_layout4.csc", starting_directory + "ec_30_layout5.csc"]
+    acv_log_path = "../ACV/acv_18_log.txt"
+  elif population == 40:
+    # 100 nodes, 528m x 528m
+    transmission_range = np.sqrt((density*528.0*528.0)/(100.0*np.pi))
+    simulation_paths = [starting_directory + "ec_40_layout1.csc", starting_directory + "ec_40_layout2.csc", starting_directory + "ec_40_layout3.csc", starting_directory + "ec_40_layout4.csc", starting_directory + "ec_40_layout5.csc"]
+    acv_log_path = "../ACV/acv_16_log.txt"
+  elif population == 50:
+    # 100 nodes, 462m x 462m
+    transmission_range = np.sqrt((density*462.0*462.0)/(100.0*np.pi))
+    simulation_paths = [starting_directory + "ec_50_layout1.csc", starting_directory + "ec_50_layout2.csc", starting_directory + "ec_50_layout3.csc", starting_directory + "ec_50_layout4.csc", starting_directory + "ec_50_layout5.csc"]
+    acv_log_path = "../ACV/acv_14_log.txt"
+  else:
+    print("Unrecognized population: " + str(population))
+    exit()
+
+print("Transmission range: " + str(transmission_range))
+interference_range = transmission_range
+
 connected = 0
 avg_degree = []
 
@@ -130,8 +166,6 @@ else:
 # The script assumes these locations
 download_script = starting_directory + "../ACV/download_hgt_files.py" 
 find_acv_path = starting_directory + "../ACV/find_acv.py"
-#acv_log_path = starting_directory + "../ACV/acv_log.txt"
-acv_log_path = starting_directory + "../ACV/acv_std_log.txt"
 output = subprocess.check_output(["python", find_acv_path, str(acv), acv_log_path], stderr=subprocess.STDOUT)
 acvs_to_use = output.split("\n")
 # Last entry in output_lines will be "", so this line checks for 5 lines
@@ -140,9 +174,9 @@ if len(acvs_to_use) < (num_acvs + 1):
   print("More data needed for ACV: " + str(acv))
   exit()
 
+progress = 0
 for simulation_path in simulation_paths:
   for i in range(0, num_acvs):
-    #m = re.search("\(\'(.+)\', (\d+), (\d+), (\d+), (\d+)\), (\d+\.\d+)%", acvs_to_use[i])
     m = re.search("\(\'(.+)\', (\d+), (\d+), (\d+), (\d+).*\), (\d+\.\d+)%", acvs_to_use[i])
     if m:
       hgt = m.group(1)
@@ -162,12 +196,12 @@ for simulation_path in simulation_paths:
       # processes trying to read and write the same simulation file
       # This is not needed when only one proess is running this script, but it doesn't hurt
       temp_sim_path = starting_directory
-      for i in range(0, 32):
+      for j in range(0, 32):
         temp_sim_path += random.choice(string.lowercase)
       temp_sim_path += ".csc"
 
       nodes = set_simulation_file(simulation_path, terrain_directory + hgt, transmission_range, interference_range, ew, sw, eo, so, "true", temp_sim_path)
-      
+       
       # Delete existing dag files so that old dag files cannot be used
       if os.path.exists(dag_name):
         os.remove(dag_name)
@@ -176,10 +210,9 @@ for simulation_path in simulation_paths:
       if os.path.exists("build/dag.xml"):
         os.remove("build/dag.xml")
 
-      print("Running simulation on " + simulation_path + " ACV: " + str(acv))
-      print("temp simulation path is: " + temp_sim_path)
       output = subprocess.check_output(["ant", "run_nogui", "-Dargs=" + temp_sim_path], stderr=subprocess.STDOUT)
-      print("Simulation finished")
+      progress += 1
+      print("(" + str(progress) + "/" + str(len(simulation_paths)*num_acvs) + ") Simulation finished")
 
       test_script_finished  = False
       hgt_not_found = False
@@ -205,7 +238,6 @@ for simulation_path in simulation_paths:
       os.chdir(starting_directory)
 
       g = nx.Graph()
-      #g.add_nodes_from(range(1, nodes + 1))
       dom_tree = xdm.parse(dag_name)
       collection = dom_tree.documentElement
 
@@ -216,18 +248,19 @@ for simulation_path in simulation_paths:
         dest_radio = edge.getElementsByTagName("dest")[0]
         dest = dest_radio.getElementsByTagName("radio")[0].firstChild
         g.add_edge(int(src.data), int(dest.data))
-   
+      
       if nx.is_connected(g) and nx.number_of_nodes(g) == nodes:
         connected += 1
       else:
+        print("Network not connected") 
         print("Number of nodes in dag: " + str(nx.number_of_nodes(g)))
         stranded_nodes = []
         nodes_in_dag = g.nodes()
-        for n in range(1, 101):
+        for n in range(1, nodes + 1):
           if n not in nodes_in_dag:
             stranded_nodes.append(n)
         print("stranded_nodes: " + str(stranded_nodes))
-        exit()
+        #exit()
 
       avg_degree.append(np.mean(g.degree().values()))
       
