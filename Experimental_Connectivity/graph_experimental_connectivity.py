@@ -22,6 +22,7 @@ graph_dict[50] = {}
 for key in graph_dict:
   graph_dict[key]["acv"] = []
   graph_dict[key]["density"] = []
+  graph_dict[key]["degree"] = []
 
 loop_dict = {}
 loop_dict[30] = "ec_30_log.txt" 
@@ -33,6 +34,7 @@ for key in loop_dict:
   # previously collected.
   population = str(key)
   log = loop_dict[key]
+  #output = subprocess.check_output(["python", "find_experimental_connectivity.py", "10", "101", "10", log, "contiki", population, "80"])
   output = subprocess.check_output(["python", "find_experimental_connectivity.py", "30", "101", "10", log, "contiki", population, "100"])
   
   for line in output.split("\n"):
@@ -40,11 +42,14 @@ for key in loop_dict:
     if m:
       acv = float(m.group(1))
       graph_dict[key]["acv"].append(acv)
-      density = float(m.group(2))/6.28
+      #density = float(m.group(2))/6.28
+      density = float(m.group(2))
       graph_dict[key]["density"].append(density)
       degree = float(m.group(3))
+      graph_dict[key]["degree"].append(degree)
 
 for key in graph_dict:
-  plt.plot(graph_dict[key]["acv"], graph_dict[key]["density"], label=str(key))
+  plt.plot(graph_dict[key]["acv"], graph_dict[key]["density"], label=str(key) + "_density")
+  #plt.plot(graph_dict[key]["acv"], graph_dict[key]["degree"], label=str(key) + "_degree")
 plt.legend()
 plt.show()
