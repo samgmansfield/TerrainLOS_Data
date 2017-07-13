@@ -272,4 +272,4 @@ total_runs = float(len(simulation_paths)*num_acvs)
 # Example output:
 # TODO: Replace example with an actual output instead of an imaginary output
 # Connected 95.2%, nodes: 100, density: 60, acv: 57.2%, degree: 32
-print("Connected " + str(float(connected)*100.0/total_runs) + "%, nodes: " + str(nodes) + ", density: " + str(density) + ", acv: " + str(acv) + "%, degree: " + str(np.mean(avg_degree)), + ", population: " + str(population)) 
+print("Connected " + str(float(connected)*100.0/total_runs) + "%, nodes: " + str(nodes) + ", density: " + str(density) + ", acv: " + str(acv) + "%, degree: " + str(np.mean(avg_degree)) + ", population: " + str(population)) 
