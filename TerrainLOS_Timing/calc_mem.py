@@ -1,7 +1,7 @@
-# calc_time.py
+# calc_mem.py
 #
-# Calculates the time to complete the viewshed algorithm used by TerrainLOS for
-# varoious node configurations and layouts.
+# Calculates the memory used when running the viewshed algorithm used by TerrainLOS for
+# various node configurations and layouts.
 #
 # Author: Sam Mansfield
 
@@ -12,16 +12,13 @@ import re
 
 def print_usage():
   print("Correct Usage:")
-  print("  python calc_time.py ew sw log_path runs")
+  print("  python calc_mem.py log_path")
   exit()
 
-if len(sys.argv) != 5:
+if len(sys.argv) != 2:
   print_usage()
 
-ew = sys.argv[1]
-sw = sys.argv[2]
-log_path = sys.argv[3]
-runs = int(sys.argv[4])
+log_path = sys.argv[1]
 
 starting_dir = os.getcwd()
 if starting_dir[-1] != "/":
@@ -41,11 +38,11 @@ print("Compiling TimeTerrainLOS.java")
 output = subprocess.check_output(["javac", "TimeTerrainLOS.java"])
 
 log = open(log_path, "a")
-for n in range(1, 1000, 100):
-  for i in range(0, runs):
-    print("(" + str(i + (n - 1)/100*runs) + "/" + str(runs*10) + ") Running TimeTerrainLOS") 
-    output = subprocess.check_output(["java", "TimeTerrainLOS", acv, ew, sw, "0", "0", str(n)])
-    for line in output.split("\n"): 
-      if re.search("Time", line):
+for h in range(10, 1001, 10):
+  for w in range(10, 1001, 10):
+    print("(" + str(w/10 + (h - 1)/10*1000) + "/10000) Running TimeTerrainLOS") 
+    output = subprocess.check_output(["java", "TimeTerrainLOS", acv, str(w), str(h), "0", "0", "1"])
+    for line in output.split("\n"):
+      if re.search("Memory", line):
         print(line)
         log.write(line)

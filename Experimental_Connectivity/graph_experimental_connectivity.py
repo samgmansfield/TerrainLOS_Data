@@ -15,9 +15,8 @@ import sys
 from matplotlib import pyplot as plt
 
 graph_dict = {}
-graph_dict[30] = {}
-graph_dict[40] = {}
-graph_dict[50] = {}
+for key in [1, 10, 30, 40, 50]:
+  graph_dict[key] = {}
 
 for key in graph_dict:
   graph_dict[key]["acv"] = []
@@ -25,9 +24,8 @@ for key in graph_dict:
   graph_dict[key]["degree"] = []
 
 loop_dict = {}
-loop_dict[30] = "ec_30_log.txt" 
-loop_dict[40] = "ec_40_log.txt" 
-loop_dict[50] = "ec_50_log.txt" 
+for key in graph_dict:
+  loop_dict[key] = "ec_" + str(key) + "_log.txt" 
 
 for key in loop_dict:
   # Contiki directory should not actually be used, I assume that the data has already been

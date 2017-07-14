@@ -44,11 +44,9 @@ public class TimeTerrainLOS {
     
     Date startTime = new Date();
     Date startTerrainCreation = new Date();
-    Runtime.getRuntime().gc() 
-    double startMem = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
+    double startMem = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
     Terrain terrain = new Terrain(hgtPath, ew, sw, eo, so);
-    Runtime.getRuntime().gc() 
-    double stopMem = Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
+    double stopMem = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
     Date stopTerrainCreation = new Date();
     for(int i = 0; i < nodes; i++) {
       terrain.calculateLOS(xloc[i], yloc[i]);
@@ -56,7 +54,7 @@ public class TimeTerrainLOS {
     Date stopTime = new Date();
     
     double actualMem = stopMem - startMem;
-    System.out.println("Memory: " + actualMem);
+    System.out.println("Nodes: " + nodes + ", Area: " + ew*sw + ", Memory: " + actualMem);
     long totalTime = stopTime.getTime() - startTime.getTime();
     long terrainCreation = stopTerrainCreation.getTime() - startTerrainCreation.getTime();
     long nodeCalculation = totalTime - terrainCreation;
