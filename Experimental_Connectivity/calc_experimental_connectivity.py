@@ -148,6 +148,11 @@ else:
     transmission_range = np.sqrt((density*462.0*462.0)/(100.0*np.pi))
     simulation_paths = [starting_directory + "ec_50_layout1.csc", starting_directory + "ec_50_layout2.csc", starting_directory + "ec_50_layout3.csc", starting_directory + "ec_50_layout4.csc", starting_directory + "ec_50_layout5.csc"]
     acv_log_path = "../ACV/acv_14_log.txt"
+  elif population == 80:
+    # 100 nodes, 363m x 363m
+    transmission_range = np.sqrt((density*363.0*363.0)/(100.0*np.pi))
+    simulation_paths = [starting_directory + "ec_80_layout1.csc", starting_directory + "ec_80_layout2.csc", starting_directory + "ec_80_layout3.csc", starting_directory + "ec_80_layout4.csc", starting_directory + "ec_80_layout5.csc"]
+    acv_log_path = "../ACV/acv_11_log.txt"
   else:
     print("Unrecognized population: " + str(population))
     exit()

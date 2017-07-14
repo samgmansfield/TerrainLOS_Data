@@ -211,3 +211,20 @@ Connected 80.0%, nodes: 100, density: 26, acv: 20.0%, degree: 11.392
 Connected 76.0%, nodes: 100, density: 23, acv: 20.0%, degree: 10.7736323232
 Connected 76.0%, nodes: 100, density: 24, acv: 20.0%, degree: 10.9953535354
 Connected 76.0%, nodes: 100, density: 25, acv: 20.0%, degree: 11.192
+Connected 92.0%, nodes: 100, density: 316, acv: 20.0%, degree: 20.8744, population: 40
+Connected 92.0%, nodes: 100, density: 471, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 472, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 549, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 550, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 588, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 589, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 608, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 609, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 618, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 619, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 623, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 624, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 625, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 626, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 627, acv: 20.0%, degree: 20.9312, population: 40
+Connected 92.0%, nodes: 100, density: 628, acv: 20.0%, degree: 20.9312, population: 40
