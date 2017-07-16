@@ -1,0 +1,442 @@
+Connected 100.0%, nodes: 100, density: 315, acv: 10.0%, degree: 9.6328, population: 1.0
+Connected 76.0%, nodes: 100, density: 158, acv: 10.0%, degree: 7.4184, population: 1.0
+Connected 88.0%, nodes: 100, density: 159, acv: 10.0%, degree: 7.5024, population: 1.0
+Connected 100.0%, nodes: 100, density: 236, acv: 10.0%, degree: 8.9632, population: 1.0
+Connected 96.0%, nodes: 100, density: 197, acv: 10.0%, degree: 8.2416, population: 1.0
+Connected 96.0%, nodes: 100, density: 198, acv: 10.0%, degree: 8.5088, population: 1.0
+Connected 100.0%, nodes: 100, density: 216, acv: 10.0%, degree: 8.6296, population: 1.0
+Connected 92.0%, nodes: 100, density: 206, acv: 10.0%, degree: 8.4848, population: 1.0
+Connected 100.0%, nodes: 100, density: 207, acv: 10.0%, degree: 8.6272, population: 1.0
+Connected 100.0%, nodes: 100, density: 315, acv: 20.0%, degree: 19.3416, population: 1.0
+Connected 100.0%, nodes: 100, density: 158, acv: 20.0%, degree: 14.9016, population: 1.0
+Connected 84.0%, nodes: 100, density: 80, acv: 20.0%, degree: 9.7632, population: 1.0
+Connected 96.0%, nodes: 100, density: 81, acv: 20.0%, degree: 9.9352, population: 1.0
+Connected 100.0%, nodes: 100, density: 119, acv: 20.0%, degree: 12.524, population: 1.0
+Connected 100.0%, nodes: 100, density: 99, acv: 20.0%, degree: 11.1728, population: 1.0
+Connected 100.0%, nodes: 100, density: 89, acv: 20.0%, degree: 10.4984, population: 1.0
+Connected 96.0%, nodes: 100, density: 84, acv: 20.0%, degree: 10.2384, population: 1.0
+Connected 92.0%, nodes: 100, density: 85, acv: 20.0%, degree: 9.8304, population: 1.0
+Connected 92.0%, nodes: 100, density: 86, acv: 20.0%, degree: 10.088, population: 1.0
+Connected 96.0%, nodes: 100, density: 87, acv: 20.0%, degree: 10.5768, population: 1.0
+Connected 96.0%, nodes: 100, density: 88, acv: 20.0%, degree: 10.2976, population: 1.0
+Connected 100.0%, nodes: 100, density: 315, acv: 30.0%, degree: 29.0224, population: 1.0
+Connected 100.0%, nodes: 100, density: 158, acv: 30.0%, degree: 22.5312, population: 1.0
+Connected 100.0%, nodes: 100, density: 80, acv: 30.0%, degree: 14.4728, population: 1.0
+Connected 84.0%, nodes: 100, density: 41, acv: 30.0%, degree: 8.7056, population: 1.0
+Connected 92.0%, nodes: 100, density: 42, acv: 30.0%, degree: 8.9496, population: 1.0
+Connected 100.0%, nodes: 100, density: 60, acv: 30.0%, degree: 11.8288, population: 1.0
+Connected 100.0%, nodes: 100, density: 50, acv: 30.0%, degree: 10.1344, population: 1.0
+Connected 100.0%, nodes: 100, density: 45, acv: 30.0%, degree: 9.3648, population: 1.0
+Connected 80.0%, nodes: 100, density: 43, acv: 30.0%, degree: 8.7664, population: 1.0
+Connected 84.0%, nodes: 100, density: 44, acv: 30.0%, degree: 9.1096, population: 1.0
+Connected 100.0%, nodes: 100, density: 315, acv: 40.0%, degree: 38.6528, population: 1.0
+Connected 100.0%, nodes: 100, density: 158, acv: 40.0%, degree: 30.112, population: 1.0
+Connected 100.0%, nodes: 100, density: 80, acv: 40.0%, degree: 19.7552, population: 1.0
+Connected 100.0%, nodes: 100, density: 41, acv: 40.0%, degree: 11.4248, population: 1.0
+Connected 56.0%, nodes: 100, density: 21, acv: 40.0%, degree: 6.692, population: 1.0
+Connected 64.0%, nodes: 100, density: 22, acv: 40.0%, degree: 6.8672, population: 1.0
+Connected 92.0%, nodes: 100, density: 31, acv: 40.0%, degree: 9.0136, population: 1.0
+Connected 92.0%, nodes: 100, density: 32, acv: 40.0%, degree: 9.412, population: 1.0
+Connected 92.0%, nodes: 100, density: 36, acv: 40.0%, degree: 10.5576, population: 1.0
+Connected 100.0%, nodes: 100, density: 37, acv: 40.0%, degree: 10.7, population: 1.0
+Connected 100.0%, nodes: 100, density: 315, acv: 50.0%, degree: 48.5448, population: 1.0
+Connected 100.0%, nodes: 100, density: 158, acv: 50.0%, degree: 36.8864, population: 1.0
+Connected 100.0%, nodes: 100, density: 80, acv: 50.0%, degree: 24.2168, population: 1.0
+Connected 100.0%, nodes: 100, density: 41, acv: 50.0%, degree: 14.7104, population: 1.0
+Connected 88.0%, nodes: 100, density: 21, acv: 50.0%, degree: 8.332, population: 1.0
+Connected 88.0%, nodes: 100, density: 22, acv: 50.0%, degree: 8.5584, population: 1.0
+Connected 96.0%, nodes: 100, density: 31, acv: 50.0%, degree: 11.5728, population: 1.0
+Connected 88.0%, nodes: 100, density: 32, acv: 50.0%, degree: 11.8544, population: 1.0
+Connected 100.0%, nodes: 100, density: 36, acv: 50.0%, degree: 13.0896, population: 1.0
+Connected 100.0%, nodes: 100, density: 33, acv: 50.0%, degree: 12.3592, population: 1.0
+Connected 100.0%, nodes: 100, density: 315, acv: 60.0%, degree: 57.912, population: 1.0
+Connected 100.0%, nodes: 100, density: 158, acv: 60.0%, degree: 45.0208, population: 1.0
+Connected 100.0%, nodes: 100, density: 80, acv: 60.0%, degree: 29.0064, population: 1.0
+Connected 96.0%, nodes: 100, density: 41, acv: 60.0%, degree: 17.4088, population: 1.0
+Connected 100.0%, nodes: 100, density: 42, acv: 60.0%, degree: 17.7944, population: 1.0
+Connected 100.0%, nodes: 100, density: 315, acv: 70.0%, degree: 67.4168, population: 1.0
+Connected 100.0%, nodes: 100, density: 158, acv: 70.0%, degree: 51.6768, population: 1.0
+Connected 100.0%, nodes: 100, density: 80, acv: 70.0%, degree: 34.2912, population: 1.0
+Connected 100.0%, nodes: 100, density: 41, acv: 70.0%, degree: 20.4048, population: 1.0
+Connected 96.0%, nodes: 100, density: 21, acv: 70.0%, degree: 11.92, population: 1.0
+Connected 96.0%, nodes: 100, density: 22, acv: 70.0%, degree: 11.6504, population: 1.0
+Connected 100.0%, nodes: 100, density: 31, acv: 70.0%, degree: 16.0312, population: 1.0
+Connected 100.0%, nodes: 100, density: 26, acv: 70.0%, degree: 13.6784, population: 1.0
+Connected 100.0%, nodes: 100, density: 23, acv: 70.0%, degree: 12.3096, population: 1.0
+Connected 100.0%, nodes: 100, density: 315, acv: 80.0%, degree: 77.3152, population: 1.0
+Connected 100.0%, nodes: 100, density: 158, acv: 80.0%, degree: 59.9584, population: 1.0
+Connected 100.0%, nodes: 100, density: 80, acv: 80.0%, degree: 38.3736, population: 1.0
+Connected 100.0%, nodes: 100, density: 41, acv: 80.0%, degree: 23.1112, population: 1.0
+Connected 100.0%, nodes: 100, density: 21, acv: 80.0%, degree: 13.6056, population: 1.0
+Connected 68.0%, nodes: 100, density: 11, acv: 80.0%, degree: 7.632, population: 1.0
+Connected 88.0%, nodes: 100, density: 12, acv: 80.0%, degree: 8.0664, population: 1.0
+Connected 100.0%, nodes: 100, density: 16, acv: 80.0%, degree: 10.3072, population: 1.0
+Connected 88.0%, nodes: 100, density: 13, acv: 80.0%, degree: 8.7264, population: 1.0
+Connected 96.0%, nodes: 100, density: 14, acv: 80.0%, degree: 9.3056, population: 1.0
+Connected 96.0%, nodes: 100, density: 15, acv: 80.0%, degree: 9.8336, population: 1.0
+ew: 100 sw: 100
+0.899976487649
+Connected 100.0%, nodes: 100, density: 628, acv: 90.0%, degree: 89.1752, population: 1.0
+ew: 100 sw: 100
+0.999999989999
+Connected 100.0%, nodes: 100, density: 628, acv: 100.0%, degree: 99.0, population: 1.0
+ew: 100 sw: 100
+0.00999904990499
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 0.0%, nodes: 100, density: 628, acv: 1.0%, degree: 0.9712, population: 1.0
+ew: 100 sw: 100
+0.0199704870487
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 0.0%, nodes: 100, density: 628, acv: 2.0%, degree: 1.9648, population: 1.0
+ew: 100 sw: 100
+0.0300249724972
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 0.0%, nodes: 100, density: 628, acv: 3.0%, degree: 2.96, population: 1.0
+ew: 100 sw: 100
+0.0400058505851
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 12.0%, nodes: 100, density: 628, acv: 4.0%, degree: 4.0656, population: 1.0
+ew: 100 sw: 100
+0.0500126312631
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 68.0%, nodes: 100, density: 628, acv: 5.0%, degree: 5.048, population: 1.0
+ew: 100 sw: 100
+0.0600208920892
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 84.0%, nodes: 100, density: 628, acv: 6.0%, degree: 6.0152, population: 1.0
+ew: 100 sw: 100
+0.0700169716972
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 96.0%, nodes: 100, density: 628, acv: 7.0%, degree: 7.0952, population: 1.0
+ew: 100 sw: 100
+0.0799929492949
+Connected 100.0%, nodes: 100, density: 628, acv: 8.0%, degree: 8.0584, population: 1.0
+ew: 100 sw: 100
+0.0900293529353
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 96.0%, nodes: 100, density: 628, acv: 9.0%, degree: 9.0208, population: 1.0

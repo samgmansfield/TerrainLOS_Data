@@ -21,15 +21,16 @@ import numpy as np
 
 def print_usage():
   print("Correct usage:")
-  print("  python calc_hypothetical_connectivity.py nodes density acv")
+  print("  python calc_hypothetical_connectivity.py density acv contiki population")
+  print("  contiki, population: dummy variables for compatability")
   exit()
 
-if len(sys.argv) != 4:
+if len(sys.argv) != 5:
   print_usage()
 
 # Number of nodes
 #n = 100
-n = int(sys.argv[1])
+n = 100
 
 # Density of the network, must be less than the number of nodes
 #density = 10

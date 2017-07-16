@@ -9,17 +9,33 @@ import re
 import sys
 from matplotlib import pyplot as plt
 
+def print_usage():
+  print("Correct usage:")
+  print("  python graph_max_connectivity.py log_path1 log_path2 ...")
+  exit()
+
+if len(sys.argv) < 2:
+  print_usage()
+
 graph_dict = {}
-for key in [1, 10, 20, 30, 40, 50]:
-  graph_dict[key] = {}
+loop_dict = {}
+label = True
+if len(sys.argv) == 2:
+  label = False
+  log_path = sys.argv[1]
+  loop_dict[log_path] = log_path
+  graph_dict[log_path] = {}
+else:
+  for log_path in sys.argv:
+    m = re.search("(\d+)", log_path) 
+    if m: 
+      pop = int(m.group(1))
+      loop_dict[pop] = log_path
+      graph_dict[pop] = {}
 
 for key in graph_dict:
   graph_dict[key]["acv"] = []
   graph_dict[key]["connectivity"] = []
-
-loop_dict = {}
-for key in graph_dict:
-  loop_dict[key] = "ec_" + str(key) + "_log.txt"
 
 # First loop through and find the max connectivity per ACV
 for key in loop_dict:
@@ -43,8 +59,12 @@ for key in graph_dict:
       graph_dict[key]["acv"].append(acv)
       graph_dict[key]["connectivity"].append(graph_dict[key][acv])
 
-for key in graph_dict:
-  plt.plot(graph_dict[key]["acv"], graph_dict[key]["connectivity"], label=str(key))
+for key in sorted(graph_dict):
+  if label:
+    plt.plot(graph_dict[key]["acv"], graph_dict[key]["connectivity"], label=str(key) + " population")
+  else:
+    plt.plot(graph_dict[key]["acv"], graph_dict[key]["connectivity"])
 
-plt.legend()
+if label:
+  plt.legend()
 plt.show()

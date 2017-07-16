@@ -17,10 +17,10 @@ import os
 
 def print_usage():
   print("Correct usage:")
-  print("  python find_experimental_connectivity.py acv_start acv_stop acv_step ec_log_path contiki_dir population desired_connectivity")
+  print("  python find_connectivity.py acv_start acv_stop acv_step log_path contiki_dir population desired_connectivity calc_path")
   exit()
 
-if len(sys.argv) != 8:
+if len(sys.argv) != 9:
   print_usage()
 
 # All ACV inputs are assumed to be a percentage from 0-100 
@@ -28,7 +28,7 @@ acv_start = float(sys.argv[1])
 acv_stop = float(sys.argv[2])
 acv_step = float(sys.argv[3])
 
-ec_log_path = sys.argv[4]
+log_path = sys.argv[4]
 
 contiki_dir = sys.argv[5]
 
@@ -40,9 +40,11 @@ population = sys.argv[6]
 
 desired_connectivity = float(sys.argv[7])
 
+calc_path = sys.argv[8]
+
 connectivity_dict = {}
 
-log = open(ec_log_path, "r")
+log = open(log_path, "r")
 num_of_lines = 0
 for line in log:
   num_of_lines += 1
@@ -61,7 +63,7 @@ for line in log:
 log.close()
 print("Read " + str(num_of_lines) + " lines")
 
-log = open(ec_log_path, "a")
+log = open(log_path, "a")
 
 for acv in np.arange(acv_start, acv_stop, acv_step):
   lower_density_limit = 2
@@ -70,8 +72,6 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
   # d = 2*n*pi
   n = 100
   # Population of 10 has 90 nodes, all others have 100
-  if population == "10":
-    n = 90
   MAX_DENSITY = int(2*n*np.pi)
   upper_density_limit = MAX_DENSITY
   
@@ -86,9 +86,9 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
       connectivity = connectivity_dict[tup][0]
     else:
       print("Tup: " + str(tup) + " not in log, adding it now")
-      output = subprocess.check_output(["python", "calc_experimental_connectivity.py", str(density), str(acv), contiki_dir, population])
+      output = subprocess.check_output(["python", calc_path, str(density), str(acv), contiki_dir, population])
       for line in output.split("\n"):
-        m = re.search("Connected (\d*\.\d*)%, nodes: \d+, density: (\d*), acv: (\d*\.\d*)%, degree: (\d+\.\d+)", output)
+        m = re.search("Connected (\d*\.\d*)%, nodes: \d+, density: (\d*), acv: (\d*\.\d*)%, degree: (\d+\.\d+)", line)
         if m:
           log.write(line + "\n")
           connectivity = float(m.group(1))
@@ -125,9 +125,9 @@ for acv in np.arange(acv_start, acv_stop, acv_step):
           degree_right = connectivity_dict[tup_right][1]
         else:
           print("Tup: " + str(tup_right) + " not in log, adding it now")
-          output = subprocess.check_output(["python", "calc_experimental_connectivity.py", str(density + 1), str(acv), contiki_dir, population])
+          output = subprocess.check_output(["python", calc_path, str(density + 1), str(acv), contiki_dir, population])
           for line in output.split("\n"):
-            m = re.search("Connected (\d*\.\d*)%, nodes: \d+, density: (\d*), acv: (\d*\.\d*)%, degree: (\d+\.\d+)", output)
+            m = re.search("Connected (\d*\.\d*)%, nodes: \d+, density: (\d*), acv: (\d*\.\d*)%, degree: (\d+\.\d+)", line)
             if m:
               log.write(line + "\n")
               connectivity_right = float(m.group(1))
