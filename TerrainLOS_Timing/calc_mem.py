@@ -38,11 +38,17 @@ print("Compiling TimeTerrainLOS.java")
 output = subprocess.check_output(["javac", "TimeTerrainLOS.java"])
 
 log = open(log_path, "a")
-for h in range(10, 1001, 10):
-  for w in range(10, 1001, 10):
-    print("(" + str(w/10 + (h - 1)/10*1000) + "/10000) Running TimeTerrainLOS") 
+max_h = 1001
+max_w = 1001
+start = 10
+step = 50
+progress = 0
+for h in range(start, max_h, step):
+  for w in range(start, max_w, step):
+    progress += 1
+    print("(" + str(progress) + "/" + str((max_h/step)*(max_w/step)) +" Running) TimeTerrainLOS") 
     output = subprocess.check_output(["java", "TimeTerrainLOS", acv, str(w), str(h), "0", "0", "1"])
     for line in output.split("\n"):
       if re.search("Memory", line):
         print(line)
-        log.write(line)
+        log.write(line + "\n")
