@@ -66,5 +66,7 @@ for key in sorted(graph_dict):
     plt.plot(graph_dict[key]["acv"], graph_dict[key]["connectivity"])
 
 if label:
-  plt.legend()
+  plt.legend(loc=4)
+plt.xlabel("ACV (%)")
+plt.ylabel("Connected Networks (%)")
 plt.show()
