@@ -662,7 +662,7 @@ public class TerrainLOSMedium extends AbstractRadioMedium {
                * unisnged value if negative. 
                */
               if(msb < 0) msb += 256;
-              if(lsb < 0) msb += 256;
+              if(lsb < 0) lsb += 256;
               elevation = twosComp((msb << 8) + lsb, 16);
               if(elevation > 0) {
                 h[xi][yi] = elevation;
