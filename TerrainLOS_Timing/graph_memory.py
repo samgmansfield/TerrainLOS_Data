@@ -38,10 +38,10 @@ graph_dict = {}
 graph_dict["area"] = []
 graph_dict["memory"] = []
 for area in sorted(area_dict):
-  print("Area: " + str(area))
+  #print("Area: " + str(area))
   graph_dict["area"].append(area)
   mean_memory = np.mean(area_dict[area])
-  print("Nodes: " + str(nodes) + " memory: " + str(mean_memory))
+  #print("Nodes: " + str(nodes) + " memory: " + str(mean_memory))
   graph_dict["memory"].append(mean_memory)
 
 plt.plot(graph_dict["area"], graph_dict["memory"])

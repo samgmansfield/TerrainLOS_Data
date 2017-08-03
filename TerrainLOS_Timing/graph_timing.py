@@ -52,5 +52,9 @@ for area in sorted(area_dict):
     graph_dict[area]["y"].append(mean_time)
 
 for graph in graph_dict:
-  plt.plot(graph_dict[graph]["x"], graph_dict[graph]["y"])
+  plt.plot(graph_dict[graph]["x"], graph_dict[graph]["y"], label=graph + " Arcseconds^2")
+
+plt.xlabel("Nodes")
+plt.ylabel("Time (ms)")
+plt.legend(loc = 2)
 plt.show()
