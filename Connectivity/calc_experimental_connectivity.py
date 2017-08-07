@@ -173,6 +173,7 @@ download_script = starting_directory + "../ACV/download_hgt_files.py"
 find_acv_path = starting_directory + "../ACV/find_acv.py"
 output = subprocess.check_output(["python", find_acv_path, str(acv), acv_log_path], stderr=subprocess.STDOUT)
 acvs_to_use = output.split("\n")
+random.shuffle(acvs_to_use)
 # Last entry in output_lines will be "", so this line checks for 5 lines
 if len(acvs_to_use) < (num_acvs + 1):
   print(output)
