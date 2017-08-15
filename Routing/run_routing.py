@@ -27,7 +27,7 @@ import string
 
 def print_usage():
   print("Correct usage:")
-  print("  python run_routing.py density acv contiki_path population sim_time")
+  print("  python run_routing.py density acv contiki_path population sim_time layout")
   exit()
 
 def set_simulation_file(sim_path, timeout, routing, hgt, tx_range, int_range, ew, sw, eo, so, output_dag, out_sim_path):
@@ -88,8 +88,12 @@ def set_simulation_file(sim_path, timeout, routing, hgt, tx_range, int_range, ew
   
   return nodes
 
-if len(sys.argv) != 6:
+# layout is appened to analyzed text file and the simulation path
+layout = ""
+if len(sys.argv) > 7 or len(sys.argv) < 6:
   print_usage()
+elif len(sys.argv) == 7:
+  layout = sys.argv[6]
 
 # Density of the network 
 density = int(sys.argv[1])
@@ -116,8 +120,9 @@ for i in range(0, 8):
 
 analyzed_randstr_path = "analyzed_" + randstr + ".txt"
 
+analyzed_path = "analyzed" + layout + ".txt"
 # Store previously analyzed scenarios into a dict
-analyzed_file = open("analyzed.txt", "r")
+analyzed_file = open(analyzed_path, "r")
 analyzed_dict = {}
 added_lines = 0
 for line in analyzed_file:
@@ -140,41 +145,42 @@ terrain_directory = starting_directory + "../ACV/SRTM_Terrain/"
 if population == 1:
   # 100 nodes, 3300m x 3300m
   transmission_range = np.sqrt((density*3300.0*3300.0)/(100.0*np.pi))
-  simulation_path = starting_directory + "ec_1_layout.csc"
+  simulation_path = starting_directory + "ec_1_layout"
   acv_log_path = "../ACV/acv_100_log.txt"
 elif population == 10:
   # 90 nodes, 990m x 990m
   transmission_range = np.sqrt((density*990.0*990.0)/(90.0*np.pi))
-  simulation_path = starting_directory + "ec_10_layout.csc"
+  simulation_path = starting_directory + "ec_10_layout"
   acv_log_path = "../ACV/acv_30_log.txt"
 elif population == 20:
   # 100 nodes, 726m x 726m
   transmission_range = np.sqrt((density*726.0*726.0)/(100.0*np.pi))
-  simulation_path = starting_directory + "ec_20_layout.csc"
+  simulation_path = starting_directory + "ec_20_layout"
   acv_log_path = "../ACV/acv_22_log.txt"
 elif population == 30:
   # 100 nodes, 594m x 594m
   transmission_range = np.sqrt((density*594.0*594.0)/(100.0*np.pi))
-  simulation_path = starting_directory + "ec_30_layout.csc"
+  simulation_path = starting_directory + "ec_30_layout"
   acv_log_path = "../ACV/acv_18_log.txt"
 elif population == 40:
   # 100 nodes, 528m x 528m
   transmission_range = np.sqrt((density*528.0*528.0)/(100.0*np.pi))
-  simulation_path = starting_directory + "ec_40_layout.csc"
+  simulation_path = starting_directory + "ec_40_layout"
   acv_log_path = "../ACV/acv_16_log.txt"
 elif population == 50:
   # 100 nodes, 462m x 462m
   transmission_range = np.sqrt((density*462.0*462.0)/(100.0*np.pi))
-  simulation_path = starting_directory + "ec_50_layout.csc"
+  simulation_path = starting_directory + "ec_50_layout"
   acv_log_path = "../ACV/acv_14_log.txt"
 elif population == 80:
   # 100 nodes, 363m x 363m
   transmission_range = np.sqrt((density*363.0*363.0)/(100.0*np.pi))
-  simulation_path = starting_directory + "ec_80_layout.csc"
+  simulation_path = starting_directory + "ec_80_layout"
   acv_log_path = "../ACV/acv_11_log.txt"
 else:
   print("Unrecognized population: " + str(population))
   exit()
+simulation_path += layout + ".csc"
 
 print("Transmission range: " + str(transmission_range))
 interference_range = transmission_range
