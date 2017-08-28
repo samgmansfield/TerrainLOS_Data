@@ -32,20 +32,22 @@ for log_path in sys.argv:
     pop_dict[pop] = defaultdict(list)
     log = open(log_path, "r")
     for line in log:
-      m_acv = re.search("^Connected (\d+\.\d+), .+ density: (\d+), acv: (\d+\.\d+)%", line)
+      m_acv = re.search("^Connected (\d+\.\d+)%, .+ density: 628, acv: (\d+\.\d+)%", line)
       if m_acv:
-        connectivity = float(m.group(1))
-        density = int(m.group(2))
-        acv = float(m.group(3))
-        if density == 628:
-          pop_dict[pop][acv].append(connectivity)
+        print("Match")
+        connectivity = float(m_acv.group(1))
+        acv = float(m_acv.group(2))
+        pop_dict[pop][acv].append(connectivity)
+    log.close()
 
 for pop in sorted(pop_dict):
   acv_list = []
   connectivity_list = []
-  for acv in sorted(pop_dict[pop])
+  for acv in sorted(pop_dict[pop]):
     acv_list.append(acv)
     connectivity_list.append(np.mean(pop_dict[pop][acv]))
+  print(acv_list)
+  print(connectivity_list)
   plt.plot(acv_list, connectivity_list, label = str(pop))
 
 plt.legend()
