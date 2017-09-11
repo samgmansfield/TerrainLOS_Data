@@ -8,6 +8,7 @@ import numpy as np
 import re
 from collections import defaultdict
 import sys
+from matplotlib import pyplot as plt
 
 def print_usage():
   print("Correct usage:")
@@ -47,14 +48,38 @@ for line in analyzed_file:
 analyzed_file.close()
 print("Analyzed " + str(sims_analyzed) + " simulations")
 
+orpl_acv_list = []
+orpl_metric_list = []
+orpl_std_list = []
 print("ORPL " + metric + ":")
 for key in sorted(measure_orpl_dict):
   measure_list = np.array(measure_orpl_dict[key])[:,0]
+  avg_measure = np.mean(measure_list)
+  std_measure = np.std(measure_list)
+  orpl_acv_list.append(key)
+  orpl_metric_list.append(avg_measure)
+  orpl_std_list.append(std_measure)
   degree_list = np.array(measure_orpl_dict[key])[:,1]
-  print(str(key) + ": " + str(np.mean(measure_list)) + ", std: " + str(np.std(measure_list)) + ", degree: " + str(np.mean(degree_list)) + ", std: " + str(np.std(degree_list)))
+  print(str(key) + ": " + str(avg_measure) + ", std: " + str(std_measure) + ", degree: " + str(np.mean(degree_list)) + ", std: " + str(np.std(degree_list)))
 
+rpl_acv_list = []
+rpl_metric_list = []
+rpl_std_list = []
 print("RPL " + metric + ":")
 for key in sorted(measure_rpl_dict):
   measure_list = np.array(measure_rpl_dict[key])[:,0]
+  avg_measure = np.mean(measure_list)
+  std_measure = np.std(measure_list)
+  rpl_acv_list.append(key)
+  rpl_metric_list.append(avg_measure)
+  rpl_std_list.append(std_measure)
   degree_list = np.array(measure_rpl_dict[key])[:,1]
   print(str(key) + ": " + str(np.mean(measure_list)) + ", std: " + str(np.std(measure_list)) + ", degree: " + str(np.mean(degree_list)) + ", std: " + str(np.std(degree_list)))
+
+plt.xlabel("ACV (%)")
+plt.ylabel(metric)
+plt.errorbar(orpl_acv_list, orpl_metric_list, yerr=orpl_std_list, label="orpl")
+plt.errorbar(rpl_acv_list, rpl_metric_list, yerr=rpl_std_list, label="rpl")
+plt.legend()
+plt.savefig(metric + ".pdf")
+plt.show()
