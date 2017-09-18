@@ -22,7 +22,7 @@ if len(sys.argv) != 3:
 metric = sys.argv[1]
 analyzed_path = sys.argv[2]
 
-sim_time = "3600000"
+sim_time = "7200000"
 # Keys are acvs with a simulation time of sim_time, values are the metric given
 measure_orpl_dict = defaultdict(list)
 measure_rpl_dict = defaultdict(list)
@@ -30,17 +30,14 @@ measure_rpl_dict = defaultdict(list)
 analyzed_file = open(analyzed_path, "r")
 sims_analyzed = 0
 for line in analyzed_file:
-  m = re.search("acv: (\d+\.\d+)%, .+ time: (\d+), routing: (\w+), degree: (\d+\.\d+), min_degree: (\d+), max_degree: (\d+), diameter: (\d+), .+ " + metric + ": (\d+\.\d+)", line) 
+  m = re.search("acv: (\d+\.\d+)%, .+ time: (\d+), routing: (\w+), degree: (\d+\.\d+), .*" + metric + ": ([0-9.e-]+)", line) 
   if m:
     sims_analyzed += 1
     acv = float(m.group(1))
     time = m.group(2)
     route = m.group(3)
     degree = float(m.group(4))
-    min_degree = int(m.group(5))
-    max_degree = int(m.group(6))
-    diameter = int(m.group(7))
-    measure = float(m.group(8))
+    measure = float(m.group(5))
     if route == "orpl" and time == sim_time:
       measure_orpl_dict[acv].append([measure, degree])
     elif route == "rpl" and time == sim_time:
@@ -76,10 +73,35 @@ for key in sorted(measure_rpl_dict):
   degree_list = np.array(measure_rpl_dict[key])[:,1]
   print(str(key) + ": " + str(np.mean(measure_list)) + ", std: " + str(np.std(measure_list)) + ", degree: " + str(np.mean(degree_list)) + ", std: " + str(np.std(degree_list)))
 
+# Numbers from let the tree bloom paper
+ltb_rpl = []
+ltb_orpl = []
+ltb_x = [30.0, 100.0]
+
+if metric == "pdr":
+  ltb_rpl = [96.19, 97.39]
+  ltb_orpl = [98.85, 99.5]
+elif metric == "latency":
+  ltb_rpl = [2.17, 1.14]
+  ltb_orpl = [1.22, 0.47]
+elif metric == "energy":
+  ltb_rpl = [1.35, 0.99]
+  ltb_orpl = [0.83, 0.48]
+elif metric == "duplicates":
+  ltb_x = [100.0]
+  ltb_rpl = [0.0]
+  ltb_orpl = [10.0]
+else:
+  ltb_x = []
+  ltb_rpl = []
+  ltb_orpl = []
+
 plt.xlabel("ACV (%)")
 plt.ylabel(metric)
 plt.errorbar(orpl_acv_list, orpl_metric_list, yerr=orpl_std_list, label="orpl")
 plt.errorbar(rpl_acv_list, rpl_metric_list, yerr=rpl_std_list, label="rpl")
+plt.plot(ltb_x, ltb_rpl, label="ltb_rpl")
+plt.plot(ltb_x, ltb_orpl, label="ltb_orpl")
 plt.legend()
 plt.savefig(metric + ".pdf")
 plt.show()

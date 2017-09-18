@@ -31,9 +31,12 @@ analyzed_path = sys.argv[1]
 
 # In us
 # Start time is 30 min as this is the time that all metrics settle (if they settle)
-start_time = 30*60*1000000
+#start_time = 30*60*1000000
 # 24 hours
-stop_time = 24*3600*1000000
+#stop_time = 24*3600*1000000
+start_time = 0
+# One hour
+stop_time = 3600*1000000 
 interval = False
 # Calculate for every acv
 acv = ""
@@ -58,7 +61,7 @@ orpl_avg_energy_list = []
 for line in analyzed_file:
   # Analyze the log if the line has a testlog and the energy was not already analyzed or if
   # we are analyzing an interval
-  if re.search("testlog", line) and (not re.search("energy", line) or interval) and re.search("acv: " + acv, line):
+  if re.search("testlog", line) and (not re.search("energy", line) or interval) and re.search("acv: " + acv, line) and re.search("time: 7200000", line):
     m = re.search("routing: (\w+), .+ testlog: ([a-zA-Z0-9_.]+)", line)
     if m:
       route = m.group(1)
@@ -90,11 +93,11 @@ for line in analyzed_file:
       total_energy_list = []
       for mote in mote_dict:
         # Mote 1 is the sink and has its radio always on
-        if mote != "1": 
-          energy_list = mote_dict[mote]
-          total_energy_list.extend(energy_list)
-          if np.mean(energy_list) > max_energy:
-            max_energy = np.mean(energy_list)
+        #if mote != "1": 
+        energy_list = mote_dict[mote]
+        total_energy_list.extend(energy_list)
+        if np.mean(energy_list) > max_energy:
+          max_energy = np.mean(energy_list)
       
       # If the interval is out of range of a simulation there will not be any energies 
       # recorded in total_energy_list, in this case do not record it and make the default

@@ -50,7 +50,7 @@ rpl_avg_pdr_list = []
 orpl_avg_pdr_list = []
 
 for line in analyzed_file:
-  if re.search("testlog", line) and (not re.search("pdr", line) or interval) and re.search("acv: " + acv, line):
+  if re.search("testlog", line) and (not re.search("pdr", line) or interval) and re.search("acv: " + acv, line) and re.search("time: 7200000", line):
     m = re.search("routing: (\w+), .+ testlog: ([a-zA-Z0-9_.]+)", line)
     if m:
       route = m.group(1)

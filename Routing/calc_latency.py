@@ -30,9 +30,11 @@ analyzed_path = sys.argv[1]
 
 # In us
 # Start time at 30 min as this is the time the metrics settle
-start_time = 30*60*1000000
+#start_time = 30*60*1000000
 # 24 hours
-stop_time = 24*3600*1000000
+#stop_time = 24*3600*1000000
+start_time = 0
+stop_time = 3600*1000000
 interval = False
 # Calculate for every acv
 acv = ""
@@ -62,7 +64,7 @@ for line in analyzed_file:
   # If the line has a testlog (if not it signals that the network was not connected,
   # so a simulation was not run) and does not contain latency analysis perform the
   # analysis or if we are analyzing an interval analyze even if already recorded
-  if re.search("testlog", line) and (not re.search("latency", line) or interval) and re.search("acv: " + acv, line):
+  if re.search("testlog", line) and (not re.search("latency", line) or interval) and re.search("acv: " + acv, line) and re.search("time: 7200000", line):
     # Find the name of the testlog
     m = re.search("routing: (\w+), .+ testlog: ([a-zA-Z0-9_.]+)", line)
     if m:

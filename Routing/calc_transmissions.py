@@ -24,9 +24,9 @@ import numpy as np
 
 def print_usage():
   print("Correct usage:")
-  print("  calc_duplicates.py analyzed_path")
+  print("  python calc_transimissions.py analyzed_path")
   print("  or")
-  print("  python calc_duplicates.py analyzed_path acv start_time end_time")
+  print("  python calc_transmissions.py analyzed_path acv start_time end_time")
   exit()
 
 # Parse command line arguments
