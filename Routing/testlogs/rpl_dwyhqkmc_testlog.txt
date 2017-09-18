@@ -1,0 +1,613 @@
+Random seed: -5786313270824251122
+285637 ID:95 Rime started with address 0.18.116.95.0.95.95.95
+290841 ID:90 Rime started with address 0.18.116.90.0.90.90.90
+295238 ID:95 MAC 00:12:74:5f:00:5f:5f:5f Contiki-orpl2-34-gdc2136d started. Node id is set to 95.
+300454 ID:90 MAC 00:12:74:5a:00:5a:5a:5a Contiki-orpl2-34-gdc2136d started. Node id is set to 90.
+302446 ID:77 Rime started with address 0.18.116.77.0.77.77.77
+303264 ID:95 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+308480 ID:90 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+312050 ID:77 MAC 00:12:74:4d:00:4d:4d:4d Contiki-orpl2-34-gdc2136d started. Node id is set to 77.
+314192 ID:95 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:745f:005f:5f5f
+314777 ID:48 Rime started with address 0.18.116.48.0.48.48.48
+317375 ID:95 Starting 'ORPL -- Collect-only Application'
+319162 ID:95 App: 95 starting
+319407 ID:90 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:745a:005a:5a5a
+320075 ID:77 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+322593 ID:90 Starting 'ORPL -- Collect-only Application'
+324380 ID:90 App: 90 starting
+324393 ID:48 MAC 00:12:74:30:00:30:30:30 Contiki-orpl2-34-gdc2136d started. Node id is set to 48.
+327080 ID:92 Rime started with address 0.18.116.92.0.92.92.92
+327131 ID:70 Rime started with address 0.18.116.70.0.70.70.70
+330998 ID:77 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:744d:004d:4d4d
+332420 ID:48 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+334186 ID:77 Starting 'ORPL -- Collect-only Application'
+335974 ID:77 App: 77 starting
+336197 ID:13 Rime started with address 0.18.116.13.0.13.13.13
+336689 ID:92 MAC 00:12:74:5c:00:5c:5c:5c Contiki-orpl2-34-gdc2136d started. Node id is set to 92.
+336738 ID:70 MAC 00:12:74:46:00:46:46:46 Contiki-orpl2-34-gdc2136d started. Node id is set to 70.
+343341 ID:48 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7430:0030:3030
+344715 ID:92 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+344762 ID:70 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+345412 ID:13 MAC 00:12:74:0d:00:0d:0d:0d Contiki-orpl2-34-gdc2136d started. Node id is set to 13.
+346531 ID:48 Starting 'ORPL -- Collect-only Application'
+348317 ID:48 App: 48 starting
+351882 ID:67 Rime started with address 0.18.116.67.0.67.67.67
+353494 ID:13 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+355642 ID:92 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:745c:005c:5c5c
+355679 ID:70 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7446:0046:4646
+356760 ID:10 Rime started with address 0.18.116.10.0.10.10.10
+358825 ID:92 Starting 'ORPL -- Collect-only Application'
+358873 ID:70 Starting 'ORPL -- Collect-only Application'
+360612 ID:92 App: 92 starting
+360661 ID:70 App: 70 starting
+361494 ID:67 MAC 00:12:74:43:00:43:43:43 Contiki-orpl2-34-gdc2136d started. Node id is set to 67.
+364047 ID:86 Rime started with address 0.18.116.86.0.86.86.86
+364056 ID:13 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:740d:000d:0d0d
+365978 ID:10 MAC 00:12:74:0a:00:0a:0a:0a Contiki-orpl2-34-gdc2136d started. Node id is set to 10.
+367204 ID:13 Starting 'ORPL -- Collect-only Application'
+368990 ID:13 App: 13 starting
+369520 ID:67 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+373659 ID:86 MAC 00:12:74:56:00:56:56:56 Contiki-orpl2-34-gdc2136d started. Node id is set to 86.
+374060 ID:10 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+380437 ID:67 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7443:0043:4343
+381685 ID:86 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+382058 ID:41 Rime started with address 0.18.116.41.0.41.41.41
+383633 ID:67 Starting 'ORPL -- Collect-only Application'
+384622 ID:10 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:740a:000a:0a0a
+385420 ID:67 App: 67 starting
+385580 ID:9 Rime started with address 0.18.116.9.0.9.9.9
+387769 ID:10 Starting 'ORPL -- Collect-only Application'
+389556 ID:10 App: 10 starting
+391671 ID:41 MAC 00:12:74:29:00:29:29:29 Contiki-orpl2-34-gdc2136d started. Node id is set to 41.
+392606 ID:86 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7456:0056:5656
+394797 ID:9 MAC 00:12:74:09:00:09:09:09 Contiki-orpl2-34-gdc2136d started. Node id is set to 9.
+395796 ID:86 Starting 'ORPL -- Collect-only Application'
+397494 ID:3 Rime started with address 0.18.116.3.0.3.3.3
+397582 ID:86 App: 86 starting
+399697 ID:41 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+402830 ID:9 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+406710 ID:3 MAC 00:12:74:03:00:03:03:03 Contiki-orpl2-34-gdc2136d started. Node id is set to 3.
+409686 ID:38 Rime started with address 0.18.116.38.0.38.38.38
+410614 ID:41 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7429:0029:2929
+413386 ID:9 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7409:0009:0909
+413808 ID:41 Starting 'ORPL -- Collect-only Application'
+414743 ID:3 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+415594 ID:41 App: 41 starting
+415944 ID:44 Rime started with address 0.18.116.44.0.44.44.44
+416524 ID:9 Starting 'ORPL -- Collect-only Application'
+417072 ID:49 Rime started with address 0.18.116.49.0.49.49.49
+418286 ID:9 App: 9 starting
+419298 ID:38 MAC 00:12:74:26:00:26:26:26 Contiki-orpl2-34-gdc2136d started. Node id is set to 38.
+425299 ID:3 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7403:0003:0303
+425563 ID:44 MAC 00:12:74:2c:00:2c:2c:2c Contiki-orpl2-34-gdc2136d started. Node id is set to 44.
+426685 ID:49 MAC 00:12:74:31:00:31:31:31 Contiki-orpl2-34-gdc2136d started. Node id is set to 49.
+427322 ID:38 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+428437 ID:3 Starting 'ORPL -- Collect-only Application'
+430195 ID:3 App: 3 starting
+433590 ID:44 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+433851 ID:22 Rime started with address 0.18.116.22.0.22.22.22
+434712 ID:49 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+435891 ID:98 Rime started with address 0.18.116.98.0.98.98.98
+438239 ID:38 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7426:0026:2626
+439073 ID:28 Rime started with address 0.18.116.28.0.28.28.28
+441433 ID:38 Starting 'ORPL -- Collect-only Application'
+443220 ID:38 App: 38 starting
+443361 ID:94 Rime started with address 0.18.116.94.0.94.94.94
+443469 ID:22 MAC 00:12:74:16:00:16:16:16 Contiki-orpl2-34-gdc2136d started. Node id is set to 22.
+444513 ID:44 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:742c:002c:2c2c
+445501 ID:98 MAC 00:12:74:62:00:62:62:62 Contiki-orpl2-34-gdc2136d started. Node id is set to 98.
+445633 ID:49 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7431:0031:3131
+447701 ID:44 Starting 'ORPL -- Collect-only Application'
+448685 ID:28 MAC 00:12:74:1c:00:1c:1c:1c Contiki-orpl2-34-gdc2136d started. Node id is set to 28.
+448825 ID:49 Starting 'ORPL -- Collect-only Application'
+449487 ID:44 App: 44 starting
+450611 ID:49 App: 49 starting
+451497 ID:22 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+452970 ID:94 MAC 00:12:74:5e:00:5e:5e:5e Contiki-orpl2-34-gdc2136d started. Node id is set to 94.
+453528 ID:98 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+456711 ID:28 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+460996 ID:94 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+462414 ID:22 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7416:0016:1616
+463370 ID:4 Rime started with address 0.18.116.4.0.4.4.4
+464449 ID:98 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7462:0062:6262
+465610 ID:22 Starting 'ORPL -- Collect-only Application'
+467396 ID:22 App: 22 starting
+467634 ID:28 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:741c:001c:1c1c
+467641 ID:98 Starting 'ORPL -- Collect-only Application'
+469428 ID:98 App: 98 starting
+470825 ID:28 Starting 'ORPL -- Collect-only Application'
+471923 ID:94 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:745e:005e:5e5e
+472588 ID:4 MAC 00:12:74:04:00:04:04:04 Contiki-orpl2-34-gdc2136d started. Node id is set to 4.
+472611 ID:28 App: 28 starting
+475109 ID:94 Starting 'ORPL -- Collect-only Application'
+475640 ID:71 Rime started with address 0.18.116.71.0.71.71.71
+476896 ID:94 App: 94 starting
+480623 ID:4 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+482730 ID:60 Rime started with address 0.18.116.60.0.60.60.60
+485250 ID:71 MAC 00:12:74:47:00:47:47:47 Contiki-orpl2-34-gdc2136d started. Node id is set to 71.
+491179 ID:4 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7404:0004:0404
+492335 ID:60 MAC 00:12:74:3c:00:3c:3c:3c Contiki-orpl2-34-gdc2136d started. Node id is set to 60.
+493275 ID:71 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+494317 ID:4 Starting 'ORPL -- Collect-only Application'
+496077 ID:4 App: 4 starting
+500362 ID:60 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+504192 ID:71 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7447:0047:4747
+506009 ID:52 Rime started with address 0.18.116.52.0.52.52.52
+507388 ID:71 Starting 'ORPL -- Collect-only Application'
+509176 ID:71 App: 71 starting
+509558 ID:30 Rime started with address 0.18.116.30.0.30.30.30
+510991 ID:96 Rime started with address 0.18.116.96.0.96.96.96
+511289 ID:60 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:743c:003c:3c3c
+514472 ID:60 Starting 'ORPL -- Collect-only Application'
+515623 ID:52 MAC 00:12:74:34:00:34:34:34 Contiki-orpl2-34-gdc2136d started. Node id is set to 52.
+516259 ID:60 App: 60 starting
+518320 ID:17 Rime started with address 0.18.116.17.0.17.17.17
+519168 ID:30 MAC 00:12:74:1e:00:1e:1e:1e Contiki-orpl2-34-gdc2136d started. Node id is set to 30.
+520606 ID:96 MAC 00:12:74:60:00:60:60:60 Contiki-orpl2-34-gdc2136d started. Node id is set to 96.
+523648 ID:52 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+527194 ID:30 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+527937 ID:17 MAC 00:12:74:11:00:11:11:11 Contiki-orpl2-34-gdc2136d started. Node id is set to 17.
+528632 ID:96 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+530351 ID:21 Rime started with address 0.18.116.21.0.21.21.21
+534569 ID:52 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7434:0034:3434
+535944 ID:51 Rime started with address 0.18.116.51.0.51.51.51
+535965 ID:17 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+537759 ID:52 Starting 'ORPL -- Collect-only Application'
+538118 ID:30 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:741e:001e:1e1e
+539546 ID:52 App: 52 starting
+539553 ID:96 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7460:0060:6060
+539966 ID:21 MAC 00:12:74:15:00:15:15:15 Contiki-orpl2-34-gdc2136d started. Node id is set to 21.
+540818 ID:61 Rime started with address 0.18.116.61.0.61.61.61
+541308 ID:30 Starting 'ORPL -- Collect-only Application'
+542746 ID:96 Starting 'ORPL -- Collect-only Application'
+543095 ID:30 App: 30 starting
+544533 ID:96 App: 96 starting
+545554 ID:51 MAC 00:12:74:33:00:33:33:33 Contiki-orpl2-34-gdc2136d started. Node id is set to 51.
+546882 ID:17 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7411:0011:1111
+547993 ID:21 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+549450 ID:8 Rime started with address 0.18.116.8.0.8.8.8
+550078 ID:17 Starting 'ORPL -- Collect-only Application'
+550426 ID:61 MAC 00:12:74:3d:00:3d:3d:3d Contiki-orpl2-34-gdc2136d started. Node id is set to 61.
+551864 ID:17 App: 17 starting
+553580 ID:51 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+558452 ID:61 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+558671 ID:8 MAC 00:12:74:08:00:08:08:08 Contiki-orpl2-34-gdc2136d started. Node id is set to 8.
+558910 ID:21 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7415:0015:1515
+562106 ID:21 Starting 'ORPL -- Collect-only Application'
+563892 ID:21 App: 21 starting
+564501 ID:51 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7433:0033:3333
+566705 ID:8 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+567690 ID:51 Starting 'ORPL -- Collect-only Application'
+569379 ID:61 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:743d:003d:3d3d
+569477 ID:51 App: 51 starting
+572562 ID:61 Starting 'ORPL -- Collect-only Application'
+574349 ID:61 App: 61 starting
+577262 ID:8 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7408:0008:0808
+580399 ID:8 Starting 'ORPL -- Collect-only Application'
+582159 ID:8 App: 8 starting
+625356 ID:58 Rime started with address 0.18.116.58.0.58.58.58
+634964 ID:58 MAC 00:12:74:3a:00:3a:3a:3a Contiki-orpl2-34-gdc2136d started. Node id is set to 58.
+642989 ID:58 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+649322 ID:59 Rime started with address 0.18.116.59.0.59.59.59
+653916 ID:58 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:743a:003a:3a3a
+657103 ID:58 Starting 'ORPL -- Collect-only Application'
+658890 ID:58 App: 58 starting
+658933 ID:59 MAC 00:12:74:3b:00:3b:3b:3b Contiki-orpl2-34-gdc2136d started. Node id is set to 59.
+662526 ID:53 Rime started with address 0.18.116.53.0.53.53.53
+666958 ID:59 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+672131 ID:53 MAC 00:12:74:35:00:35:35:35 Contiki-orpl2-34-gdc2136d started. Node id is set to 53.
+672585 ID:66 Rime started with address 0.18.116.66.0.66.66.66
+677885 ID:59 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:743b:003b:3b3b
+680157 ID:53 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+681072 ID:59 Starting 'ORPL -- Collect-only Application'
+682200 ID:66 MAC 00:12:74:42:00:42:42:42 Contiki-orpl2-34-gdc2136d started. Node id is set to 66.
+682859 ID:59 App: 59 starting
+685789 ID:29 Rime started with address 0.18.116.29.0.29.29.29
+690226 ID:66 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+691078 ID:53 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7435:0035:3535
+694271 ID:53 Starting 'ORPL -- Collect-only Application'
+695403 ID:29 MAC 00:12:74:1d:00:1d:1d:1d Contiki-orpl2-34-gdc2136d started. Node id is set to 29.
+696058 ID:53 App: 53 starting
+701143 ID:66 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7442:0042:4242
+703429 ID:29 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+704339 ID:66 Starting 'ORPL -- Collect-only Application'
+704566 ID:79 Rime started with address 0.18.116.79.0.79.79.79
+706126 ID:66 App: 66 starting
+710538 ID:88 Rime started with address 0.18.116.88.0.88.88.88
+714171 ID:79 MAC 00:12:74:4f:00:4f:4f:4f Contiki-orpl2-34-gdc2136d started. Node id is set to 79.
+714352 ID:29 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:741d:001d:1d1d
+717539 ID:29 Starting 'ORPL -- Collect-only Application'
+719325 ID:29 App: 29 starting
+720151 ID:88 MAC 00:12:74:58:00:58:58:58 Contiki-orpl2-34-gdc2136d started. Node id is set to 88.
+722196 ID:79 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+728178 ID:88 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+733119 ID:79 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:744f:004f:4f4f
+733287 ID:14 Rime started with address 0.18.116.14.0.14.14.14
+736307 ID:79 Starting 'ORPL -- Collect-only Application'
+738095 ID:79 App: 79 starting
+738676 ID:6 Rime started with address 0.18.116.6.0.6.6.6
+739099 ID:88 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7458:0058:5858
+742291 ID:88 Starting 'ORPL -- Collect-only Application'
+742505 ID:14 MAC 00:12:74:0e:00:0e:0e:0e Contiki-orpl2-34-gdc2136d started. Node id is set to 14.
+744077 ID:88 App: 88 starting
+747895 ID:6 MAC 00:12:74:06:00:06:06:06 Contiki-orpl2-34-gdc2136d started. Node id is set to 6.
+750583 ID:14 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+755927 ID:6 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+761145 ID:14 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:740e:000e:0e0e
+764293 ID:14 Starting 'ORPL -- Collect-only Application'
+766080 ID:14 App: 14 starting
+766483 ID:6 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7406:0006:0606
+768355 ID:56 Rime started with address 0.18.116.56.0.56.56.56
+769621 ID:6 Starting 'ORPL -- Collect-only Application'
+771379 ID:6 App: 6 starting
+777967 ID:56 MAC 00:12:74:38:00:38:38:38 Contiki-orpl2-34-gdc2136d started. Node id is set to 56.
+783728 ID:74 Rime started with address 0.18.116.74.0.74.74.74
+785184 ID:32 Rime started with address 0.18.116.32.0.32.32.32
+785992 ID:56 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+787964 ID:93 Rime started with address 0.18.116.93.0.93.93.93
+793337 ID:74 MAC 00:12:74:4a:00:4a:4a:4a Contiki-orpl2-34-gdc2136d started. Node id is set to 74.
+794800 ID:32 MAC 00:12:74:20:00:20:20:20 Contiki-orpl2-34-gdc2136d started. Node id is set to 32.
+796913 ID:56 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7438:0038:3838
+797569 ID:93 MAC 00:12:74:5d:00:5d:5d:5d Contiki-orpl2-34-gdc2136d started. Node id is set to 93.
+800103 ID:56 Starting 'ORPL -- Collect-only Application'
+801361 ID:74 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+801890 ID:56 App: 56 starting
+802825 ID:32 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+805595 ID:93 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+812284 ID:74 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:744a:004a:4a4a
+813742 ID:32 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7420:0020:2020
+815471 ID:74 Starting 'ORPL -- Collect-only Application'
+816522 ID:93 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:745d:005d:5d5d
+816936 ID:32 Starting 'ORPL -- Collect-only Application'
+817259 ID:74 App: 74 starting
+818723 ID:32 App: 32 starting
+819705 ID:93 Starting 'ORPL -- Collect-only Application'
+821492 ID:93 App: 93 starting
+826417 ID:23 Rime started with address 0.18.116.23.0.23.23.23
+827574 ID:82 Rime started with address 0.18.116.82.0.82.82.82
+827867 ID:19 Rime started with address 0.18.116.19.0.19.19.19
+836030 ID:23 MAC 00:12:74:17:00:17:17:17 Contiki-orpl2-34-gdc2136d started. Node id is set to 23.
+837190 ID:82 MAC 00:12:74:52:00:52:52:52 Contiki-orpl2-34-gdc2136d started. Node id is set to 82.
+837478 ID:19 MAC 00:12:74:13:00:13:13:13 Contiki-orpl2-34-gdc2136d started. Node id is set to 19.
+839984 ID:31 Rime started with address 0.18.116.31.0.31.31.31
+843058 ID:83 Rime started with address 0.18.116.83.0.83.83.83
+844056 ID:23 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+845217 ID:82 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+845504 ID:19 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+849592 ID:31 MAC 00:12:74:1f:00:1f:1f:1f Contiki-orpl2-34-gdc2136d started. Node id is set to 31.
+850339 ID:39 Rime started with address 0.18.116.39.0.39.39.39
+852669 ID:83 MAC 00:12:74:53:00:53:53:53 Contiki-orpl2-34-gdc2136d started. Node id is set to 83.
+854973 ID:23 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7417:0017:1717
+856138 ID:82 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7452:0052:5252
+856421 ID:19 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7413:0013:1313
+857616 ID:31 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+858167 ID:23 Starting 'ORPL -- Collect-only Application'
+859330 ID:82 Starting 'ORPL -- Collect-only Application'
+859615 ID:19 Starting 'ORPL -- Collect-only Application'
+859948 ID:39 MAC 00:12:74:27:00:27:27:27 Contiki-orpl2-34-gdc2136d started. Node id is set to 39.
+859953 ID:23 App: 23 starting
+860695 ID:83 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+861116 ID:82 App: 82 starting
+861401 ID:19 App: 19 starting
+862173 ID:68 Rime started with address 0.18.116.68.0.68.68.68
+865044 ID:64 Rime started with address 0.18.116.64.0.64.64.64
+867972 ID:39 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+868539 ID:31 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:741f:001f:1f1f
+870137 ID:30 App: not in DODAG
+871616 ID:83 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7453:0053:5353
+871730 ID:31 Starting 'ORPL -- Collect-only Application'
+871789 ID:68 MAC 00:12:74:44:00:44:44:44 Contiki-orpl2-34-gdc2136d started. Node id is set to 68.
+872712 ID:40 Rime started with address 0.18.116.40.0.40.40.40
+873517 ID:31 App: 31 starting
+874661 ID:64 MAC 00:12:74:40:00:40:40:40 Contiki-orpl2-34-gdc2136d started. Node id is set to 64.
+874809 ID:83 Starting 'ORPL -- Collect-only Application'
+876595 ID:83 App: 83 starting
+878889 ID:39 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7427:0027:2727
+879813 ID:68 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+882083 ID:39 Starting 'ORPL -- Collect-only Application'
+882326 ID:40 MAC 00:12:74:28:00:28:28:28 Contiki-orpl2-34-gdc2136d started. Node id is set to 40.
+882687 ID:64 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+882921 ID:34 Rime started with address 0.18.116.34.0.34.34.34
+883870 ID:39 App: 39 starting
+887320 ID:37 Rime started with address 0.18.116.37.0.37.37.37
+890354 ID:40 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+890599 ID:57 Rime started with address 0.18.116.57.0.57.57.57
+890730 ID:68 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7444:0044:4444
+891270 ID:73 Rime started with address 0.18.116.73.0.73.73.73
+892537 ID:34 MAC 00:12:74:22:00:22:22:22 Contiki-orpl2-34-gdc2136d started. Node id is set to 34.
+893604 ID:64 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7440:0040:4040
+893924 ID:68 Starting 'ORPL -- Collect-only Application'
+895711 ID:68 App: 68 starting
+896800 ID:64 Starting 'ORPL -- Collect-only Application'
+896933 ID:37 MAC 00:12:74:25:00:25:25:25 Contiki-orpl2-34-gdc2136d started. Node id is set to 37.
+898587 ID:64 App: 64 starting
+900208 ID:57 MAC 00:12:74:39:00:39:39:39 Contiki-orpl2-34-gdc2136d started. Node id is set to 57.
+900561 ID:34 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+900879 ID:73 MAC 00:12:74:49:00:49:49:49 Contiki-orpl2-34-gdc2136d started. Node id is set to 73.
+901271 ID:40 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7428:0028:2828
+904467 ID:40 Starting 'ORPL -- Collect-only Application'
+904958 ID:37 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+906253 ID:40 App: 40 starting
+908232 ID:57 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+908904 ID:73 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+911478 ID:34 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7422:0022:2222
+914672 ID:34 Starting 'ORPL -- Collect-only Application'
+915875 ID:37 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7425:0025:2525
+916459 ID:34 App: 34 starting
+917589 ID:16 Rime started with address 0.18.116.16.0.16.16.16
+919069 ID:37 Starting 'ORPL -- Collect-only Application'
+919153 ID:57 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7439:0039:3939
+919821 ID:73 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7449:0049:4949
+920856 ID:37 App: 37 starting
+922346 ID:57 Starting 'ORPL -- Collect-only Application'
+923017 ID:73 Starting 'ORPL -- Collect-only Application'
+924133 ID:57 App: 57 starting
+924805 ID:73 App: 73 starting
+927208 ID:16 MAC 00:12:74:10:00:10:10:10 Contiki-orpl2-34-gdc2136d started. Node id is set to 16.
+935235 ID:16 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+937314 ID:5 Rime started with address 0.18.116.5.0.5.5.5
+937484 ID:63 Rime started with address 0.18.116.63.0.63.63.63
+945084 ID:18 Rime started with address 0.18.116.18.0.18.18.18
+946152 ID:16 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7410:0010:1010
+946530 ID:5 MAC 00:12:74:05:00:05:05:05 Contiki-orpl2-34-gdc2136d started. Node id is set to 5.
+947090 ID:63 MAC 00:12:74:3f:00:3f:3f:3f Contiki-orpl2-34-gdc2136d started. Node id is set to 63.
+949348 ID:16 Starting 'ORPL -- Collect-only Application'
+951134 ID:16 App: 16 starting
+954563 ID:5 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+954698 ID:18 MAC 00:12:74:12:00:12:12:12 Contiki-orpl2-34-gdc2136d started. Node id is set to 18.
+955116 ID:63 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+962726 ID:18 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+965119 ID:5 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7405:0005:0505
+966043 ID:63 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:743f:003f:3f3f
+968257 ID:5 Starting 'ORPL -- Collect-only Application'
+969229 ID:63 Starting 'ORPL -- Collect-only Application'
+970019 ID:5 App: 5 starting
+971016 ID:63 App: 63 starting
+973643 ID:18 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7412:0012:1212
+976839 ID:18 Starting 'ORPL -- Collect-only Application'
+978625 ID:18 App: 18 starting
+1003370 ID:78 Rime started with address 0.18.116.78.0.78.78.78
+1008833 ID:97 Rime started with address 0.18.116.97.0.97.97.97
+1012974 ID:78 MAC 00:12:74:4e:00:4e:4e:4e Contiki-orpl2-34-gdc2136d started. Node id is set to 78.
+1015943 ID:84 Rime started with address 0.18.116.84.0.84.84.84
+1018445 ID:97 MAC 00:12:74:61:00:61:61:61 Contiki-orpl2-34-gdc2136d started. Node id is set to 97.
+1020998 ID:78 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1025557 ID:84 MAC 00:12:74:54:00:54:54:54 Contiki-orpl2-34-gdc2136d started. Node id is set to 84.
+1026469 ID:97 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1031921 ID:78 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:744e:004e:4e4e
+1032381 ID:33 Rime started with address 0.18.116.33.0.33.33.33
+1033585 ID:84 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1035112 ID:78 Starting 'ORPL -- Collect-only Application'
+1036900 ID:78 App: 78 starting
+1037390 ID:97 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7461:0061:6161
+1040583 ID:97 Starting 'ORPL -- Collect-only Application'
+1040705 ID:11 Rime started with address 0.18.116.11.0.11.11.11
+1041259 ID:87 Rime started with address 0.18.116.87.0.87.87.87
+1041997 ID:33 MAC 00:12:74:21:00:21:21:21 Contiki-orpl2-34-gdc2136d started. Node id is set to 33.
+1042370 ID:97 App: 97 starting
+1044506 ID:84 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7454:0054:5454
+1047695 ID:84 Starting 'ORPL -- Collect-only Application'
+1049481 ID:84 App: 84 starting
+1049576 ID:36 Rime started with address 0.18.116.36.0.36.36.36
+1049920 ID:11 MAC 00:12:74:0b:00:0b:0b:0b Contiki-orpl2-34-gdc2136d started. Node id is set to 11.
+1050022 ID:33 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1050868 ID:87 MAC 00:12:74:57:00:57:57:57 Contiki-orpl2-34-gdc2136d started. Node id is set to 87.
+1051430 ID:27 Rime started with address 0.18.116.27.0.27.27.27
+1058003 ID:11 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1058162 ID:1 Rime started with address 0.18.116.1.0.1.1.1
+1058895 ID:87 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1059189 ID:36 MAC 00:12:74:24:00:24:24:24 Contiki-orpl2-34-gdc2136d started. Node id is set to 36.
+1060939 ID:33 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7421:0021:2121
+1061041 ID:27 MAC 00:12:74:1b:00:1b:1b:1b Contiki-orpl2-34-gdc2136d started. Node id is set to 27.
+1064133 ID:33 Starting 'ORPL -- Collect-only Application'
+1065920 ID:33 App: 33 starting
+1067214 ID:36 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1067381 ID:1 MAC 00:12:74:01:00:01:01:01 Contiki-orpl2-34-gdc2136d started. Node id is set to 1.
+1068565 ID:11 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:740b:000b:0b0b
+1069068 ID:27 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1069816 ID:87 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7457:0057:5757
+1070433 ID:46 Rime started with address 0.18.116.46.0.46.46.46
+1071715 ID:11 Starting 'ORPL -- Collect-only Application'
+1073008 ID:87 Starting 'ORPL -- Collect-only Application'
+1073502 ID:11 App: 11 starting
+1074794 ID:87 App: 87 starting
+1075416 ID:1 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1077513 ID:54 Rime started with address 0.18.116.54.0.54.54.54
+1078131 ID:36 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7424:0024:2424
+1079402 ID:43 Rime started with address 0.18.116.43.0.43.43.43
+1079991 ID:27 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:741b:001b:1b1b
+1080046 ID:46 MAC 00:12:74:2e:00:2e:2e:2e Contiki-orpl2-34-gdc2136d started. Node id is set to 46.
+1080719 ID:20 Rime started with address 0.18.116.20.0.20.20.20
+1081325 ID:36 Starting 'ORPL -- Collect-only Application'
+1083112 ID:36 App: 36 starting
+1083179 ID:27 Starting 'ORPL -- Collect-only Application'
+1084965 ID:27 App: 27 starting
+1085972 ID:1 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7401:0001:0101
+1087125 ID:54 MAC 00:12:74:36:00:36:36:36 Contiki-orpl2-34-gdc2136d started. Node id is set to 54.
+1088072 ID:46 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1089011 ID:43 MAC 00:12:74:2b:00:2b:2b:2b Contiki-orpl2-34-gdc2136d started. Node id is set to 43.
+1089110 ID:1 Starting 'ORPL -- Collect-only Application'
+1090336 ID:20 MAC 00:12:74:14:00:14:14:14 Contiki-orpl2-34-gdc2136d started. Node id is set to 20.
+1090870 ID:1 App: 1 starting
+1093623 ID:80 Rime started with address 0.18.116.80.0.80.80.80
+1095150 ID:54 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1097039 ID:43 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1098364 ID:20 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1098996 ID:46 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:742e:002e:2e2e
+1102186 ID:46 Starting 'ORPL -- Collect-only Application'
+1103239 ID:80 MAC 00:12:74:50:00:50:50:50 Contiki-orpl2-34-gdc2136d started. Node id is set to 80.
+1103972 ID:46 App: 46 starting
+1106071 ID:54 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7436:0036:3636
+1107962 ID:43 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:742b:002b:2b2b
+1109261 ID:54 Starting 'ORPL -- Collect-only Application'
+1109281 ID:20 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7414:0014:1414
+1111048 ID:54 App: 54 starting
+1111149 ID:43 Starting 'ORPL -- Collect-only Application'
+1111265 ID:80 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1112477 ID:20 Starting 'ORPL -- Collect-only Application'
+1112935 ID:43 App: 43 starting
+1114263 ID:20 App: 20 starting
+1114907 ID:35 Rime started with address 0.18.116.35.0.35.35.35
+1121260 ID:75 Rime started with address 0.18.116.75.0.75.75.75
+1122186 ID:80 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7450:0050:5050
+1124519 ID:35 MAC 00:12:74:23:00:23:23:23 Contiki-orpl2-34-gdc2136d started. Node id is set to 35.
+1125379 ID:80 Starting 'ORPL -- Collect-only Application'
+1126691 ID:76 Rime started with address 0.18.116.76.0.76.76.76
+1127165 ID:80 App: 80 starting
+1128751 ID:12 Rime started with address 0.18.116.12.0.12.12.12
+1128978 ID:24 Rime started with address 0.18.116.24.0.24.24.24
+1130864 ID:75 MAC 00:12:74:4b:00:4b:4b:4b Contiki-orpl2-34-gdc2136d started. Node id is set to 75.
+1132428 ID:26 Rime started with address 0.18.116.26.0.26.26.26
+1132545 ID:35 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1136299 ID:76 MAC 00:12:74:4c:00:4c:4c:4c Contiki-orpl2-34-gdc2136d started. Node id is set to 76.
+1137966 ID:12 MAC 00:12:74:0c:00:0c:0c:0c Contiki-orpl2-34-gdc2136d started. Node id is set to 12.
+1138596 ID:24 MAC 00:12:74:18:00:18:18:18 Contiki-orpl2-34-gdc2136d started. Node id is set to 24.
+1138888 ID:75 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1141098 ID:99 Rime started with address 0.18.116.99.0.99.99.99
+1142044 ID:26 MAC 00:12:74:1a:00:1a:1a:1a Contiki-orpl2-34-gdc2136d started. Node id is set to 26.
+1143462 ID:35 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7423:0023:2323
+1144324 ID:76 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1146051 ID:12 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1146624 ID:24 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1146658 ID:35 Starting 'ORPL -- Collect-only Application'
+1148445 ID:35 App: 35 starting
+1149811 ID:75 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:744b:004b:4b4b
+1150070 ID:26 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1150711 ID:99 MAC 00:12:74:63:00:63:63:63 Contiki-orpl2-34-gdc2136d started. Node id is set to 99.
+1153002 ID:75 Starting 'ORPL -- Collect-only Application'
+1154790 ID:75 App: 75 starting
+1155247 ID:76 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:744c:004c:4c4c
+1156614 ID:12 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:740c:000c:0c0c
+1157541 ID:24 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7418:0018:1818
+1158435 ID:76 Starting 'ORPL -- Collect-only Application'
+1158737 ID:99 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1159761 ID:12 Starting 'ORPL -- Collect-only Application'
+1160223 ID:76 App: 76 starting
+1160737 ID:24 Starting 'ORPL -- Collect-only Application'
+1160994 ID:26 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:741a:001a:1a1a
+1161548 ID:12 App: 12 starting
+1162523 ID:24 App: 24 starting
+1164184 ID:26 Starting 'ORPL -- Collect-only Application'
+1165970 ID:26 App: 26 starting
+1166915 ID:65 Rime started with address 0.18.116.65.0.65.65.65
+1169658 ID:99 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7463:0063:6363
+1172847 ID:99 Starting 'ORPL -- Collect-only Application'
+1173178 ID:72 Rime started with address 0.18.116.72.0.72.72.72
+1174633 ID:99 App: 99 starting
+1176527 ID:65 MAC 00:12:74:41:00:41:41:41 Contiki-orpl2-34-gdc2136d started. Node id is set to 65.
+1181168 ID:7 Rime started with address 0.18.116.7.0.7.7.7
+1182791 ID:72 MAC 00:12:74:48:00:48:48:48 Contiki-orpl2-34-gdc2136d started. Node id is set to 72.
+1184551 ID:65 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1190387 ID:7 MAC 00:12:74:07:00:07:07:07 Contiki-orpl2-34-gdc2136d started. Node id is set to 7.
+1190815 ID:72 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1194274 ID:62 Rime started with address 0.18.116.62.0.62.62.62
+1195468 ID:65 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7441:0041:4141
+1198420 ID:7 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1198662 ID:65 Starting 'ORPL -- Collect-only Application'
+1200449 ID:65 App: 65 starting
+1201732 ID:72 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7448:0048:4848
+1203879 ID:62 MAC 00:12:74:3e:00:3e:3e:3e Contiki-orpl2-34-gdc2136d started. Node id is set to 62.
+1204926 ID:72 Starting 'ORPL -- Collect-only Application'
+1206037 ID:55 Rime started with address 0.18.116.55.0.55.55.55
+1206714 ID:72 App: 72 starting
+1208976 ID:7 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7407:0007:0707
+1211166 ID:47 Rime started with address 0.18.116.47.0.47.47.47
+1211905 ID:62 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1212114 ID:7 Starting 'ORPL -- Collect-only Application'
+1213876 ID:7 App: 7 starting
+1215642 ID:55 MAC 00:12:74:37:00:37:37:37 Contiki-orpl2-34-gdc2136d started. Node id is set to 55.
+1216402 ID:69 Rime started with address 0.18.116.69.0.69.69.69
+1220773 ID:47 MAC 00:12:74:2f:00:2f:2f:2f Contiki-orpl2-34-gdc2136d started. Node id is set to 47.
+1222832 ID:62 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:743e:003e:3e3e
+1223667 ID:55 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1223682 ID:85 Rime started with address 0.18.116.85.0.85.85.85
+1223867 ID:91 Rime started with address 0.18.116.91.0.91.91.91
+1226014 ID:69 MAC 00:12:74:45:00:45:45:45 Contiki-orpl2-34-gdc2136d started. Node id is set to 69.
+1226015 ID:62 Starting 'ORPL -- Collect-only Application'
+1227716 ID:81 Rime started with address 0.18.116.81.0.81.81.81
+1227802 ID:62 App: 62 starting
+1228800 ID:47 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1231547 ID:45 Rime started with address 0.18.116.45.0.45.45.45
+1233295 ID:85 MAC 00:12:74:55:00:55:55:55 Contiki-orpl2-34-gdc2136d started. Node id is set to 85.
+1233472 ID:91 MAC 00:12:74:5b:00:5b:5b:5b Contiki-orpl2-34-gdc2136d started. Node id is set to 91.
+1234038 ID:69 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1234588 ID:55 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7437:0037:3737
+1235411 ID:25 Rime started with address 0.18.116.25.0.25.25.25
+1235503 ID:42 Rime started with address 0.18.116.42.0.42.42.42
+1237332 ID:81 MAC 00:12:74:51:00:51:51:51 Contiki-orpl2-34-gdc2136d started. Node id is set to 81.
+1237778 ID:55 Starting 'ORPL -- Collect-only Application'
+1238608 ID:15 Rime started with address 0.18.116.15.0.15.15.15
+1239565 ID:55 App: 55 starting
+1239723 ID:47 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:742f:002f:2f2f
+1240243 ID:100 Rime started with address 0.18.116.100.0.100.100.100
+1241159 ID:45 MAC 00:12:74:2d:00:2d:2d:2d Contiki-orpl2-34-gdc2136d started. Node id is set to 45.
+1241321 ID:85 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1241499 ID:91 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1242911 ID:47 Starting 'ORPL -- Collect-only Application'
+1244697 ID:47 App: 47 starting
+1244782 ID:89 Rime started with address 0.18.116.89.0.89.89.89
+1244955 ID:69 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7445:0045:4545
+1245022 ID:25 MAC 00:12:74:19:00:19:19:19 Contiki-orpl2-34-gdc2136d started. Node id is set to 25.
+1245119 ID:42 MAC 00:12:74:2a:00:2a:2a:2a Contiki-orpl2-34-gdc2136d started. Node id is set to 42.
+1245358 ID:81 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1247824 ID:15 MAC 00:12:74:0f:00:0f:0f:0f Contiki-orpl2-34-gdc2136d started. Node id is set to 15.
+1248089 ID:2 Rime started with address 0.18.116.2.0.2.2.2
+1248149 ID:69 Starting 'ORPL -- Collect-only Application'
+1249185 ID:45 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1249936 ID:69 App: 69 starting
+1250006 ID:100 MAC 00:12:74:64:00:64:64:64 Contiki-orpl2-34-gdc2136d started. Node id is set to 100.
+1252242 ID:85 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7455:0055:5555
+1252426 ID:91 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:745b:005b:5b5b
+1253050 ID:25 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1253147 ID:42 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1254037 ID:50 Rime started with address 0.18.116.50.0.50.50.50
+1254395 ID:89 MAC 00:12:74:59:00:59:59:59 Contiki-orpl2-34-gdc2136d started. Node id is set to 89.
+1255435 ID:85 Starting 'ORPL -- Collect-only Application'
+1255609 ID:91 Starting 'ORPL -- Collect-only Application'
+1255902 ID:15 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1256279 ID:81 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7451:0051:5151
+1257221 ID:85 App: 85 starting
+1257309 ID:2 MAC 00:12:74:02:00:02:02:02 Contiki-orpl2-34-gdc2136d started. Node id is set to 2.
+1257396 ID:91 App: 91 starting
+1258020 ID:100 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1259472 ID:81 Starting 'ORPL -- Collect-only Application'
+1260108 ID:45 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:742d:002d:2d2d
+1261258 ID:81 App: 81 starting
+1262422 ID:89 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1263299 ID:45 Starting 'ORPL -- Collect-only Application'
+1263649 ID:50 MAC 00:12:74:32:00:32:32:32 Contiki-orpl2-34-gdc2136d started. Node id is set to 50.
+1263967 ID:25 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7419:0019:1919
+1264070 ID:42 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:742a:002a:2a2a
+1265085 ID:45 App: 45 starting
+1265342 ID:2 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1266464 ID:15 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:740f:000f:0f0f
+1267163 ID:25 Starting 'ORPL -- Collect-only Application'
+1267257 ID:42 Starting 'ORPL -- Collect-only Application'
+1268833 ID:100 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7464:0064:6464
+1268949 ID:25 App: 25 starting
+1269043 ID:42 App: 42 starting
+1269612 ID:15 Starting 'ORPL -- Collect-only Application'
+1271398 ID:15 App: 15 starting
+1271675 ID:50 CSMA ContikiMAC with logs, channel check rate 2 Hz, radio channel 15
+1271991 ID:100 Starting 'ORPL -- Collect-only Application'
+1273343 ID:89 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7459:0059:5959
+1273932 ID:100 App: 100 starting
+1275898 ID:2 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7402:0002:0202
+1276535 ID:89 Starting 'ORPL -- Collect-only Application'
+1278321 ID:89 App: 89 starting
+1279036 ID:2 Starting 'ORPL -- Collect-only Application'
+1280798 ID:2 App: 2 starting
+1282596 ID:50 Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7432:0032:3232
+1285789 ID:50 Starting 'ORPL -- Collect-only Application'
+1287576 ID:50 App: 50 starting
+3556008 ID:46 App: not in DODAG
+4177582 ID:37 App: not in DODAG
+4375775 ID:1 Csma: send broadcast (80 bytes)
+4534022 ID:28 App: not in DODAG
+6635901 ID:44 App: not in DODAG
+6908421 ID:69 Csma: send broadcast (80 bytes)
+6940975 ID:62 Csma: send broadcast (80 bytes)
+6999613 ID:55 Csma: send broadcast (80 bytes)
+TEST TIMEOUT
+TEST FAILED
+Test ended at simulation time: 7200000
