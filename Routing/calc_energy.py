@@ -93,11 +93,11 @@ for line in analyzed_file:
       total_energy_list = []
       for mote in mote_dict:
         # Mote 1 is the sink and has its radio always on
-        #if mote != "1": 
-        energy_list = mote_dict[mote]
-        total_energy_list.extend(energy_list)
-        if np.mean(energy_list) > max_energy:
-          max_energy = np.mean(energy_list)
+        if mote != "1": 
+          energy_list = mote_dict[mote]
+          total_energy_list.extend(energy_list)
+          if np.mean(energy_list) > max_energy:
+            max_energy = np.mean(energy_list)
       
       # If the interval is out of range of a simulation there will not be any energies 
       # recorded in total_energy_list, in this case do not record it and make the default

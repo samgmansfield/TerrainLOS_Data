@@ -8,6 +8,7 @@ import numpy as np
 import re
 from collections import defaultdict
 import sys
+import os
 from matplotlib import pyplot as plt
 
 def print_usage():
@@ -20,7 +21,14 @@ if len(sys.argv) != 3:
   print_usage()
 
 metric = sys.argv[1]
+# Assume it is in the same directory
 analyzed_path = sys.argv[2]
+# Remove anly file extensions
+analyzed_name = analyzed_path.split(".")[0]
+data_path = analyzed_name + "_data/"
+# Where to store or read data, create it if it doesn't exisit
+if not os.path.exists(data_path):
+  os.mkdir(data_path)
 
 sim_time = "7200000"
 # Keys are acvs with a simulation time of sim_time, values are the metric given
@@ -103,5 +111,5 @@ plt.errorbar(rpl_acv_list, rpl_metric_list, yerr=rpl_std_list, label="rpl")
 plt.plot(ltb_x, ltb_rpl, label="ltb_rpl")
 plt.plot(ltb_x, ltb_orpl, label="ltb_orpl")
 plt.legend()
-plt.savefig(metric + ".pdf")
+plt.savefig(data_path + analyzed_name + "_" + metric + ".pdf")
 plt.show()
