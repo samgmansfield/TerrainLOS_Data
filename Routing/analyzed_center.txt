@@ -26,3 +26,31 @@ N36W117.hgt, ew: 18, sw: 18, eo: 3528, so: 936, acv: 30.0%, density: 25, pop: 30
 N36W117.hgt, ew: 18, sw: 18, eo: 3528, so: 936, acv: 30.0%, density: 25, pop: 30, time: 7200, routing: rpl, degree: 10.04, min_degree: 1, max_degree: 19, diameter: 9, testlog: rpl_qalmtzji_testlog.txt
 N36W117.hgt, ew: 18, sw: 18, eo: 90, so: 1674, acv: 100.0%, density: 25, pop: 30, time: 7200, routing: orpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: orpl_tqonbumo_testlog.txt
 N36W117.hgt, ew: 18, sw: 18, eo: 90, so: 1674, acv: 100.0%, density: 25, pop: 30, time: 7200, routing: rpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: rpl_tqonbumo_testlog.txt
+N36W117.hgt, ew: 18, sw: 18, eo: 234, so: 2214, acv: 100.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: orpl_bwcyrqxo_testlog.txt
+N36W117.hgt, ew: 18, sw: 18, eo: 234, so: 2214, acv: 100.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: rpl_bwcyrqxo_testlog.txt
+N36W117.hgt, ew: 18, sw: 18, eo: 378, so: 1998, acv: 100.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: orpl_cxwhpdvr_testlog.txt
+N36W117.hgt, ew: 18, sw: 18, eo: 378, so: 1998, acv: 100.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: rpl_cxwhpdvr_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 432, so: 90, acv: 60.0%, density: 25, pop: 30, time: 15000
+N37W121.hgt, ew: 18, sw: 18, eo: 1926, so: 468, acv: 60.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 9.56, min_degree: 2, max_degree: 21, diameter: 9, testlog: orpl_gojuczyi_testlog.txt
+N37W121.hgt, ew: 18, sw: 18, eo: 1926, so: 468, acv: 60.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 9.56, min_degree: 2, max_degree: 21, diameter: 9, testlog: rpl_gojuczyi_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 72, so: 1980, acv: 90.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 16.1, min_degree: 4, max_degree: 25, diameter: 7, testlog: orpl_hhodiunz_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 72, so: 1980, acv: 90.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 16.1, min_degree: 4, max_degree: 25, diameter: 7, testlog: rpl_hhodiunz_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 702, so: 936, acv: 60.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 11.2, min_degree: 1, max_degree: 22, diameter: 9, testlog: orpl_nfcepxfl_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 702, so: 936, acv: 60.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 11.2, min_degree: 1, max_degree: 22, diameter: 9, testlog: rpl_nfcepxfl_testlog.txt
+N36W117.hgt, ew: 18, sw: 18, eo: 576, so: 2142, acv: 90.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 14.92, min_degree: 2, max_degree: 26, diameter: 6, testlog: orpl_oduvzwpv_testlog.txt
+N36W117.hgt, ew: 18, sw: 18, eo: 576, so: 2142, acv: 90.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 14.92, min_degree: 2, max_degree: 26, diameter: 6, testlog: rpl_oduvzwpv_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 2322, so: 396, acv: 30.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 12.56, min_degree: 2, max_degree: 21, diameter: 8, testlog: orpl_oqfoydqw_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 2322, so: 396, acv: 30.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 12.56, min_degree: 2, max_degree: 21, diameter: 8, testlog: rpl_oqfoydqw_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 1710, so: 522, acv: 100.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: orpl_rwwsouzr_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 1710, so: 522, acv: 100.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 17.36, min_degree: 4, max_degree: 27, diameter: 6, testlog: rpl_rwwsouzr_testlog.txt
+N37W121.hgt, ew: 18, sw: 18, eo: 1566, so: 1404, acv: 90.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 16.1, min_degree: 4, max_degree: 27, diameter: 6, testlog: orpl_syifywbg_testlog.txt
+N37W121.hgt, ew: 18, sw: 18, eo: 1566, so: 1404, acv: 90.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 16.1, min_degree: 4, max_degree: 27, diameter: 6, testlog: rpl_syifywbg_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 72, so: 990, acv: 60.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 11.84, min_degree: 1, max_degree: 24, diameter: 8, testlog: orpl_tgttobst_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 72, so: 990, acv: 60.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 11.84, min_degree: 1, max_degree: 24, diameter: 8, testlog: rpl_tgttobst_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 2664, so: 2088, acv: 30.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 9.04, min_degree: 1, max_degree: 21, diameter: 10, testlog: orpl_vayyooku_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 2664, so: 2088, acv: 30.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 9.04, min_degree: 1, max_degree: 21, diameter: 10, testlog: rpl_vayyooku_testlog.txt
+N37W122.hgt, ew: 18, sw: 18, eo: 0, so: 504, acv: 30.0%, density: 25, pop: 30, time: 15000
+N36W117.hgt, ew: 18, sw: 18, eo: 2898, so: 2394, acv: 30.0%, density: 25, pop: 30, time: 15000
+N37W121.hgt, ew: 18, sw: 18, eo: 3240, so: 288, acv: 30.0%, density: 25, pop: 30, time: 15000
+N37W121.hgt, ew: 18, sw: 18, eo: 1620, so: 720, acv: 30.0%, density: 25, pop: 30, time: 7200000, routing: orpl, degree: 10.08, min_degree: 1, max_degree: 23, diameter: 9, testlog: orpl_vqujexft_testlog.txt
+N37W121.hgt, ew: 18, sw: 18, eo: 1620, so: 720, acv: 30.0%, density: 25, pop: 30, time: 7200000, routing: rpl, degree: 10.08, min_degree: 1, max_degree: 23, diameter: 9, testlog: rpl_vqujexft_testlog.txt
