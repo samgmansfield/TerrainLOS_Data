@@ -264,3 +264,12 @@ Connected 4.0%, nodes: 90, density: 562, acv: 10.0%, degree: 9.85785093592, popu
 Connected 4.0%, nodes: 90, density: 563, acv: 10.0%, degree: 9.85785093592, population: 10
 Connected 4.0%, nodes: 90, density: 564, acv: 10.0%, degree: 9.85785093592, population: 10
 Connected 4.0%, nodes: 90, density: 565, acv: 10.0%, degree: 9.85785093592, population: 10
+Connected 4.0%, nodes: 90, density: 628, acv: 10.0%, degree: 9.8025583317, population: 10
+Connected 52.0%, nodes: 90, density: 628, acv: 20.0%, degree: 18.7481837358, population: 10
+Connected 56.0%, nodes: 90, density: 628, acv: 30.0%, degree: 26.2923743048, population: 10
+Connected 36.0%, nodes: 90, density: 628, acv: 40.0%, degree: 35.7804938132, population: 10
+Connected 36.0%, nodes: 90, density: 628, acv: 50.0%, degree: 44.1939641436, population: 10
+Connected 80.0%, nodes: 90, density: 628, acv: 60.0%, degree: 53.5752759051, population: 10
+Connected 64.0%, nodes: 90, density: 628, acv: 70.0%, degree: 64.2936940188, population: 10
+Connected 76.0%, nodes: 90, density: 628, acv: 80.0%, degree: 72.298988764, population: 10
+Connected 96.0%, nodes: 90, density: 628, acv: 90.0%, degree: 80.7191111111, population: 10
