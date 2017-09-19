@@ -52,6 +52,10 @@ for line in analyzed_file:
       measure_rpl_dict[acv].append([measure, degree])
 analyzed_file.close()
 print("Analyzed " + str(sims_analyzed) + " simulations")
+if sims_analyzed == 0:
+  print("ERROR: No simulations analyzed!")
+  print("Have you already run calc_" + metric + ".py?")
+  exit()
 
 orpl_acv_list = []
 orpl_metric_list = []
@@ -104,12 +108,38 @@ else:
   ltb_rpl = []
   ltb_orpl = []
 
+# Sets extremely tight layout
+#plt.rcParams.update({'figure.figsize': (4.0, 3.6)})
+#plt.rcParams.update({'xtick.labelsize': 'small'})
+#plt.rcParams.update({'savefig.bbox' : 'tight'})
+#plt.rcParams.update({'savefig.pad_inches' : 0.03})
+
+plt.xlim(25, 105)
 plt.xlabel("ACV (%)")
-plt.ylabel(metric)
-plt.errorbar(orpl_acv_list, orpl_metric_list, yerr=orpl_std_list, label="orpl")
-plt.errorbar(rpl_acv_list, rpl_metric_list, yerr=rpl_std_list, label="rpl")
-plt.plot(ltb_x, ltb_rpl, label="ltb_rpl")
-plt.plot(ltb_x, ltb_orpl, label="ltb_orpl")
-plt.legend()
+legend_loc = "upper right"
+if metric == "pdr":
+  plt.ylabel("PDR (%)")
+  plt.plot([30.0, 100.0], [98.85, 99.5], label="ltb_orpl", marker="o")
+  plt.plot([30.0, 100.0], [96.19, 97.39], label="ltb_rpl", marker="o")
+  legend_loc = "lower right"
+elif metric == "latency":
+  plt.ylabel("Latency (s)")
+  plt.plot([30.0, 100.0], [1.22, 0.47], label="ltb_orpl", marker="o")
+  plt.plot([30.0, 100.0], [2.17, 1.14], label="ltb_rpl", marker="o")
+elif metric == "energy":
+  plt.ylabel("Duty Cycle (%)")
+  plt.plot([30.0, 100.0], [0.83, 0.48], label="ltb_orpl", marker="o")
+  plt.plot([30.0, 100.0], [1.35, 0.99], label="ltb_rpl", marker="o")
+elif metric == "duplicates":
+  plt.ylabel("Duty Cycle (%)")
+  plt.plot([100.0], [10.0], label="ltb_orpl", marker="o")
+  plt.plot([100.0], [0.0], label="ltb_rpl", marker="o")
+  legend_loc = "lower right"
+else:
+  plt.ylabel(metric)
+
+plt.errorbar(orpl_acv_list, orpl_metric_list, yerr=orpl_std_list, label="orpl", marker="o")
+plt.errorbar(rpl_acv_list, rpl_metric_list, yerr=rpl_std_list, label="rpl", marker="o")
+plt.legend(loc=legend_loc)
 plt.savefig(data_path + analyzed_name + "_" + metric + ".pdf")
 plt.show()
