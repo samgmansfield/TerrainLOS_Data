@@ -28,7 +28,7 @@ analyzed_path = sys.argv[1]
 # Start time at 30 min as this is the time for metrics to settle
 start_time = 0
 # 24 hours
-stop_time = 24*3600*1000000
+stop_time = 3600*1000000
 interval = False
 # Calculate for every acv
 acv = ""
