@@ -16862,3 +16862,1295 @@ stranded_nodes: []
 Downloading: N37W122.hgt
 (20/25) Simulation finished
 Connected 72.0%, nodes: 100, density: 628, acv: 90.0%, degree: 89.651, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [33]
+Downloading: N37W121.hgt
+(2/25) Simulation finished
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Network not connected
+Number of nodes in dag: 97
+stranded_nodes: [35, 67, 79]
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W121.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [15]
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Downloading: N37W121.hgt
+(12/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [80]
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Network not connected
+Number of nodes in dag: 97
+stranded_nodes: [50, 61, 67]
+Downloading: N37W121.hgt
+(17/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [62]
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Network not connected
+Number of nodes in dag: 97
+stranded_nodes: [32, 60, 97]
+Downloading: N37W121.hgt
+(22/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Connected 40.0%, nodes: 100, density: 628, acv: 10.0%, degree: 10.5417981881, population: 30
+Transmission range: 839.829896092
+Downloading: N37W121.hgt
+(1/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Network not connected
+Number of nodes in dag: 97
+stranded_nodes: [6, 67, 79]
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [19]
+Downloading: N37W121.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [32]
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W121.hgt
+(11/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Network not connected
+Number of nodes in dag: 98
+stranded_nodes: [31, 54]
+Downloading: N37W121.hgt
+(16/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [2]
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [62]
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W121.hgt
+(21/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Connected 24.0%, nodes: 100, density: 628, acv: 10.0%, degree: 11.0703158647, population: 30
+Transmission range: 839.829896092
+Downloading: N37W121.hgt
+(1/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(2/25) Simulation finished
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N37W121.hgt
+(6/25) Simulation finished
+Downloading: N36W117.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N37W121.hgt
+(11/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(12/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Network not connected
+Number of nodes in dag: 98
+stranded_nodes: [31, 80]
+Downloading: N36W117.hgt
+(14/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N37W121.hgt
+(16/25) Simulation finished
+Downloading: N36W117.hgt
+(17/25) Simulation finished
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N36W117.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [2]
+Downloading: N37W121.hgt
+(21/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(22/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(24/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Connected 44.0%, nodes: 100, density: 628, acv: 20.0%, degree: 20.3173384457, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N37W121.hgt
+(2/25) Simulation finished
+Downloading: N37W121.hgt
+(3/25) Simulation finished
+Downloading: N37W121.hgt
+(4/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [6]
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N37W121.hgt
+(7/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W121.hgt
+(8/25) Simulation finished
+Downloading: N37W121.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [54]
+Downloading: N37W121.hgt
+(12/25) Simulation finished
+Downloading: N37W121.hgt
+(13/25) Simulation finished
+Downloading: N37W121.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W121.hgt
+(17/25) Simulation finished
+Downloading: N37W121.hgt
+(18/25) Simulation finished
+Downloading: N37W121.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N37W121.hgt
+(22/25) Simulation finished
+Downloading: N37W121.hgt
+(23/25) Simulation finished
+Downloading: N37W121.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 84.0%, nodes: 100, density: 628, acv: 20.0%, degree: 21.0514505051, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Connected 80.0%, nodes: 100, density: 628, acv: 30.0%, degree: 28.8948606061, population: 30
+Transmission range: 839.829896092
+Downloading: N37W122.hgt
+(1/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [67]
+Downloading: N37W121.hgt
+(2/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [6]
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N37W122.hgt
+(6/25) Simulation finished
+Downloading: N37W121.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [69]
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N37W122.hgt
+(11/25) Simulation finished
+Downloading: N37W121.hgt
+(12/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [80]
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N37W122.hgt
+(16/25) Simulation finished
+Downloading: N37W121.hgt
+(17/25) Simulation finished
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N37W122.hgt
+(21/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Downloading: N37W121.hgt
+(22/25) Simulation finished
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 72.0%, nodes: 100, density: 628, acv: 30.0%, degree: 29.4034424242, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Connected 96.0%, nodes: 100, density: 628, acv: 40.0%, degree: 40.343369697, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N37W121.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Downloading: N37W121.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Downloading: N37W121.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Downloading: N37W121.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Downloading: N37W121.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 96.0%, nodes: 100, density: 628, acv: 40.0%, degree: 39.631959596, population: 30
+Transmission range: 839.829896092
+Downloading: N37W121.hgt
+(1/25) Simulation finished
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N37W121.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N37W121.hgt
+(11/25) Simulation finished
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N37W121.hgt
+(16/25) Simulation finished
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N37W121.hgt
+(21/25) Simulation finished
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 50.0%, degree: 50.8144, population: 30
+Transmission range: 839.829896092
+Downloading: N37W121.hgt
+(1/25) Simulation finished
+Downloading: N36W117.hgt
+(2/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [19]
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Downloading: N36W117.hgt
+(4/25) Simulation finished
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N37W121.hgt
+(6/25) Simulation finished
+Downloading: N36W117.hgt
+(7/25) Simulation finished
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N36W117.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N37W121.hgt
+(11/25) Simulation finished
+Downloading: N36W117.hgt
+(12/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [31]
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Downloading: N36W117.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [31]
+Downloading: N37W121.hgt
+(16/25) Simulation finished
+Downloading: N36W117.hgt
+(17/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [2]
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N36W117.hgt
+(19/25) Simulation finished
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N37W121.hgt
+(21/25) Simulation finished
+Downloading: N36W117.hgt
+(22/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Downloading: N36W117.hgt
+(24/25) Simulation finished
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Connected 76.0%, nodes: 100, density: 628, acv: 50.0%, degree: 50.2066585859, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [80]
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 92.0%, nodes: 100, density: 628, acv: 60.0%, degree: 60.6929050505, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 60.0%, degree: 59.9352, population: 30
+Transmission range: 839.829896092
+Downloading: N37W121.hgt
+(1/25) Simulation finished
+Downloading: N36W117.hgt
+(2/25) Simulation finished
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Downloading: N37W121.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N37W121.hgt
+(6/25) Simulation finished
+Downloading: N36W117.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Downloading: N37W121.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N37W121.hgt
+(11/25) Simulation finished
+Downloading: N36W117.hgt
+(12/25) Simulation finished
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Downloading: N37W121.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N37W121.hgt
+(16/25) Simulation finished
+Downloading: N36W117.hgt
+(17/25) Simulation finished
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Downloading: N37W121.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N37W121.hgt
+(21/25) Simulation finished
+Downloading: N36W117.hgt
+(22/25) Simulation finished
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Downloading: N37W121.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 70.0%, degree: 69.3136, population: 30
+Transmission range: 839.829896092
+Downloading: N37W122.hgt
+(1/25) Simulation finished
+Downloading: N36W117.hgt
+(2/25) Simulation finished
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N37W122.hgt
+(6/25) Simulation finished
+Downloading: N36W117.hgt
+(7/25) Simulation finished
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N37W122.hgt
+(11/25) Simulation finished
+Downloading: N36W117.hgt
+(12/25) Simulation finished
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N37W122.hgt
+(16/25) Simulation finished
+Downloading: N36W117.hgt
+(17/25) Simulation finished
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N37W122.hgt
+(21/25) Simulation finished
+Downloading: N36W117.hgt
+(22/25) Simulation finished
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 70.0%, degree: 67.9256, population: 30
+Transmission range: 839.829896092
+Downloading: N37W122.hgt
+(1/25) Simulation finished
+Downloading: N36W117.hgt
+(2/25) Simulation finished
+Downloading: N37W121.hgt
+(3/25) Simulation finished
+Downloading: N37W122.hgt
+(4/25) Simulation finished
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N37W122.hgt
+(6/25) Simulation finished
+Downloading: N36W117.hgt
+(7/25) Simulation finished
+Downloading: N37W121.hgt
+(8/25) Simulation finished
+Downloading: N37W122.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N37W122.hgt
+(11/25) Simulation finished
+Downloading: N36W117.hgt
+(12/25) Simulation finished
+Downloading: N37W121.hgt
+(13/25) Simulation finished
+Downloading: N37W122.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Downloading: N37W122.hgt
+(16/25) Simulation finished
+Downloading: N36W117.hgt
+(17/25) Simulation finished
+Downloading: N37W121.hgt
+(18/25) Simulation finished
+Downloading: N37W122.hgt
+(19/25) Simulation finished
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N37W122.hgt
+(21/25) Simulation finished
+Downloading: N36W117.hgt
+(22/25) Simulation finished
+Downloading: N37W121.hgt
+(23/25) Simulation finished
+Downloading: N37W122.hgt
+(24/25) Simulation finished
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 80.0%, degree: 76.5256, population: 30
+Transmission range: 839.829896092
+Downloading: N37W122.hgt
+(1/25) Simulation finished
+Downloading: N37W121.hgt
+(2/25) Simulation finished
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Downloading: N37W121.hgt
+(4/25) Simulation finished
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N37W122.hgt
+(6/25) Simulation finished
+Downloading: N37W121.hgt
+(7/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N37W121.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N37W122.hgt
+(11/25) Simulation finished
+Downloading: N37W121.hgt
+(12/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Downloading: N37W121.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [31]
+Downloading: N37W122.hgt
+(16/25) Simulation finished
+Downloading: N37W121.hgt
+(17/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [2]
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Downloading: N37W121.hgt
+(19/25) Simulation finished
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N37W122.hgt
+(21/25) Simulation finished
+Downloading: N37W121.hgt
+(22/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [60]
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Downloading: N37W121.hgt
+(24/25) Simulation finished
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Connected 80.0%, nodes: 100, density: 628, acv: 80.0%, degree: 80.6418181818, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N37W122.hgt
+(2/25) Simulation finished
+Downloading: N37W121.hgt
+(3/25) Simulation finished
+Downloading: N37W121.hgt
+(4/25) Simulation finished
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N37W122.hgt
+(7/25) Simulation finished
+Downloading: N37W121.hgt
+(8/25) Simulation finished
+Downloading: N37W121.hgt
+(9/25) Simulation finished
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Downloading: N37W122.hgt
+(12/25) Simulation finished
+Downloading: N37W121.hgt
+(13/25) Simulation finished
+Downloading: N37W121.hgt
+(14/25) Simulation finished
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Downloading: N37W122.hgt
+(17/25) Simulation finished
+Downloading: N37W121.hgt
+(18/25) Simulation finished
+Downloading: N37W121.hgt
+(19/25) Simulation finished
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N37W122.hgt
+(22/25) Simulation finished
+Downloading: N37W121.hgt
+(23/25) Simulation finished
+Downloading: N37W121.hgt
+(24/25) Simulation finished
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 90.0%, degree: 88.0576, population: 30
+Transmission range: 839.829896092
+Downloading: N37W121.hgt
+(1/25) Simulation finished
+Downloading: N37W121.hgt
+(2/25) Simulation finished
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Downloading: N37W121.hgt
+(4/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(5/25) Simulation finished
+Downloading: N37W121.hgt
+(6/25) Simulation finished
+Downloading: N37W121.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Downloading: N37W121.hgt
+(9/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(10/25) Simulation finished
+Downloading: N37W121.hgt
+(11/25) Simulation finished
+Downloading: N37W121.hgt
+(12/25) Simulation finished
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Downloading: N37W121.hgt
+(14/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(15/25) Simulation finished
+Downloading: N37W121.hgt
+(16/25) Simulation finished
+Downloading: N37W121.hgt
+(17/25) Simulation finished
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Downloading: N37W121.hgt
+(19/25) Simulation finished
+Network not connected
+Number of nodes in dag: 99
+stranded_nodes: [61]
+Downloading: N37W122.hgt
+(20/25) Simulation finished
+Downloading: N37W121.hgt
+(21/25) Simulation finished
+Downloading: N37W121.hgt
+(22/25) Simulation finished
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Downloading: N37W121.hgt
+(24/25) Simulation finished
+Network not connected
+Number of nodes in dag: 100
+stranded_nodes: []
+Downloading: N37W122.hgt
+(25/25) Simulation finished
+Connected 80.0%, nodes: 100, density: 628, acv: 90.0%, degree: 89.3571232323, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N36W117.hgt
+(2/25) Simulation finished
+Downloading: N36W117.hgt
+(3/25) Simulation finished
+Downloading: N37W121.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N36W117.hgt
+(7/25) Simulation finished
+Downloading: N36W117.hgt
+(8/25) Simulation finished
+Downloading: N37W121.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Downloading: N36W117.hgt
+(12/25) Simulation finished
+Downloading: N36W117.hgt
+(13/25) Simulation finished
+Downloading: N37W121.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Downloading: N36W117.hgt
+(17/25) Simulation finished
+Downloading: N36W117.hgt
+(18/25) Simulation finished
+Downloading: N37W121.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N36W117.hgt
+(22/25) Simulation finished
+Downloading: N36W117.hgt
+(23/25) Simulation finished
+Downloading: N37W121.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 100.0%, degree: 99.0, population: 30
+Transmission range: 839.829896092
+Downloading: N36W117.hgt
+(1/25) Simulation finished
+Downloading: N36W117.hgt
+(2/25) Simulation finished
+Downloading: N37W122.hgt
+(3/25) Simulation finished
+Downloading: N36W117.hgt
+(4/25) Simulation finished
+Downloading: N36W117.hgt
+(5/25) Simulation finished
+Downloading: N36W117.hgt
+(6/25) Simulation finished
+Downloading: N36W117.hgt
+(7/25) Simulation finished
+Downloading: N37W122.hgt
+(8/25) Simulation finished
+Downloading: N36W117.hgt
+(9/25) Simulation finished
+Downloading: N36W117.hgt
+(10/25) Simulation finished
+Downloading: N36W117.hgt
+(11/25) Simulation finished
+Downloading: N36W117.hgt
+(12/25) Simulation finished
+Downloading: N37W122.hgt
+(13/25) Simulation finished
+Downloading: N36W117.hgt
+(14/25) Simulation finished
+Downloading: N36W117.hgt
+(15/25) Simulation finished
+Downloading: N36W117.hgt
+(16/25) Simulation finished
+Downloading: N36W117.hgt
+(17/25) Simulation finished
+Downloading: N37W122.hgt
+(18/25) Simulation finished
+Downloading: N36W117.hgt
+(19/25) Simulation finished
+Downloading: N36W117.hgt
+(20/25) Simulation finished
+Downloading: N36W117.hgt
+(21/25) Simulation finished
+Downloading: N36W117.hgt
+(22/25) Simulation finished
+Downloading: N37W122.hgt
+(23/25) Simulation finished
+Downloading: N36W117.hgt
+(24/25) Simulation finished
+Downloading: N36W117.hgt
+(25/25) Simulation finished
+Connected 100.0%, nodes: 100, density: 628, acv: 100.0%, degree: 99.0, population: 30
