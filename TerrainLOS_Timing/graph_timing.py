@@ -26,8 +26,12 @@ for line in log:
   m = re.search("Nodes: (\d+), Area: (\d+), Total Time: (\d+)", line)
   if m:
     nodes = m.group(1)
-    area = m.group(2)
-    time = int(m.group(3))
+    # Convert memory to Arcminutes^2
+    # 1 arcminutes = 60 arcseconds
+    # 1 arcminutes^2 = 3600 arcseconds^2
+    # 1/3600 arcminutes^2 = 1 arcseconds^2
+    area = int(float(m.group(2))/3600)
+    time = float(m.group(3))/1000.0
 
     if area in area_dict:
       if nodes in area_dict[area]:
@@ -52,9 +56,9 @@ for area in sorted(area_dict):
     graph_dict[area]["y"].append(mean_time)
 
 for graph in graph_dict:
-  plt.plot(graph_dict[graph]["x"], graph_dict[graph]["y"], label=graph + " Arcseconds^2")
+  plt.plot(graph_dict[graph]["x"], graph_dict[graph]["y"], label=str(graph) + " arcminutes$^2$")
 
 plt.xlabel("Nodes")
-plt.ylabel("Time (ms)")
+plt.ylabel("Time (s)")
 plt.legend(loc = 2)
 plt.show()

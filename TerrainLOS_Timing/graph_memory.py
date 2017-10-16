@@ -26,8 +26,13 @@ for line in log:
   m = re.search("Nodes: (\d+), Area: (\d+), Memory: (.+)$", line)
   if m:
     nodes = m.group(1)
-    area = int(m.group(2))
-    memory = float(m.group(3))/(1024)
+    # Convert memory to Arcminutes^2
+    # 1 arcminutes = 60 arcseconds
+    # 1 arcminutes^2 = 3600 arcseconds^2
+    # 1/3600 arcminutes^2 = 1 arcseconds^2 
+    area = float(m.group(2))/3600.0
+    # Convert memory to MB
+    memory = float(m.group(3))/(1024*1024)
 
     if area in area_dict:
       area_dict[area].append(memory)
@@ -45,6 +50,6 @@ for area in sorted(area_dict):
   graph_dict["memory"].append(mean_memory)
 
 plt.plot(graph_dict["area"], graph_dict["memory"])
-plt.xlabel("Area (Arcseconds^2)")
-plt.ylabel("Memory Usage (KBytes)")
+plt.xlabel("Area (arcminutes$^2$)")
+plt.ylabel("Memory Usage (MBytes)")
 plt.show()
