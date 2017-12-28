@@ -106,12 +106,14 @@ for line in analyzed_file:
               hops = int(m_end.group(3))
               latency_dict[packet_id]["end"] = time
               latency_dict[packet_id]["hops"] = hops
-              #print("Packet received: " + packet_id + " hops: " + str(hops))
+              #print("Packet received: " + packet_id + " hops: " + str(hops) + " in " + str((latency_dict[packet_id]["end"] - latency_dict[packet_id]["start"])/1000000.0) + "s")
           elif us > stop_time:
             break
     
       # Stores latencies 
       latency_list = []
+      # Stores hops
+      hop_list = []
       # Stores latencies divided by total hops
       hop_latency_list = []
 
@@ -121,7 +123,9 @@ for line in analyzed_file:
           latency = latency_dict[p]["end"] - latency_dict[p]["start"]
           # Convert to seconds
           latency = float(latency)/1000000.0
-          hop_latency = latency/float(latency_dict[p]["hops"])
+          packet_hops = float(latency_dict[p]["hops"])
+          hop_latency = latency/packet_hops
+          hop_list.append(packet_hops)
           latency_list.append(latency)
           hop_latency_list.append(hop_latency)
           #print("Packet received: " + p)
@@ -135,11 +139,15 @@ for line in analyzed_file:
       std_latency = -1
       hop_latency = -1
       hop_std = -1
+      avg_hops = -1
+      std_hops = -1
       if len(latency_list) > 0:
         avg_latency = np.mean(latency_list)
         std_latency = np.std(latency_list)
         hop_latency = np.mean(hop_latency_list)
         hop_std = np.mean(hop_latency_list)
+        avg_hops = np.mean(hop_list)
+        std_hops = np.std(hop_list)
         if route == "rpl":
           rpl_avg_latency_list.append(avg_latency)
         elif route == "orpl":
@@ -149,7 +157,7 @@ for line in analyzed_file:
           exit()
       # Remove newline, will be added back later
       line = line[:-1]
-      line += ", latency: " + str(avg_latency) + ", latency_std: " + str(std_latency) + ", hop_latency: " + str(hop_latency) + ", hop_latency_std: " + str(hop_std) + "\n"
+      line += ", latency: " + str(avg_latency) + ", latency_std: " + str(std_latency) + ", hop_latency: " + str(hop_latency) + ", hop_latency_std: " + str(hop_std) + ", hops: " + str(avg_hops) + ", hops_std: " + str(std_hops) + "\n"
 
   new_analyzed_list.append(line)
 analyzed_file.close()

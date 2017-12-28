@@ -38,7 +38,7 @@ measure_rpl_dict = defaultdict(list)
 analyzed_file = open(analyzed_path, "r")
 sims_analyzed = 0
 for line in analyzed_file:
-  m = re.search("acv: (\d+\.\d+)%, .+ time: (\d+), routing: (\w+), degree: (\d+\.\d+), .*" + metric + ": ([0-9.e-]+)", line) 
+  m = re.search("acv: (\d+\.\d+)%, .+ time: (\d+), routing: (\w+), degree: (\d+\.\d+).*, " + metric + ": ([0-9.e-]+)", line) 
   if m:
     sims_analyzed += 1
     acv = float(m.group(1))
@@ -119,22 +119,29 @@ plt.xlabel("ACV (%)")
 legend_loc = "upper right"
 if metric == "pdr":
   plt.ylabel("PDR (%)")
+  plt.ylim(91.0, 101.0)
   plt.plot([30.0, 100.0], [98.85, 99.5], label="ltb_orpl", marker="o")
   plt.plot([30.0, 100.0], [96.19, 97.39], label="ltb_rpl", marker="o")
   legend_loc = "lower right"
 elif metric == "latency":
   plt.ylabel("Latency (s)")
+  plt.ylim(0.0, 4.5)
   plt.plot([30.0, 100.0], [1.22, 0.47], label="ltb_orpl", marker="o")
   plt.plot([30.0, 100.0], [2.17, 1.14], label="ltb_rpl", marker="o")
 elif metric == "energy":
   plt.ylabel("Duty Cycle (%)")
+  plt.ylim(0.0, 1.4)
   plt.plot([30.0, 100.0], [0.83, 0.48], label="ltb_orpl", marker="o")
   plt.plot([30.0, 100.0], [1.35, 0.99], label="ltb_rpl", marker="o")
 elif metric == "duplicates":
-  plt.ylabel("Duty Cycle (%)")
+  plt.ylabel("Duplicates (%)")
+  plt.ylim(0.0, 16.0)
   plt.plot([100.0], [10.0], label="ltb_orpl", marker="o")
   plt.plot([100.0], [0.0], label="ltb_rpl", marker="o")
   legend_loc = "lower right"
+elif metric == "transmissions":
+  plt.ylabel("Transmissions")
+  plt.ylim(3000.0, 14000.0)
 else:
   plt.ylabel(metric)
 

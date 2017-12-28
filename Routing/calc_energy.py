@@ -66,18 +66,19 @@ for line in analyzed_file:
     if m:
       route = m.group(1)
       testlog_path = m.group(2)
+      print("Analyzing " + testlog_path)
       testlog_file = open(testlog_dir + testlog_path, "r")
       mote_dict = defaultdict(list)
       for t_line in testlog_file:
         if re.search("Duty Cycle", t_line):
-          t_m = re.search("^(\d+) ID:(\d+) .+ \((\d+) \%\)", t_line)
+          t_m = re.search("^(\d+) ID:(\d+) .+ (\d+) \+ .* (\d+) / (\d+) \(", t_line)
           if t_m:
             us = int(t_m.group(1))
             mote_id = t_m.group(2)
-            energy = int(t_m.group(3))
+            energy = (float(t_m.group(3)) + float(t_m.group(4)))*100.0/float(t_m.group(5))
             # There are some overflow bugs in the simulation logs, this will
             # catch them
-            if energy > 100:
+            if energy > 100 and mote_id != "1":
               print("Error detected on line:")
               print(t_line)
               print("In testlog:")
@@ -94,10 +95,10 @@ for line in analyzed_file:
       for mote in mote_dict:
         # Mote 1 is the sink and has its radio always on
         if mote != "1": 
-          energy_list = mote_dict[mote]
-          total_energy_list.extend(energy_list)
-          if np.mean(energy_list) > max_energy:
-            max_energy = np.mean(energy_list)
+          mote_energy = np.mean(mote_dict[mote]) 
+          total_energy_list.append(mote_energy)
+          if mote_energy > max_energy:
+            max_energy = mote_energy
       
       # If the interval is out of range of a simulation there will not be any energies 
       # recorded in total_energy_list, in this case do not record it and make the default

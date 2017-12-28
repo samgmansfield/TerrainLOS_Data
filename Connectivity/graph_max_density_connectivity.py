@@ -47,5 +47,7 @@ for pop in sorted(pop_dict):
     connectivity_list.append(np.mean(pop_dict[pop][acv]))
   plt.plot(acv_list, connectivity_list, label = str(pop))
 
+plt.xlabel("ACV (%)")
+plt.ylabel("Connected Networks (%)")
 plt.legend(loc="lower right")
 plt.show()

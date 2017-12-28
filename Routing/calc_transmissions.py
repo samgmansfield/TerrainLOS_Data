@@ -97,6 +97,7 @@ for line in analyzed_file:
       # which are obiously duplicate transmissions as the packet already arrived at the 
       # destination.
       duplicate_dict = defaultdict(dict)
+      mote_transmission_dict = defaultdict(list) 
 
       for t_line in testlog_file:
         t_m = re.search("(^\d+) ", t_line)
@@ -112,13 +113,17 @@ for line in analyzed_file:
 
             # If a packet is successful deterimine if it is duplicate traffic and keep track
             # of the transmissions
-            m_success = re.search("Csma: success .+ (\d+) tx, (\d+) collisions \[(\w+) (\d+)_", t_line)
+            m_success = re.search("ID:(\d+) Csma: success .+ (\d+) tx, (\d+) collisions \[(\w+) (\d+)_", t_line)
             if m_success:
-              tx = int(m_success.group(1))
-              collisions = int(m_success.group(2))
-              packet_id = m_success.group(3)
-              hops = int(m_success.group(4))
-             
+              mote_id = m_success.group(1)
+              tx = int(m_success.group(2))
+              collisions = int(m_success.group(3))
+              packet_id = m_success.group(4)
+              hops = int(m_success.group(5))
+              
+              # Store the amount of transmissions per node after each successful transmission
+              mote_transmission_dict[mote_id].append(tx + collisions)
+
               # Only store information for flows that have a recorded App: sending
               if packet_id in duplicate_dict:
                 # Store the transmissions as long the packet was not already transmitted 
@@ -156,12 +161,11 @@ for line in analyzed_file:
           while i in duplicate_dict[p]:
             duplicate_dict[p]["duplicates"] += duplicate_dict[p][i]
             i += 1
-          # Only record tranmssions and duplicates for flows that have a start and end
-          transmissions += duplicate_dict[p]["transmissions"]
-          duplicates += duplicate_dict[p]["duplicates"]
         else:
           print("No last hop for packet: " + p)
-      
+        transmissions += duplicate_dict[p]["transmissions"]
+        duplicates += duplicate_dict[p]["duplicates"]
+     
       dup_percentage = -1.0 
       if transmissions > 0:
         dup_percentage = float(duplicates)*100.0/float(transmissions)
@@ -174,6 +178,13 @@ for line in analyzed_file:
         else:
           print("unrecognized route: " + route)
           exit()
+
+      # Count the average number of transmission per mote
+      avg_mote_transmissions_list = []
+      for m in mote_transmission_dict:
+        avg_mote_transmissions_list.append(np.mean(mote_transmission_dict[m])) 
+      avg_mote_transmissions = np.mean(avg_mote_transmissions_list)
+
       # Remove newline, will be added back later
       line = line[:-1]
       line += ", duplicates: " + str(dup_percentage) + "%, transmissions: " + str(float(transmissions)) + "\n"
